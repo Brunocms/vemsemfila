@@ -1,0 +1,9 @@
+{
+	"config":{
+        	"vendor-dir": "application/libraries"
+    },
+  	"require":{
+      		"aws/aws-sdk-php": "*"
+  	}
+}
+

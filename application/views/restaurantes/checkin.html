@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Vem sem fila</title>
+<meta name="description" content="Vem sem fila" />
+<meta name="keywords" content="vem sem fila, restaurante, rio de janeiro" />  
+<link rel="SHORTCUT ICON" href="img/favicon.ico"/>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="js/pngfix.js"></script>
+<![endif]-->
+
+<!--[if IE 6]>
+    <script src="/js/DD_belatedPNG.js"></script>
+    <script> DD_belatedPNG.fix('img, .new');</script>
+    <![endif]--> 
+    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script> 
+
+<script type="text/javascript"> 
+  
+$(document).ready(function() {	
+ 
+	$('a[name=modal]').click(function(e) {
+		e.preventDefault();
+		
+		var id = $(this).attr('href');
+	
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+ 
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		$(id).fadeIn(2000); 
+	
+	});
+	
+	$('.window .close').click(function (e) {
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});			
+	
+});
+ 
+</script> 
+    
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script> 
+
+<script type="text/javascript"> 
+  
+$(document).ready(function() {	
+ 
+	$('a[name=modal]').click(function(e) {
+		e.preventDefault();
+		
+		var id = $(this).attr('href');
+	
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+ 
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		$(id).fadeIn(2000); 
+	
+	});
+	
+	$('.window .close').click(function (e) {
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});			
+	
+});
+ 
+</script>     
+    
+</head>
+
+<body>
+
+<div id="boxes"> 
+ 
+<!-- Janela Modal com Bloco de Nota --> 
+<div id="dialog2" class="window"><span class="logo_login"><img src="img/logo_login.png" width="161" height="135" /></span><br /><br /><span class="pontilhado">.............................................................................................</span><br /><br /><span class="login">LOGIN</span><br /><input name="" type="text" class="field6" /><br /><br /><span class="login">SENHA</span><br /><input name="" type="text" class="field7" /><span class="login2"> <a href="#">(Esqueceu?)</a></span><br /><br /><span class="bt_vem_login"><img src="img/bt_vem_login.png" width="105" height="47" alt="vem" /></span><br /><br /><span class="pontilhado">.............................................................................................</span><br /><span class="cadastro2">AINDA NÃO É CADASTRADO? <a href="cadastro.html">CLIQUE AQUI</a></span>
+
+ </div> 
+<!-- Fim Janela Modal com Bloco de Nota --> 
+ 
+ 
+<!-- M�scara para cobrir a tela --> 
+  <div id="mask"></div> 
+ 
+</div> 
+
+
+
+
+<div id="wrapper">
+<div id="logo"><a href="index.html"><img src="img/logo.png" width="154" height="136" alt="logo" /></a></div>
+
+
+<div id="header">
+
+<div id="header_top">
+
+<div id="welcome">Olá, Bruno!  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Editar Perfil</a> | <a href="#">Log out</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rio de Janeiro, Rj, Brasil</div>
+<div id="midias_sociais"><a href="#"><img src="img/icon_youtube.png" width="19" height="20" alt="youtube" /></a> <a href="#"><img src="img/icon_twitter.png" width="19" height="20" alt="twitter" /></a> <a href="#"><img src="img/icon_facebook.png" width="19" height="20" alt="facebook" /></a></div>
+</div>
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="quem_somos.html">Quem somos</a></li>
+<li><a href="como_funciona.html">Como funciona</a></li>
+<li><a href="restaurantes.html">Restaurantes</a></li>
+<li><a href="faq.html">FAQ</a></li>
+<li><a href="cadastro.html">Cadastre-se</a></li>
+<li><a href="fale_conosco.html">Fale Conosco</a></li>
+</ul>
+</div>
+
+</div>
+
+<div id="slider"><img src="img/slide_checkin.jpg" width="1280" height="269" alt="slide" /></div>
+
+<div id="content">
+<div id="middle">
+<h1><img src="img/icon_check_tit.png" width="17" height="17" align="absmiddle" /> Check-in Online:</h1><img src="img/linha_tit_home.gif" width="734" height="1" />
+<div id="gestao">
+<div id="alerta">*Tempo de espera baseado no tempo que o último cliente a sentar esperou na fila</div>
+<div id="check_rest"><span class="nome_rest">Outback Rio Sul</span><span class="end_rest"><a href="https://maps.google.com.br/" target="_blank"><img src="img/icon_pin_rest.png" width="10" height="14" align="absmiddle" /> Ver endereço do restaurante</a></span></div>
+<div id="passos">
+<div id="passo1">
+<div id="passo1_tit"><span class="passo1">1° Passo - Escolha uma opção de mesa</span></div>
+<div id="passo1_box"><span class="passo1_box"><input name="" type="radio" value="" /> 0 a 2 pessoas<br /><span class="espera"><i>Espera: 45 minutos | 8 mesas</i></span><input name="" type="radio" value="" /> 3 a 4 pessoas<br /><input name="" type="radio" value="" /> 5 a 6 pessoas<br /><input name="" type="radio" value="" /> Acima de 6 pessoas (quantas? <input type="text" class="quant_pax" /> )</span><br /> <a href="#dialog2" name="modal"><img src="img/bt_checkin2.png" width="107" height="33" alt="fazer check-in" class="bt_checkin" /></a></div>
+</div>
+
+<div id="passo2">
+<div id="passo2_tit"><span class="passo2">Confirmação de Check-in</span></div>
+<div id="passo2_box"><span class="passo2_box"><strong>Bruno,</strong> <strong><i>seu check-in foi efetuado com sucesso!</i></strong><br />Você é o <font size="+1" color="#FF6600">9°</font>da fila<br /><strong>Tempo estimado de espera:</strong> <font size="+1" color="#FF6600">45</font> minutos<br /><br />
+    <a href="#"><img src="img/bt_novocheckin.png" width="129" height="32" vspace="1" /></a><a href="#"><img src="img/bt_finaldafila.png" width="129" height="32" hspace="12" vspace="1" /></a><a href="#"><img src="img/bt_sairdafila.png" width="86" height="32" alt="sair da fila" vspace="1" /></a></span></div>
+</div>
+</div>
+
+</div>
+<div id="divider"><img src="img/divider.png" width="734" height="1" /></div>
+<div id="destaques"><a href="#"><img src="img/box_downloadapp_home.jpg" width="237" height="109" alt="download app" /></a> <a href="cadastro_rest.html"><img src="img/box_cadastrorest_home.jpg" width="237" height="109" alt="cadastro restaurante" hspace="5" /></a> <a href="reserva.html"><img src="img/box_reserva_home.jpg" width="237" height="109" alt="reserva mesa" hspace="5" /></a></div>
+</div>
+
+<div id="publicidade">
+  <a href="#"><img src="img/pub01.jpg" width="173" height="292" alt="pub01" /></a><br />
+  <a href="#"><img src="img/pub02.jpg" width="173" height="260" alt="pub02" vspace="5" /></a><br />
+</div>
+
+</div>
+
+
+<div id="footer_colunas">
+<div id="footer_col1"><strong>VEM SEM FILA</strong><br /><br /><a href="#">Quem somos</a><br /><a href="#">Como funciona</a><br /><a href="#">FAQ</a></div>
+<div id="footer_col2"><strong>FORMULÁRIOS</strong><br /><br /><a href="#">Cadastre-se</a><br /><a href="#">Fale conosco</a><br /><a href="#">Seja nosso parceiro</a></div>
+<div id="footer_col3"><strong>RESTAURANTES</strong><br /><br /><a href="#">Área de admin</a><br /><a href="#">Cadastre-se</a></div>
+<div id="footer_col4"><strong>REDES SOCIAIS:</strong><br /><br />
+  <a href="#"><img src="img/icon_youtube_footer.png" width="27" height="26" alt="youtube " /></a> <a href="#"><img src="img/icon_facebook_footer.png" width="27" height="26" alt="facebook" /></a> <a href="#"><img src="img/icon_twitter_footer.png" width="27" height="26" alt="twitter" /></a></div>
+  <div id="footer_col5">© 2013 Vem sem  fila Web Serviços Digitais, LTDA. Todos os direitos reservados. CNPJ xxxxxxxx/xxxxxx - Rua São Clemente, 10 , Botafogo, Rio de Janeiro, RJ<br /><br /><a href="termos_uso.html">Termos de uso</a> | <a href="politica_privacidade.html">Política de privacidade</a></div>
+</div>
+
+</div>
+
+<div id="footer"></div>
+
+</body>
+</html>
