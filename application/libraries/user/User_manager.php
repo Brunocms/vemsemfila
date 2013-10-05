@@ -92,9 +92,13 @@ class User_manager {
 	}
 
 	// Checks if user already has the permission on database
-	function user_has_permission($user_id, $permission_id){
-		$result = $this->CI->db->get_where('users_permissions', array('user_id' => $user_id, 'permission_id' =>$permission_id));
-		return ( $result->num_rows() == 1 );
+	function user_permission($user_id, $permission_id = 0){
+        $this->CI->db->select('nivel');
+        $this->CI->db->from('tb_usuario');
+        $this->CI->db->where(['id_usuario' => $user_id]);
+        $query = $this->CI->db->get();
+
+        return ($query->result()[0]->nivel == $permission_id) ? true : false;
 	}
 
 	// Links a permission with a user
