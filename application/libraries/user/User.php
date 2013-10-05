@@ -177,10 +177,6 @@ class User {
 				// create the user session
 				$this->_create_session($login, $user_query->senha);
 
-				// updates last login if needed
-				if($update_last_login){
-					$this->update_last_login();
-				}
 
 				return true;
 			} else {
