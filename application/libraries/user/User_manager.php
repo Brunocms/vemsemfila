@@ -98,7 +98,7 @@ class User_manager {
         $this->CI->db->where(['id_usuario' => $user_id]);
         $query = $this->CI->db->get();
 
-        return ($query->result()[0]->nivel == $permission_id) ? true : false;
+        return ($query->result()[0]->nivel >= $permission_id) ? true : false;
 	}
 
 	// Links a permission with a user

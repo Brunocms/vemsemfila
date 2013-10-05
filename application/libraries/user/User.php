@@ -54,8 +54,8 @@ class User {
 	* @return int
 	*/
 	function get_id(){
-		if (isset($this->user_data->id))
-			return $this->user_data->id;
+		if (isset($this->CI->session->userdata('data')->id_usuario))
+			return $this->CI->session->userdata('data')->id_usuario;
 		else
 			return false;
 	}
@@ -132,7 +132,7 @@ class User {
 	*/
 	function validate_session(){
 		// This function doesnt need to update the last_login on database.
-		if($this->login($this->CI->session->userdata('email'), $this->CI->session->userdata('pw'), DONT_UPDATE_LOGIN, PASSWORD_IS_HASHED)){
+		if($this->login(['email' => $this->CI->session->userdata('email'), 'senha' => $this->CI->session->userdata('pw'), 'hash' => true])){
 			return true;
 		}
 		return false;
@@ -148,10 +148,9 @@ class User {
 	* @param bool $hashed_password - notifies the function that the received password is already hashed.
 	*/
 	public function login($data = []){
+        $hash = (isset($data['hash']) && $data['hash'] == true) ? true : false;
         $login = $data['email'];
         $password = $data['senha'];
-        $update_last_login = false;
-        $hashed_password = true;
 
         $user_query = $this->CI->db->get_where('tb_usuario', array('email'=>$login));
 		
@@ -165,8 +164,13 @@ class User {
 			// validates hash
 			$valid_password = false;
 
-            $valid_password = $valid_password || $this->CI->bcrypt->compare($password, $user_query->senha);
-			
+            if ($hash)
+            {
+                $valid_password = ($password == $user_query->senha) ? true : false;
+            }else{
+                $valid_password = $valid_password || $this->CI->bcrypt->compare($password, $user_query->senha);
+            }
+
 			if($valid_password){
 				// save the user data
 				$this->user_data = $user_query;
@@ -175,7 +179,7 @@ class User {
 				//$this->_load_permission($this->user_data->id);
 
 				// create the user session
-				$this->_create_session($login, $user_query->senha);
+				$this->_create_session($login, $user_query->senha, $user_query);
 
 
 				return true;
@@ -278,27 +282,6 @@ class User {
 		unset($this->user_data);
 		return true;
 	}
-	
-
-
-	/**
-	* Load Permission - Aux function to load the user permissions
-	* 
-	* @return array
-	*/
-	private function _load_permission(){
-		$permissions = $this->CI->db
-		->join('users_permissions', 'users_permissions.permission_id = permissions.id')
-		->get_where('permissions', array('users_permissions.user_id'=>$this->get_id()))
-		->result();
-		
-		$user_permissions = array();
-		
-		foreach($permissions as $permission){
-			$user_permissions[] = $permission->name;
-		}
-		$this->user_permission = $user_permissions;
-	}
 
 	/**
 	* Create session - creates the session with valid data
@@ -308,8 +291,8 @@ class User {
 	* @param string $password - The password to save
 	*
 	*/
-	private function _create_session($login, $password){
-		$this->CI->session->set_userdata(array('email'=>$login, 'pw'=>$password, 'logged'=>true));
+	private function _create_session($login, $password, $data){
+		$this->CI->session->set_userdata(array('email'=>$login, 'pw'=>$password, 'logged'=>true, 'data' => $data));
 	}
 }
 ?>

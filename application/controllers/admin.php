@@ -10,10 +10,9 @@ class Admin extends CI_Controller {
         parent::__construct();
         $this->load->model('m_usuario');
         $this->load->library(['user/user', 'user/user_manager']);
-        echo $this->user->get_id();
-        //$this->user->on_invalid_session(base_url('home'));
-        //if (!$this->user_manager->user_permission($this->user->get_id(), 9))
-          //  redirect(base_url('home'));
+        $this->user->on_invalid_session(base_url('home'));
+        if (!$this->user_manager->user_permission($this->user->get_id(), 3))
+            redirect(base_url('home'));
     }
 
 	public function index()
