@@ -277,7 +277,7 @@ class User {
 	*/
 	function destroy_user(){
 		// remove everything from the session
-		$this->CI->session->set_userdata(array('email'=>"", 'pw'=>"", 'logged'=>false));
+		$this->CI->session->set_userdata(array('email'=>"", 'pw'=>"", 'logged'=>false, 'data' => null));
 		$this->CI->session->sess_destroy();
 		unset($this->user_data);
 		return true;

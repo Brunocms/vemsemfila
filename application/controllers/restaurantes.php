@@ -16,7 +16,6 @@ class Restaurantes extends CI_Controller {
     public function login()
     {
         $post = $this->input->post();
-        $this->load->library(['user/user', 'user/user_manager']);
         if ($this->user->login($post))
             redirect(base_url('home'));
         echo 'nofoe';

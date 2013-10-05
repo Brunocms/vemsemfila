@@ -26,7 +26,6 @@ class Usuario extends CI_Controller {
     {
         parent::__construct();
         $this->load->model('m_usuario');
-        $this->load->library(['user/user', 'user/user_manager']);
     }
 
 	public function index()
@@ -80,6 +79,12 @@ class Usuario extends CI_Controller {
         }else{
             echo 'dados incorretos!';
         }
+    }
+
+    public function logout()
+    {
+        $this->user->destroy_user();
+        redirect(base_url('home'));
     }
 }
 

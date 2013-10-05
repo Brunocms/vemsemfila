@@ -5,6 +5,12 @@ class Home extends CI_Controller {
     public $meta;
     public $data;
 
+    function __construct()
+    {
+        parent::__construct();
+        $this->load->model('m_usuario');
+    }
+
 	public function index()
 	{
         $this->meta['header'] = $this->load->view('header', '', true);
@@ -16,7 +22,6 @@ class Home extends CI_Controller {
     public function login()
     {
         $post = $this->input->post();
-        $this->load->library(['user/user', 'user/user_manager']);
         if ($this->user->login($post))
             redirect(base_url('home'));
         echo 'nofoe';
