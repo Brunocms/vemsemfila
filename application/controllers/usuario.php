@@ -68,6 +68,19 @@ class Usuario extends CI_Controller {
         $this->user_manager->save_user($this->input->post());
         redirect(base_url('home/index'));
     }
+
+    public function ativacao($hashCode = null, $user = null)
+    {
+        if (!$hashCode || !$user)
+            redirect(base_url('home'));
+
+        if ($this->user_manager->activate($hashCode, $user))
+        {
+            echo 'ativado!';
+        }else{
+            echo 'dados incorretos!';
+        }
+    }
 }
 
 /* End of file welcome.php */
