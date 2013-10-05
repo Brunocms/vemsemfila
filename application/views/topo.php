@@ -1,5 +1,9 @@
 <body>
+
+<div id="fb-root"></div>
+
 <div id="boxes">
+
     <!-- Janela Modal com Bloco de Nota -->
     <div id="dialog2" class="window">
         <span class="logo_login">
@@ -21,23 +25,46 @@
     <!-- M�scara para cobrir a tela -->
     <div id="mask"></div>
 </div>
-<div id="wrapper">
-    <div id="logo"><a href="<?=base_url('home')?>"><img src="/assets/img/logo.png" width="154" height="136" alt="logo" /></a></div>
-    <div id="header">
-        <div id="header_top">
-            <div id="welcome"><a href="#dialog2" name="modal">Faça seu Login aqui!</a></div>
-            <div id="midias_sociais"><a href="#"><img src="/assets/img/icon_youtube.png" width="19" height="20" alt="youtube" /></a> <a href="#"><img src="/assets/img/icon_twitter.png" width="19" height="20" alt="twitter" /></a> <a href="#"><img src="/assets/img/icon_facebook.png" width="19" height="20" alt="facebook" /></a></div>
+
+<div id="header">
+    <div id="header_top">
+        <div class="container_24">
+            <div id="logo"><a href="<?=base_url('home')?>"><img src="/assets/img/logo.png" width="154" height="136" alt="logo" /></a></div>
+            <div class="grid_8 prefix_5">
+                <a href="#dialog2" name="modal">Faça seu Login aqui!</a>
+            </div>
+            <div class="grid_2 push_9 omega">
+                <p><a href="https://www.facebook.com/vemsemfila" target="_blank"><img src="/assets/img/icon_facebook.png" width="65" height="20" alt="facebook" /></a></p>
+            </div>
         </div>
-        <div id="menu">
-            <ul>
-                <li><a href="<?=base_url('home')?>">Home</a></li>
-                <li><a href="<?=base_url('quem_somos')?>">Quem somos</a></li>
-                <li><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
-                <li><a href="<?=base_url('restaurantes')?>">Restaurantes</a></li>
-                <li><a href="<?=base_url('faq')?>">FAQ</a></li>
-                <li><a href="<?=base_url('cadastro')?>"">Cadastre-se</a></li>
-                <li><a href="<?=base_url('fale_conosco')?>">Fale Conosco</a></li>
+    </div>
+    <div id="menu">
+        <div class="container_24">
+            <ul class="grid_24 prefix_5">
+                <li class="grid_2 alpha"><a href="<?=base_url('home')?>">Home</a></li>
+                <li class="grid_3 alpha"><a href="<?=base_url('quem_somos')?>">Quem somos</a></li>
+                <li class="grid_4 alpha"><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
+                <li class="grid_3 alpha"><a href="<?=base_url('restaurantes')?>">Restaurantes</a></li>
+                <li class="grid_2 alpha"><a href="<?=base_url('faq')?>">FAQ</a></li>
+                <li class="grid_3 alpha"><a href="<?=base_url('cadastro')?>">Cadastre-se</a></li>
+                <li class="grid_3 alpha omega"><a href="<?=base_url('fale_conosco')?>">Fale Conosco</a></li>
             </ul>
         </div>
     </div>
-    <div id="slider"><a href="<?=base_url('restaurantes')?>"><img src="/assets/img/slide01.jpg" width="1280" height="269" alt="slide" /></a></div>
+</div>
+
+    
+<div id="slideshow">
+    <div class="slider-wrapper theme-default">
+        <div class="ribbon"></div>
+        <div id="slider" class="nivoSlider">
+              <a href="<?=base_url('restaurantes')?>"><img src="/assets/img/slide01.jpg" width="1280" height="269" alt="" border="0" /></a> 
+              <a href="http://www.apple.com" target="_blank"><img src="/assets/img/slide02.jpg" width="1280" height="269" alt="" border="0" /></a> 
+        </div>
+    </div>
+</div>
+    
+
+
+
+

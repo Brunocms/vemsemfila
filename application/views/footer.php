@@ -1,13 +1,21 @@
-<div id="footer_colunas">
-    <div id="footer_col1"><strong>VEM SEM FILA</strong><br /><br /><a href="#">Quem somos</a><br /><a href="#">Como funciona</a><br /><a href="#">FAQ</a></div>
-    <div id="footer_col2"><strong>FORMULÁRIOS</strong><br /><br /><a href="#">Cadastre-se</a><br /><a href="#">Fale conosco</a><br /><a href="#">Seja nosso parceiro</a></div>
-    <div id="footer_col3"><strong>RESTAURANTES</strong><br /><br /><a href=">Área de admin</a><br /><a href="#">Cadastre-se</a></div>
-    <div id="footer_col4"><strong>REDES SOCIAIS:</strong><br /><br />
-        <a href="#"><img src="/assets/img/icon_youtube_footer.png" width="27" height="26" alt="youtube " /></a> <a href="#"><img src="img/icon_facebook_footer.png" width="27" height="26" alt="facebook" /></a> <a href="#"><img src="img/icon_twitter_footer.png" width="27" height="26" alt="twitter" /></a>
-    </div>
-    <div id="footer_col5">© 2013 Vem sem  fila Web Serviços Digitais, LTDA. Todos os direitos reservados. CNPJ xxxxxxxx/xxxxxx - Rua São Clemente, 10 , Botafogo, Rio de Janeiro, RJ<br /><br /><a href="<?=base_url('termos_de_uso')?>">Termos de uso</a> | <a href="<?=base_url('politica_de_privacidade')?>">Política de privacidade</a></div>
+<div id="footer">
+	<div class="container_24">
+		<div id="footer_colunas" class="grid_24">
+			<div class="grid_4 push_1"><img src="/assets/img/logo_footer.png" width="82" height="68" align="left"/></div>
+			<div class="grid_11">
+				<p>Ainda não é membro do Vemsemfila? <a href="cadastro.html">clique aqui.</a></p>
+				<br>
+				<p>Quer ser uma empresa associada? <a href="fale_conosco.html">clique aqui.</a></p>
+				<br>
+				<p>Fale conosco: <a href="mailto:contato@vemsemfila.com.br" target="_blank">contato@vemsemfila.com.br</a></p>
+				<br>
+				<p>CNPJ: 18.857.505/0001-32</p>
+			</div>
+			<div class="grid_7 omega"><div class="fb-like" data-href="https://www.facebook.com/vemsemfila" data-width="350" data-colorscheme="dark" data-show-faces="true" data-send="true"></div></div>
+		</div>
+	</div>
 </div>
-</div>
-<div id="footer"></div>
+
+
 </body>
 </html>
