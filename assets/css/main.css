@@ -1,76 +1,98 @@
-@charset "utf-8";
-
-html, body {
-height: 100%;
-}
-
-:focus {
-	outline: 0;
-}
-
 body {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 11px;
+	font-size: 12px;
 	font-weight: normal;
 	color:#333;
 	text-align:left;
 	margin: 0;
 	padding: 0;
-	background-image:url(/assets/img/fundo_bg.jpg);
 	background-repeat:repeat-x;
 	background-color:#ebebeb;
 }
 
-
-#logo {position: relative; z-index:999; top:0; left:0px; width:200px; }
-
-#wrapper {
-    margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	width: 960px;
-    min-height:100%;
-}
-
-#header {
-   	width: 960px;
-    height:65px;
-	margin-top:-135px;
-
-}
+a:link,
+a:visited,
+a:hover,
+a:active {color: #FC0; text-decoration:none;}
 
 #header_top {
-   	width: 960px;
-    height:20px;
-	padding-top:3px;
+   	height:30px;
+	background-color: #174B59;
+	line-height: 30px;
+	font-weight: bold;
 }
 
-#welcome {
-   	width: 400px;
-    height:20px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:11px;
-	font-weight:bold;
-	color:#FFF;
-	padding-left:242px;
-	float:left;
-	padding-top:2px;
+#header_top p{
+	text-align:right;
 }
 
-#welcome a:link {color: #FC0; text-decoration:none;}     /* unvisited link */
-#welcome a:visited {color: #FC0; text-decoration:none;}  /* visited link */
-#welcome a:hover {color:#FC0; text-decoration:none;}   /* mouse over link */
-#welcome a:active {color: #FC0; text-decoration:none;}   /* selected link */
+#header_top p a{
+	padding-top: 3px;
+	display: block;
+	height: 20px;
+}
 
+#logo{
+	position: absolute;
+	z-index: 999;
+}
+
+#menu {
+	height:30px;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform:uppercase;
+	background-color: #FFCC01;
+	border-bottom: 3px solid #fff;
+}
+
+#menu ul li { display: block; float: left; text-align: center; /*padding-left:40px;*/}
+#menu ul li:first-child{text-align: left;}
+#menu a { color:#036; display: block; text-decoration:none; font-weight: bold;}
+#menu a:hover,
+#menu a.active { color:#900;}
+
+#slideshow{
+	border-bottom: 3px solid #fff;
+	margin-bottom: 10px;
+}
 
 #slider {
 	position:relative;
-	left:-160px;
 	top:0;
-   	width:100%;
     height:269px;
 	margin-top:0px;
 }
+
+#busca {
+	float:left;
+	width: 737px;
+	margin-top:10px;
+	margin-bottom:20px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#busca a{
+	display: inline-block;
+	padding: 3px 4px 2px 4px;
+	color: #fff;
+	border: 1px solid #ccc;
+	letter-spacing: 1px;
+	background-color: #ffd838;
+}
+
+#download_app {
+   	width:737px;
+	float:left;
+	margin-top:30px;
+	height:110px;
+}
+
+
+
+
 
 #time {
    	width: 150px;
@@ -82,50 +104,7 @@ body {
 	float:left;
 	padding-top:2px;
 }
-
-#midias_sociais {
-   	width: 70px;
-    height:20px;
-	float:right;
-}
-
-#menu {
-	float:right;
-	width: 800px;
-	height:20px;
-	padding-top:0px;
-	padding-right:0px;
-	font-size:12px;
-	font-weight:bold;
-	color:#fff;
-	text-transform:uppercase;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	
-}
-
-#menu ul { display: table; height: 20px; text-decoration:none; }
-#menu ul li { display: block; text-align: left; float: left;  padding-left:40px; text-decoration:none; }
-#menu ul li a { color:#fff; display: block; height: 20px; text-decoration:none; }
-#menu ul li a:hover,
-#menu ul li a.active { color:#900; text-decoration:none; }
-
-
-#content {
-   	width:960px;
-	margin-top:10px;
-	
- }
  
-#middle {
-   	width:737px;
-	float:left;
-	margin-top:10px;
- }
- 
-#publicidade {
-   	width:173px;
-	float:right;
- }
 
 h1 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#333; text-transform:uppercase; line-height:8px; }
 
@@ -400,14 +379,6 @@ h1 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:16px; fo
 	margin-bottom:3px;
 }
 
-#busca {
-	float:left;
-	width: 737px;
-	margin-top:10px;
-	margin-bottom:20px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:12px;
-}
 
 #gestao {
 	float:left;
@@ -703,19 +674,11 @@ border-radius: 6px;
 }
 
 #footer {
-	min-width:100%;
-	height:130px;
-	float:left;
 	background-color:#363839;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:#fff;
-	text-align:center;
 	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	margin-top:-110px;
-	z-index:99;
-	position:relative;
+	overflow: auto;
+	clear: both;
 }
 
 
@@ -725,82 +688,10 @@ border-radius: 6px;
 #footer_colunas a:active {color: #ccc; text-decoration:none;}   /* selected link */
 
 #footer_colunas {
-	z-index:999;
-	width:960px;
-	float:left;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:#fff;
-	text-align:left;
 	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	position:relative;
-	margin-top:50px;
-}
-
-#footer_col1 {
-	float:left;
-	width:110px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	color:#CCC;
-	text-align:left;
-	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	line-height:18px;
-	padding-left:10px;
-}
-
-#footer_col2 {
-	float:left;
-	width:110px;
-	padding-left:25px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	color:#CCC;
-	text-align:left;
-	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	line-height:18px;
-}
-
-#footer_col3 {
-	float:left;
-	width:110px;
-	padding-left:28px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	color:#CCC;
-	text-align:left;
-	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	line-height:18px;
-}
-
-#footer_col4 {
-	float:left;
-	width:130px;
-	padding-left:18px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	color:#CCC;
-	text-align:left;
-	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	line-height:18px;
-}
-
-#footer_col5 {
-	float:left;
-	width:400px;
-	padding-left:10px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	color:#CCC;
-	text-align:left;
-	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	line-height:18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #mask {
