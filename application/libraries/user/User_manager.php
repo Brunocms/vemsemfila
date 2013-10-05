@@ -38,7 +38,6 @@ class User_manager {
 			// generate the hashed password
 			$data['senha'] = $this->CI->bcrypt->hash($data['senha']);
             $data['sobrenome'] = 'fake';
-            unset($data['enviar']);
             unset($data['confirmasenha']);
             unset($data['obs']);
 

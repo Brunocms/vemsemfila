@@ -38,6 +38,7 @@ class Usuario extends CI_Controller {
 
     public function cadastro()
     {
+        $this->user->on_valid_session(base_url('home'));
 
         if ($this->input->post('nome') != null)
             $this->_cadastrar();

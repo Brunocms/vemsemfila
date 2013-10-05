@@ -8,7 +8,7 @@ class Admin extends CI_Controller {
     function __construct()
     {
         parent::__construct();
-        $this->load->model('m_usuario');
+        $this->load->model(['m_usuario', 'm_admin']);
         $this->user->on_invalid_session(base_url('home'));
         if (!$this->user_manager->user_permission($this->user->get_id(), 3))
             redirect(base_url('home'));
@@ -21,6 +21,18 @@ class Admin extends CI_Controller {
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('admin/cadastro_rest', $this->meta);
 	}
+
+    public function restaurante($action = null)
+    {
+        if($action == 'new' && $this->m_admin->novo_restaurante($this->input->post()))
+            redirect(base_url('admin/restaurante'));
+
+
+        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->meta['topo'] = $this->load->view('topo' , '', true);
+        $this->load->view('admin/cadastro_rest', $this->meta);
+    }
 
 }
 

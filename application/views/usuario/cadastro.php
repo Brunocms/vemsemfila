@@ -77,7 +77,9 @@
         <tr>
           <td height="51" class="table">&nbsp;</td>
           <td class="table">&nbsp;</td>
-          <td colspan="2" align="right" class="table"><input type="submit" name="enviar" id="enviar" value="Enviar" class="send" /></td>
+          <td colspan="2" align="right" class="table">
+              <input type="submit" id="enviar" value="Enviar" class="send" />
+          </td>
         </tr>
       </table>
         </form>
