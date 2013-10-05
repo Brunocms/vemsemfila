@@ -31,7 +31,7 @@
     <file path="$PROJECT_DIR$/../cyclumapi/application/views/groups/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380342008627" ignored="false" />
     <file path="$PROJECT_DIR$/../cyclumapi/assets/css/app.v1.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380342955739" ignored="false" />
     <file path="/topo.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380682101478" ignored="false" />
-    <file path="/quem_somos.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676540050" ignored="false" />
+    <file path="/quem_somos.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381003313337" ignored="false" />
     <file path="/como_funciona.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676564610" ignored="false" />
     <file path="/fale_conosco.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676597549" ignored="false" />
     <file path="/faq.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676684454" ignored="false" />
@@ -60,28 +60,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+      <file leaf-file-name="quem_somos.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/home/quem_somos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="74" selection-start="454" selection-end="454" vertical-scroll-proportion="-8.125">
+            <state line="9" column="0" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.24021353">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/home/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="67" selection-start="1394" selection-end="1394" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User_manager.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/libraries/user/User_manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="44" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.5498221">
+            <state line="22" column="17" selection-start="3185" selection-end="3185" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -97,8 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/home/termos_de_uso.php" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/usuario/cadastro.php" />
         <option value="$PROJECT_DIR$/application/libraries/email/sendemail.php" />
         <option value="$PROJECT_DIR$/application/controllers/base.php" />
@@ -113,6 +102,8 @@
         <option value="$PROJECT_DIR$/application/libraries/user/User.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
         <option value="$PROJECT_DIR$/application/libraries/user/User_manager.php" />
+        <option value="$PROJECT_DIR$/application/views/home/index.php" />
+        <option value="$PROJECT_DIR$/application/views/home/quem_somos.php" />
       </list>
     </option>
   </component>
@@ -214,6 +205,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -286,7 +299,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="256" y="105" width="317" height="625" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20849724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17151849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -362,11 +375,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="30" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.14590748" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/topo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="68" selection-start="647" selection-end="647" vertical-scroll-proportion="0.026690392" />
@@ -435,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="20" selection-start="938" selection-end="938" vertical-scroll-proportion="0.34608695">
@@ -466,6 +467,20 @@
     <entry file="file://$PROJECT_DIR$/application/libraries/user/User_manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="44" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.5498221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="17" selection-start="3185" selection-end="3185" vertical-scroll-proportion="-13.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/quem_somos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.24021353">
           <folding />
         </state>
       </provider>
