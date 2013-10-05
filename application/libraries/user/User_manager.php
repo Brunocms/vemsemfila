@@ -48,6 +48,7 @@ class User_manager {
 				$new_user_id = $this->CI->db->insert_id();
 
                 $this->CI->load->library('email/sendemail');
+                $emailData['id_usuario'] = $new_user_id;
                 $emailData['urlAtivacao'] = md5($new_user_id);
                 $emailData['to'] = $data['email'];
                 $emailData['template'] = 'welcome';
