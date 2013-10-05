@@ -49,22 +49,36 @@ class User_manager {
 				$new_user_id = $this->CI->db->insert_id();
 
                 $this->CI->load->library('email/sendemail');
-                $emailData['urlAtivacao'] = null;
+                $emailData['urlAtivacao'] = md5($new_user_id);
                 $emailData['to'] = $data['email'];
                 $emailData['template'] = 'welcome';
                 $this->CI->sendemail->sendSystemEmail($emailData);
-
-				// Add the permissions
-				//$this->add_permission($new_user_id, $permissions);
 
 				// Return the new user id
 				return $new_user_id;
 			}
 		} else {
-			// Login already exists or full name is empty
+			// Email already exists
 			return false;
 		}
 	}
+
+    //Tries to activate user
+    function activate($hashCode, $user)
+    {
+        $verifiedCode = md5($user);
+
+        if ($verifiedCode != $hashCode)
+        return false;
+
+        $this->CI->db->where(['id_usuario' => $user, 'status' => 0]);
+        $this->CI->db->update('tb_usuario', ['status' => 1]);
+
+        if ($this->CI->db->affected_rows() == 1)
+            return true;
+
+        return false;
+    }
     
 	// Delete the user
 	function delete_user($user_id){
