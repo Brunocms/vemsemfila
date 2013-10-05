@@ -7,7 +7,7 @@
     <file path="/a.dummy" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326953845" ignored="false" />
     <file path="/home.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381004003818" ignored="false" />
     <file path="/header.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380323606730" ignored="false" />
-    <file path="/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380995420843" ignored="false" />
+    <file path="/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381008198745" ignored="false" />
     <file path="/main.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326573645" ignored="false" />
     <file path="/usuarios.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380329674725" ignored="false" />
     <file path="/cadastro.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380678866155" ignored="false" />
@@ -40,8 +40,8 @@
     <file path="/User.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381004223614" ignored="false" />
     <file path="/restaurantes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380995288175" ignored="false" />
     <file path="/cadastro_rest.html" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380995533731" ignored="false" />
-    <file path="/admin.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381006777866" ignored="false" />
-    <file path="/cadastro_rest.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381006639571" ignored="false" />
+    <file path="/admin.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381008265642" ignored="false" />
+    <file path="/cadastro_rest.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381008390227" ignored="false" />
     <file path="/m_admin.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381006623884" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,30 +62,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cadastro_rest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/cadastro_rest.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="473" selection-end="473" vertical-scroll-proportion="-3.75">
-              <folding>
-                <marker date="1381006651755" expanded="true" signature="572:598" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="835" selection-end="835" vertical-scroll-proportion="0.67826086">
+            <state line="5" column="12" selection-start="90" selection-end="90" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m_admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/m_admin.php">
+      <file leaf-file-name="cadastro_rest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/cadastro_rest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="41" selection-start="310" selection-end="310" vertical-scroll-proportion="-8.125">
+            <state line="73" column="15" selection-start="5327" selection-end="5327" vertical-scroll-proportion="1.9483986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_sidebar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/admin_sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="5" selection-start="265" selection-end="265" vertical-scroll-proportion="-4.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="26" selection-start="176" selection-end="176" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -101,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/restaurantes/index.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/cadastro_rest.html" />
         <option value="$PROJECT_DIR$/application/views/home/index.php" />
         <option value="$PROJECT_DIR$/application/views/home/quem_somos.php" />
         <option value="$PROJECT_DIR$/application/views/topo.php" />
@@ -114,9 +119,11 @@
         <option value="$PROJECT_DIR$/application/controllers/usuario.php" />
         <option value="$PROJECT_DIR$/application/views/usuario/cadastro.php" />
         <option value="$PROJECT_DIR$/application/libraries/user/User_manager.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/cadastro_rest.php" />
         <option value="$PROJECT_DIR$/application/models/m_admin.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/index.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/admin_sidebar.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/cadastro_rest.php" />
       </list>
     </option>
   </component>
@@ -200,7 +207,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,6 +272,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/admin" />
       <recent name="$PROJECT_DIR$/application/models" />
       <recent name="$PROJECT_DIR$/application/controllers" />
       <recent name="$PROJECT_DIR$/application/libraries" />
@@ -349,22 +397,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/restaurantes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="4101" selection-end="4101" vertical-scroll-proportion="0.48042706">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="938" selection-end="938" vertical-scroll-proportion="0.34608695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home/quem_somos.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="1576" selection-end="1576" vertical-scroll-proportion="-5.625">
@@ -444,23 +476,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="310" selection-end="310" vertical-scroll-proportion="-8.125">
+        <state line="13" column="41" selection-start="310" selection-end="310" vertical-scroll-proportion="0.33913043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/admin_sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="265" selection-end="265" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="176" selection-end="176" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="90" selection-end="90" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/cadastro_rest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="473" selection-end="473" vertical-scroll-proportion="-3.75">
-          <folding>
-            <marker date="1381006651755" expanded="true" signature="572:598" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="835" selection-end="835" vertical-scroll-proportion="0.67826086">
+        <state line="73" column="15" selection-start="5327" selection-end="5327" vertical-scroll-proportion="1.9483986">
           <folding />
         </state>
       </provider>
