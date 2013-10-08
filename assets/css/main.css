@@ -295,11 +295,6 @@ h1 {font-size:16px; text-transform:uppercase; line-height: 2em; margin-bottom: 1
 	padding-top:2px;
 }
 
-#txt a:link {color: #F60; text-decoration:none;}     /* unvisited link */
-#txt a:visited {color: #333; text-decoration:none;}  /* visited link */
-#txt a:hover {color:#F60; text-decoration:none;}   /* mouse over link */
-#txt a:active {color: #333; text-decoration:none;}   /* selected link */
-
 
 #nome {
 	float:left;
