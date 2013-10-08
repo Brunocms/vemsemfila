@@ -48,10 +48,11 @@
             </div>
         </div>
     </div>
+    
     <div id="menu">
         <div class="container_24">
-            <ul class="grid_24 prefix_5">
-                <li class="grid_2 alpha"><a href="<?=base_url('home')?>">Home</a></li>
+            <ul class="grid_24">
+                <li class="grid_2 prefix_5 alpha"><a href="<?=base_url('home')?>">Home</a></li>
                 <li class="grid_3 alpha"><a href="<?=base_url('quem_somos')?>">Quem somos</a></li>
                 <li class="grid_4 alpha"><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
                 <li class="grid_3 alpha"><a href="<?=base_url('restaurantes')?>">Restaurantes</a></li>
@@ -61,6 +62,7 @@
             </ul>
         </div>
     </div>
+
 </div>
 
     
