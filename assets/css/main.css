@@ -106,7 +106,7 @@ a:active {color: #FC0; text-decoration:none;}
 }
  
 
-h1 {font-size:16px; text-transform:uppercase; line-height: 2em; margin-bottom: 1em;}
+h1 {font-size:16px; text-transform:uppercase; line-height: 2em; margin-bottom: 1em; border-bottom: 1px solid #ccc;}
 
 #alerta {
 	float:left;
