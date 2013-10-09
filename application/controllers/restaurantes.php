@@ -21,6 +21,14 @@ class Restaurantes extends CI_Controller {
         echo 'nofoe';
     }
 
+    public function reserva()
+    {
+        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->meta['topo'] = $this->load->view('topo', '', true);
+        $this->load->view('restaurantes/reserva', $this->meta);
+    }
+
     public function fale_conosco()
     {
         $this->meta['header'] = $this->load->view('header', '', true);
