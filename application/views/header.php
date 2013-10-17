@@ -38,8 +38,8 @@
 
                 $('#mask').css({'width':maskWidth,'height':maskHeight});
 
-                $('#mask').fadeIn(1000);
-                $('#mask').fadeTo("slow",0.8);
+                $('#mask').fadeIn(250);
+               // $('#mask').fadeTo("fast",0.8);
 
                 //Get the window height and width
                 var winH = $(window).height();
@@ -48,7 +48,7 @@
                 $(id).css('top',  winH/2-$(id).height()/2);
                 $(id).css('left', winW/2-$(id).width()/2);
 
-                $(id).fadeIn(2000);
+                $(id).fadeIn(500);
 
             });
 
