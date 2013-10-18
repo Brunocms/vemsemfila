@@ -13,11 +13,7 @@
 
 				<div id="busca"><strong>Escreva o nome ou o bairro do resturante aqui: </strong><input name="" type="text" class="field3" /><a href="#">VEM</a> </div>
 			 
-				<span id="nome">Restaurante</span><span id="tempo">Tempo de fila</span><span id="mesas">N° de Mesas</span><span id="endereco">Endereço</span>
-
-				<div class="clear"></div>
-
-				<table>
+				<table cellpadding="0" cellspacing="0">
 					<colgroup>
 						<col width="10%">
 						<col width="20%">
@@ -42,22 +38,48 @@
 						<td>Rua Lauro Muller, 500</td>
 						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
 					</tr>
+					<tr>
+						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+						<td>Outback Rio Sul</td>
+						<td>0 minutos</td>
+						<td>10 mesas</td>
+						<td>Rua Lauro Muller, 500</td>
+						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+					</tr>
+					<tr>
+						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+						<td>Outback Rio Sul</td>
+						<td>0 minutos</td>
+						<td>10 mesas</td>
+						<td>Rua Lauro Muller, 500</td>
+						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+					</tr>
+					<tr>
+						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+						<td>Outback Rio Sul</td>
+						<td>0 minutos</td>
+						<td>10 mesas</td>
+						<td>Rua Lauro Muller, 500</td>
+						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+					</tr>
+					<tr>
+						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+						<td>Outback Rio Sul</td>
+						<td>0 minutos</td>
+						<td>10 mesas</td>
+						<td>Rua Lauro Muller, 500</td>
+						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+					</tr>
+					<tr>
+						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+						<td>Outback Rio Sul</td>
+						<td>0 minutos</td>
+						<td>10 mesas</td>
+						<td>Rua Lauro Muller, 500</td>
+						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+					</tr>
 				</table>
 
-				<div class="clear"></div>
-
-				<ul>
-					<li><span class="thumb"><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></span><span class="nome">Outback Rio Sul</span><span class="tempo">0 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_gulagula.png" width="62" height="31" alt="gula gula" /></span><span class="nome">Gula Gula</span><span class="tempo">20 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_braz.png" width="62" height="31" alt="braz" /></span><span class="nome">Pizzaria Bráz</span><span class="tempo">40 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_joeleos.png" width="62" height="31" alt="joeleos" /></span><span class="nome">Joe & Leo's</span><span class="tempo">45 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_porcao.png" width="62" height="31" alt="porcão" /></span><span class="nome">Porcão Rio's</span><span class="tempo">55 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></span><span class="nome">Outback Rio Sul</span><span class="tempo">0 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_gulagula.png" width="62" height="31" alt="gula gula" /></span><span class="nome">Gula Gula</span><span class="tempo">20 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_braz.png" width="62" height="31" alt="braz" /></span><span class="nome">Pizzaria Bráz</span><span class="tempo">40 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-					<li><span class="thumb"><img src="/assets/img/thumb_joeleos.png" width="62" height="31" alt="joeleos" /></span><span class="nome">Joe & Leo's</span><span class="tempo">45 minutos</span><span class="mesas">10 mesas</span><span class="endereco">Rua Lauro Muller, 500</span><span class="checkin"><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></span></li>
-				</ul>
-			 
 			</div>
 
             <div id="destaques"><a href="cadastro_lead.html"><img src="/assets/img/banner_home.jpg" width="737" height="200" alt="vem!" title="vem!" /></a></div>
