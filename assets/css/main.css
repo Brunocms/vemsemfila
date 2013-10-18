@@ -15,6 +15,10 @@ a:visited,
 a:hover,
 a:active {color: #FC0; text-decoration:none;}
 
+.clear{
+	clear: both;
+}
+
 #header_top {
    	height:30px;
 	background-color: #174B59;
@@ -66,12 +70,7 @@ a:active {color: #FC0; text-decoration:none;}
 }
 
 #busca {
-	float:left;
-	width: 737px;
-	margin-top:10px;
 	margin-bottom:20px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:12px;
 }
 
 #busca a{
@@ -109,18 +108,13 @@ a:active {color: #FC0; text-decoration:none;}
 h1 {font-size:16px; text-transform:uppercase; line-height: 2em; margin-bottom: 1em; border-bottom: 1px solid #ccc;}
 
 #alerta {
-	float:left;
-	width: 730px;
-	height:20px;
-	padding-top:5px;
-	padding-bottom:3px;
+	padding:10px;
 	font-size:12px;
-	font-weight:normal;
 	color:#333;
 	text-align:center;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	background-color:#ffd838;
-	margin-top:16px;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 
 #check_rest {
@@ -366,9 +360,9 @@ h1 {font-size:16px; text-transform:uppercase; line-height: 2em; margin-bottom: 1
 
 
 #gestao {
-	float:left;
-	width: 737px;
-	margin-top:10px;
+	border-bottom: 1px dotted #666;
+	padding-bottom: 20px;
+	overflow: auto;
 }
 
 #gestao ul { display:inline; padding-left: 10px; text-decoration:none; width:170px; }
@@ -376,6 +370,33 @@ h1 {font-size:16px; text-transform:uppercase; line-height: 2em; margin-bottom: 1
 #gestao ul li a { color:#666; display: block; height: 12px; text-decoration:none; width:170px;  }
 #gestao ul li a:hover,
 #gestao ul li a.active { color:#666; text-decoration:none; }
+
+
+#gestao table th{
+	text-align:center;
+	background-color:#6c929c;
+	padding: 10px 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#gestao table th.clean{
+	background: none;
+}
+
+#nome {
+	padding:10px 2px 2px 2px;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:#6c929c;
+	text-transform:uppercase;
+	margin-top:10px;
+	margin-left:87px;
+	font-weight:bold;
+	margin-bottom:3px;
+}
 
 .thumb {
    	width:71px;
