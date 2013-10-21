@@ -19,6 +19,10 @@ a:active {color: #FC0; text-decoration:none;}
 	clear: both;
 }
 
+fieldset{
+	border: none;
+}
+
 #header_top {
    	height:30px;
 	background-color: #174B59;
@@ -748,8 +752,59 @@ border-radius: 6px;
     color: red;
     position: relative;
     top: 3px;
-
 }
 
+#cadastro-usuario{}
 
+#cadastro-usuario form{
+	clear: both;
+	margin-top: 20px;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+#cadastro-usuario form table{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#cadastro-usuario form table td{
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #DFDFDF;
+}
+
+#cadastro-usuario form table td.title{
+	background-color: #CECECE;
+	font-weight: bold;
+}
+
+#cadastro-usuario form input[type="text"],
+#cadastro-usuario form input[type="password"]{
+	font-size: 11px;
+	color: #333;
+	border: none;
+	padding: 4px;
+	width: 170px;
+}
+
+#cadastro-usuario form input.smart{
+	width: 50px;
+}
+
+#cadastro-usuario form input.medium{
+	width: 100px;
+}
+
+#cadastro-usuario form a.bt{
+	width: 50px;
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #FDCF00;
+	border: 2px solid #fff;
+	color: #fff;
+	text-align: center;
+	float: right;
+}
 
