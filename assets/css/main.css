@@ -822,3 +822,67 @@ border-radius: 6px;
 	float: right;
 }
 
+
+
+
+
+#cadastro-leads p{
+	line-height: 2em;
+}
+
+#cadastro-leads form{
+	clear: both;
+	margin-top: 20px;
+	overflow: auto;
+}
+
+#cadastro-leads form table{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#cadastro-leads form table td{
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #DFDFDF;
+}
+
+#cadastro-leads form table td.title{
+	background-color: #CECECE;
+	font-weight: bold;
+}
+
+#cadastro-leads form input[type="text"],
+#cadastro-leads form input[type="password"]{
+	font-size: 11px;
+	color: #333;
+	border: none;
+	padding: 4px;
+	width: 170px;
+}
+
+#cadastro-leads form input.smart{
+	width: 50px;
+}
+
+#cadastro-leads form input.medium{
+	width: 100px;
+}
+
+#cadastro-leads form input.big,
+#cadastro-leads form textarea.big{
+	width: 95%;
+}
+
+#cadastro-leads form a.bt{
+	width: 50px;
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #FDCF00;
+	border: 2px solid #fff;
+	color: #fff;
+	text-align: center;
+	float: right;
+}
+
