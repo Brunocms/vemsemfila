@@ -540,20 +540,6 @@ h1 {font-size:16px; text-transform:uppercase; line-height: 2em; margin-bottom: 1
 	border: 1px solid #CCC;
 }
 
-.field6 {
-   	width:265px;
-	height:37px;
-	padding-left:8px;
-	padding-top:1px;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:15px;
-	color:#333;
-	border: 1px solid #CCC;
-	margin-left:55px;
-	margin-top:5px;
-	margin-bottom:10px;
-}
-
 .field7 {
    	width:195px;
 	height:37px;
@@ -721,8 +707,8 @@ border-radius: 6px;
   background-color:#000;
   display:none;
 }
-   
-#boxes #dialog2 {
+
+#boxes .window{
   position:absolute;
   left:0;
   top:0;
@@ -746,7 +732,61 @@ border-radius: 6px;
 	text-align: left;
 }
 
+#dialog2 form input {
+   	width:265px;
+	height:37px;
+	padding-left:8px;
+	padding-top:1px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#333;
+	border: 1px solid #CCC;
+	margin-left:55px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
 #dialog2 form a.bt{
+	width: 50px;
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #FDCF00;
+	border: 2px solid #fff;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#popin-esqueceu-senha{
+	width: 400px;
+}
+
+#popin-esqueceu-senha form{
+	border-top: 2px dotted #ccc;
+	border-bottom: 2px dotted #ccc;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#popin-esqueceu-senha form input {
+   	width:300px;
+	height:37px;
+	padding-left:8px;
+	padding-top:1px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#333;
+	border: 1px solid #CCC;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+
+#popin-esqueceu-senha form a.bt{
 	width: 50px;
 	display: block;
 	border-radius: 10px;
