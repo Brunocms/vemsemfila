@@ -34,11 +34,11 @@
                 <?php
                     if($this->user->validate_session()) {
                 ?>
-                <a href="">Olá Caio, seja bem vindo</a>
+                <a href="">Olá <?=$this->user->user_data->nome?>, seja bem vindo</a>
                 <?php
                     }else{
                 ?>
-                <a href="#dialog2" name="modal">Faça seu Login aqui!</a>
+                <a href="#dialog2" name="modal">Faça seu login aqui!</a>
                 <?php
                     }
                 ?>

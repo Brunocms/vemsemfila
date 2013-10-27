@@ -43,6 +43,7 @@ $route['404_override'] = '';
 
 $route['cadastro'] = 'usuario/cadastro';
 $route['reserva'] = 'restaurantes/reserva';
+$route['admin'] = 'admin/home';
 
 $route['como_funciona'] = 'home/como_funciona';
 $route['fale_conosco'] = 'home/fale_conosco';

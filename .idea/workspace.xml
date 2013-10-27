@@ -4,14 +4,14 @@
     <list default="true" id="26e6f4c1-4366-4d04-a40b-f09ece74edec" name="Default" comment="" />
     <ignored path="vemsemfilaMVC.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326953845" ignored="false" />
-    <file path="/home.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381004003818" ignored="false" />
+    <file path="/a.dummy" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382208807256" ignored="false" />
+    <file path="/home.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382209460374" ignored="false" />
     <file path="/header.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380323606730" ignored="false" />
-    <file path="/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381008198745" ignored="false" />
+    <file path="/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382397658378" ignored="false" />
     <file path="/main.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326573645" ignored="false" />
     <file path="/usuarios.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380329674725" ignored="false" />
-    <file path="/cadastro.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380678866155" ignored="false" />
-    <file path="/routes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380322965784" ignored="false" />
+    <file path="/cadastro.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382398367839" ignored="false" />
+    <file path="/routes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382208861113" ignored="false" />
     <file path="/cadastro.js" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326059504" ignored="false" />
     <file path="/usuario.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381164884983" ignored="false" />
     <file path="/m_usuario.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380327890010" ignored="false" />
@@ -27,10 +27,10 @@
     <file path="$PROJECT_DIR$/../cyclumapi/application/views/home/dashboard.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380340926611" ignored="false" />
     <file path="/dashboard.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380340919672" ignored="false" />
     <file path="$PROJECT_DIR$/../cyclumapi/application/views/base.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380341741551" ignored="false" />
-    <file path="/base.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380681176921" ignored="false" />
+    <file path="/base.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382395638656" ignored="false" />
     <file path="$PROJECT_DIR$/../cyclumapi/application/views/groups/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380342008627" ignored="false" />
     <file path="$PROJECT_DIR$/../cyclumapi/assets/css/app.v1.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380342955739" ignored="false" />
-    <file path="/topo.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381365974573" ignored="false" />
+    <file path="/topo.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382067547621" ignored="false" />
     <file path="/quem_somos.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381003313337" ignored="false" />
     <file path="/como_funciona.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381197746996" ignored="false" />
     <file path="/fale_conosco.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676597549" ignored="false" />
@@ -38,13 +38,13 @@
     <file path="/termos_de_uso.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676718868" ignored="false" />
     <file path="/User_manager.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381009392471" ignored="false" />
     <file path="/User.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381004223614" ignored="false" />
-    <file path="/restaurantes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381198358710" ignored="false" />
+    <file path="/restaurantes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382398520882" ignored="false" />
     <file path="/cadastro_rest.html" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380995533731" ignored="false" />
     <file path="/admin.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381008265642" ignored="false" />
     <file path="/cadastro_rest.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381008390227" ignored="false" />
     <file path="/m_admin.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381006623884" ignored="false" />
     <file path="$PROJECT_DIR$/../videologMVC/assets/js/base.js" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381151321975" ignored="false" />
-    <file path="$PROJECT_DIR$/../videologMVC/application/libraries/videolog-api/privacy.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381158231832" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/libraries/videolog-api/privacy.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382139563918" ignored="false" />
     <file path="/privacy.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381158202493" ignored="false" />
     <file path="$PROJECT_DIR$/../videologMVC/application/libraries/videolog-api/methods/embed.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381158182846" ignored="false" />
     <file path="$PROJECT_DIR$/../videologMVC/application/controllers/api.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381157557424" ignored="false" />
@@ -53,8 +53,16 @@
     <file path="$PROJECT_DIR$/../videologMVC/application/controllers/usuario.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381164908279" ignored="false" />
     <file path="$PROJECT_DIR$/../videologMVC/application/views/usuario/accounts.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381164955290" ignored="false" />
     <file path="/accounts.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381164953923" ignored="false" />
-    <file path="$PROJECT_DIR$/../videologMVC/application/config/routes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381165004809" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/config/routes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382126798367" ignored="false" />
     <file path="/reserva.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381198249428" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/config/api.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382126853577" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/libraries/REST_Controller.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382125167429" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/controllers/home.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382126798367" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/libraries/videolog-api/format.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382140172204" ignored="false" />
+    <file path="/format.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382139901125" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/libraries/videolog-api/methods/videos.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382140070565" ignored="false" />
+    <file path="/videos.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382140070565" ignored="false" />
+    <file path="/m_restaurantes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382398846628" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,55 +82,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reserva.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/restaurantes/reserva.php">
+      <file leaf-file-name="base.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="12" selection-start="2984" selection-end="2984" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User_manager.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/user/User_manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="56" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="29" selection-start="2993" selection-end="3009" vertical-scroll-proportion="0.0">
+            <state line="169" column="6" selection-start="7548" selection-end="7548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="restaurantes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/restaurantes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="63" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+            <state line="31" column="9" selection-start="965" selection-end="965" vertical-scroll-proportion="-19.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <file leaf-file-name="home.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="41" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.5826087">
+            <state line="10" column="39" selection-start="252" selection-end="252" vertical-scroll-proportion="0.27075812">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/topo.php">
+      <file leaf-file-name="m_restaurantes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/m_restaurantes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="20" selection-start="2726" selection-end="2726" vertical-scroll-proportion="-0.625">
+            <state line="12" column="5" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="117" selection-end="431" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/restaurantes/cadastro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="119" selection-start="383" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1382400709503" expanded="true" signature="2287:2319" placeholder="..." />
+                <marker date="1382400709503" expanded="true" signature="2406:2445" placeholder="..." />
+                <marker date="1382400709503" expanded="true" signature="2720:2752" placeholder="..." />
+                <marker date="1382400709503" expanded="true" signature="2802:3003" placeholder="..." />
+                <marker date="1382400709503" expanded="true" signature="3094:3126" placeholder="..." />
+                <marker date="1382400709503" expanded="true" signature="3178:3379" placeholder="..." />
+                <marker date="1382400709503" expanded="true" signature="3470:3502" placeholder="..." />
+                <marker date="1382400709503" expanded="true" signature="3554:3755" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/restaurantes/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="20" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,22 +164,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/admin/index.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/admin_sidebar.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/cadastro_rest.php" />
-        <option value="$PROJECT_DIR$/application/views/base/emails/welcome.php" />
-        <option value="$PROJECT_DIR$/application/libraries/user/User_manager.php" />
-        <option value="$PROJECT_DIR$/application/views/home/como_funciona.php" />
-        <option value="$PROJECT_DIR$/application/views/home/faq.php" />
-        <option value="$PROJECT_DIR$/application/views/restaurantes/reserva.php" />
-        <option value="$PROJECT_DIR$/application/controllers/restaurantes.php" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/restaurantes/cadastro_filial.html" />
         <option value="$PROJECT_DIR$/application/views/restaurantes/checkin.html" />
         <option value="$PROJECT_DIR$/application/views/usuario/login.html" />
         <option value="$PROJECT_DIR$/application/views/header.php" />
+        <option value="$PROJECT_DIR$/application/controllers/restaurantes.php" />
         <option value="$PROJECT_DIR$/application/views/topo.php" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/index.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/restaurentes/index.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/restaurantes/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/restaurantes.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/restaurantes/cadastro.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/base.php" />
+        <option value="$PROJECT_DIR$/application/models/m_restaurantes.php" />
+        <option value="$PROJECT_DIR$/application/controllers/admin/home.php" />
       </list>
     </option>
   </component>
@@ -190,6 +216,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,7 +303,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,17 +325,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,13 +416,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views/admin" />
       <recent name="$PROJECT_DIR$/application/models" />
+      <recent name="$PROJECT_DIR$/application/views/admin/restaurantes" />
+      <recent name="$PROJECT_DIR$/application/controllers/admin" />
+      <recent name="$PROJECT_DIR$/application/views/admin" />
       <recent name="$PROJECT_DIR$/application/controllers" />
-      <recent name="$PROJECT_DIR$/application/libraries" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/admin/home" />
+      <recent name="$PROJECT_DIR$/application/controllers/admin" />
       <recent name="$PROJECT_DIR$/application/libraries/user" />
       <recent name="$PROJECT_DIR$/application/libraries/facebook" />
       <recent name="$PROJECT_DIR$/application/libraries/email" />
@@ -344,14 +438,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -373,7 +467,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="256" y="105" width="317" height="625" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22659324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23839496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -449,91 +543,109 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/base/emails/welcome.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/restaurantes/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="75" selection-start="115" selection-end="126" vertical-scroll-proportion="-1.25" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home/faq.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.40035588" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home/como_funciona.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="0" selection-end="2254" vertical-scroll-proportion="0.16014235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/restaurantes/checkin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="6" selection-start="2707" selection-end="2707" vertical-scroll-proportion="0.7740213" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/cadastro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="37" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.19130434" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="63" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/restaurantes/reserva.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="12" selection-start="2984" selection-end="2984" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/user/User_manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="56" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="29" selection-start="2993" selection-end="3009" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/topo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="20" selection-start="2726" selection-end="2726" vertical-scroll-proportion="-0.625">
+        <state line="3" column="20" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="21" selection-start="7504" selection-end="7504" vertical-scroll-proportion="-140.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/topo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="58" selection-start="1967" selection-end="1967" vertical-scroll-proportion="-13.75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="391" column="14" selection-start="6782" selection-end="6782" vertical-scroll-proportion="0.63993174" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.5826087">
+        <state line="45" column="0" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.8069565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="184" selection-end="184" vertical-scroll-proportion="0.08695652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/restaurantes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/restaurantes/cadastro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="119" selection-start="383" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1382400709503" expanded="true" signature="2287:2319" placeholder="..." />
+            <marker date="1382400709503" expanded="true" signature="2406:2445" placeholder="..." />
+            <marker date="1382400709503" expanded="true" signature="2720:2752" placeholder="..." />
+            <marker date="1382400709503" expanded="true" signature="2802:3003" placeholder="..." />
+            <marker date="1382400709503" expanded="true" signature="3094:3126" placeholder="..." />
+            <marker date="1382400709503" expanded="true" signature="3178:3379" placeholder="..." />
+            <marker date="1382400709503" expanded="true" signature="3470:3502" placeholder="..." />
+            <marker date="1382400709503" expanded="true" signature="3554:3755" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="117" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_restaurantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="6" selection-start="7548" selection-end="7548" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/restaurantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="9" selection-start="965" selection-end="965" vertical-scroll-proportion="-19.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="252" selection-end="252" vertical-scroll-proportion="0.27075812">
           <folding />
         </state>
       </provider>
