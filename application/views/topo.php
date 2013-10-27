@@ -3,23 +3,26 @@
 <div id="fb-root"></div>
 
 <div id="boxes">
-
     <!-- Janela Modal com Bloco de Nota -->
     <div id="dialog2" class="window">
-        <span class="logo_login">
-            <img src="/assets/img/logo_login.png" width="161" height="135" />
-        </span><br /><br />
-        <span class="pontilhado">.............................................................................................</span>
-        <br /><br />
+        <img src="/assets/img/logo_login.png" width="161" height="135" />
+    
         <form action="<?=base_url('home/login')?>" method="POST">
-            <span class="login">LOGIN</span><br /><input name="email" type="text" class="field6" /><br /><br />
-            <span class="login">SENHA</span><br /><input name="senha" type="text" class="field7" /><span class="login2"> <a href="#">(Esqueceu?)</a></span><br /><br />
-            <span class="bt_vem_login">
-            <input type="submit" value="Vem!" style="background:url(/assets/img/bt_vem_login.png) no-repeat; width: 105; height: 47;" />
-            </span><br /><br />
-            <span class="pontilhado">.............................................................................................</span><br />
-            <span class="cadastro2">AINDA NÃO É CADASTRADO? <a href="<?=base_url('cadastro')?>">CLIQUE AQUI</a></span>
+            <span class="login">LOGIN</span><br /><input name="email" type="text" /><br /><br />
+            <span class="login">SENHA</span><br /><input name="senha" type="text" /><span class="login2"> <a href="#">(Esqueceu?)</a></span>
+            <a href="#" class="bt">Vem!</a>
         </form>
+        <span class="cadastro2">AINDA NÃO É CADASTRADO? <a href="<?=base_url('cadastro')?>">CLIQUE AQUI</a></span>
+    </div>
+
+    <div id="popin-esqueceu-senha" class="window">
+        <img src="/assets/img/logo_login.png" width="161" height="135" />
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+            <span>DIGITE SEU EMAIL ABAIXO PARA RECUPERAR SUA SENHA:</span><br /><input name="email" type="text" /><br /><br />
+            <a href="#" class="bt">Enviar!</a>
+        </form>
+        <span>Email enviado para pacca@vemsemfila.com.br para recuperar a senha</span>
     </div>
     <!-- Fim Janela Modal com Bloco de Nota -->
     <!-- M�scara para cobrir a tela -->

@@ -5,13 +5,21 @@ class Restaurantes extends CI_Controller {
     public $meta;
     public $data;
 
-	public function index()
-	{
+    public function index()
+    {
         $this->meta['header'] = $this->load->view('header', '', true);
-		$this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('restaurantes/index', $this->meta);
-	}
+    }
+
+    public function leads()
+    {
+        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->meta['topo'] = $this->load->view('topo' , '', true);
+        $this->load->view('restaurantes/leads', $this->meta);
+    }
 
     public function login()
     {

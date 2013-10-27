@@ -22,62 +22,66 @@
 						<col width="20%">
 						<col width="10%">
 					</colgroup>
-					<tr>
-						<th class="clean">&nbsp;</th>
-						<th>Restaurante</th>
-						<th>Tempo da fila</th>
-						<th>N° de Mesas</th>
-						<th>Endereço</th>
-						<th class="clean">&nbsp;</th>
-					</tr>
-					<tr>
-						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
-						<td>Outback Rio Sul</td>
-						<td>0 minutos</td>
-						<td>10 mesas</td>
-						<td>Rua Lauro Muller, 500</td>
-						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
-					</tr>
-					<tr>
-						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
-						<td>Outback Rio Sul</td>
-						<td>0 minutos</td>
-						<td>10 mesas</td>
-						<td>Rua Lauro Muller, 500</td>
-						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
-					</tr>
-					<tr>
-						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
-						<td>Outback Rio Sul</td>
-						<td>0 minutos</td>
-						<td>10 mesas</td>
-						<td>Rua Lauro Muller, 500</td>
-						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
-					</tr>
-					<tr>
-						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
-						<td>Outback Rio Sul</td>
-						<td>0 minutos</td>
-						<td>10 mesas</td>
-						<td>Rua Lauro Muller, 500</td>
-						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
-					</tr>
-					<tr>
-						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
-						<td>Outback Rio Sul</td>
-						<td>0 minutos</td>
-						<td>10 mesas</td>
-						<td>Rua Lauro Muller, 500</td>
-						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
-					</tr>
-					<tr>
-						<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
-						<td>Outback Rio Sul</td>
-						<td>0 minutos</td>
-						<td>10 mesas</td>
-						<td>Rua Lauro Muller, 500</td>
-						<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
-					</tr>
+					<thead>
+						<tr>
+							<th class="clean">&nbsp;</th>
+							<th>Restaurante</th>
+							<th>Tempo da fila</th>
+							<th>N° de Mesas</th>
+							<th>Endereço</th>
+							<th class="clean">&nbsp;</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+							<td>Outback Rio Sul</td>
+							<td>0 minutos</td>
+							<td>10 mesas</td>
+							<td>Rua Lauro Muller, 500</td>
+							<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+						</tr>
+						<tr>
+							<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+							<td>Outback Rio Sul</td>
+							<td>0 minutos</td>
+							<td>10 mesas</td>
+							<td>Rua Lauro Muller, 500</td>
+							<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+						</tr>
+						<tr>
+							<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+							<td>Outback Rio Sul</td>
+							<td>0 minutos</td>
+							<td>10 mesas</td>
+							<td>Rua Lauro Muller, 500</td>
+							<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+						</tr>
+						<tr>
+							<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+							<td>Outback Rio Sul</td>
+							<td>0 minutos</td>
+							<td>10 mesas</td>
+							<td>Rua Lauro Muller, 500</td>
+							<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+						</tr>
+						<tr>
+							<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+							<td>Outback Rio Sul</td>
+							<td>0 minutos</td>
+							<td>10 mesas</td>
+							<td>Rua Lauro Muller, 500</td>
+							<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+						</tr>
+						<tr>
+							<td><img src="/assets/img/thumb_outback.png" width="62" height="31" alt="outback" /></td>
+							<td>Outback Rio Sul</td>
+							<td>0 minutos</td>
+							<td>10 mesas</td>
+							<td>Rua Lauro Muller, 500</td>
+							<td><a href="checkin.html"><img src="/assets/img/bt_checkin.png" width="102" height="26" alt="checkin" /></a></td>
+						</tr>
+					</tbody>
 				</table>
 
 			</div>

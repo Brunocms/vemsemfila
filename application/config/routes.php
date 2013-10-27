@@ -41,15 +41,17 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
+// restaurantes
 $route['cadastro'] = 'usuario/cadastro';
 $route['reserva'] = 'restaurantes/reserva';
 $route['admin'] = 'admin/home';
-
+$route['leads'] = 'restaurantes/leads';
 $route['como_funciona'] = 'home/como_funciona';
 $route['fale_conosco'] = 'home/fale_conosco';
 $route['faq'] = 'home/faq';
 $route['quem_somos'] = 'home/quem_somos';
 $route['termos'] = 'home/termos_de_uso';
+
 
 
 /* End of file routes.php */
