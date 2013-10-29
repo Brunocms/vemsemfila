@@ -955,3 +955,10 @@ border-radius: 6px;
 	float: right;
 }
 
+#cadastro-leads label[for="nome"].error,
+#cadastro-leads label[for="email1"].error,
+#cadastro-leads label[for="tel1"].error{
+	display: block;
+	clear: both;
+	margin-left: 0px;
+}
