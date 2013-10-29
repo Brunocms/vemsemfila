@@ -9,7 +9,7 @@
     
         <form action="<?=base_url('home/login')?>" method="POST">
             <span class="login">LOGIN</span><br /><input name="email" type="text" /><br /><br />
-            <span class="login">SENHA</span><br /><input name="senha" type="text" /><span class="login2"> <a href="#">(Esqueceu?)</a></span>
+            <span class="login">SENHA</span><br /><input name="senha" type="password" /><span class="login2"> <a href="#">(Esqueceu?)</a></span>
             <button type="submit" class="bt">Vem!</button>
         </form>
         <span class="cadastro2">AINDA NÃO É CADASTRADO? <a href="<?=base_url('cadastro')?>">CLIQUE AQUI</a></span>
@@ -72,8 +72,6 @@
     <div class="slider-wrapper theme-default">
         <div class="ribbon"></div>
         <div id="slider" class="nivoSlider">
-              <a href="<?=base_url('restaurantes')?>"><img src="/assets/img/slide01.jpg" width="1280" height="269" alt="" border="0" /></a> 
-              <a href="http://www.apple.com" target="_blank"><img src="/assets/img/slide02.jpg" width="1280" height="269" alt="" border="0" /></a> 
         </div>
     </div>
 </div>

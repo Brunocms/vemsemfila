@@ -10,6 +10,7 @@ class Restaurantes extends CI_Controller {
     {
         parent::__construct();
         $this->assets = loadAssets();
+        $this->output->nocache();
     }
 
     public function index()

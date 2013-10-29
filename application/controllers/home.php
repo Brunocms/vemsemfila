@@ -11,6 +11,7 @@ class Home extends CI_Controller {
         parent::__construct();
         $this->load->model('m_usuario');
         $this->assets = loadAssets();
+        $this->output->nocache();
     }
 
 	public function index()
