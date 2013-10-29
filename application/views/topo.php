@@ -29,7 +29,7 @@
     <div id="mask"></div>
 </div>
 
-<div id="header">
+<div id="header" class="interno">
     <div id="header_top">
         <div class="container_24">
             <div id="logo"><a href="<?=base_url('home')?>"><img src="/assets/img/logo.png" width="154" height="136" alt="logo" /></a></div>
@@ -61,15 +61,17 @@
 
 </div>
 
+
+<!-- NAO ESQUECER DE VOLTAR O SLIDESHOW PARA A HOME E OCULTAR QUANDO FOR NAS INTERNAS -->
     
-<div id="slideshow">
+<!-- <div id="slideshow">
     <div class="slider-wrapper theme-default">
         <div class="ribbon"></div>
         <div id="slider" class="nivoSlider">
         </div>
     </div>
 </div>
-    
+ -->    
 
 
 
