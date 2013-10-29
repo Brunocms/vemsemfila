@@ -31,7 +31,7 @@ class Home extends CI_Controller {
 
     public function fale_conosco()
     {
-        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['header'] = $this->load->view('header',  $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('home/fale_conosco', $this->meta);
@@ -39,7 +39,7 @@ class Home extends CI_Controller {
 
     public function faq()
     {
-        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['header'] = $this->load->view('header',  $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('home/faq', $this->meta);
@@ -47,7 +47,7 @@ class Home extends CI_Controller {
 
     public function como_funciona()
     {
-        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['header'] = $this->load->view('header',  $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('home/como_funciona', $this->meta);
@@ -55,7 +55,7 @@ class Home extends CI_Controller {
 
     public function termos_de_uso()
     {
-        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['header'] = $this->load->view('header',  $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('home/termos_de_uso', $this->meta);
@@ -63,7 +63,7 @@ class Home extends CI_Controller {
 
     public function quem_somos()
     {
-        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['header'] = $this->load->view('header',  $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('home/quem_somos', $this->meta);

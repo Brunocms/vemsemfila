@@ -8,7 +8,7 @@
 
             <h1 style="font-weight: initial;font-size: 15px;">Crie seu cadastro no VemSemFila</h1>
 
-          <form>
+          <form id='cadastroForm' method="POST" action="#">
           <fieldset>
               <table cellspacing="3" cellpadding="0">
               <colgroup>
@@ -79,8 +79,7 @@
                   <td>Complemento <input type="text" id="complemento" name="complemento" class="medium"></td>
               </tr>
               </table>
-
-              <a href="#" class="bt">ENVIAR</a>
+                <button type='submit'>Mandasaporrae</button>
           </fieldset>
           </form>
 
