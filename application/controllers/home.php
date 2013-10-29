@@ -3,17 +3,19 @@
 class Home extends CI_Controller {
 
     public $meta;
+    public $assets;
     public $data;
 
     function __construct()
     {
         parent::__construct();
         $this->load->model('m_usuario');
+        $this->assets = loadAssets();
     }
 
 	public function index()
 	{
-        $this->meta['header'] = $this->load->view('header', '', true);
+        $this->meta['header'] = $this->load->view('header', $this->assets, true);
 		$this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);
         $this->load->view('home/index', $this->meta);

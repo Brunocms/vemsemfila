@@ -64,7 +64,7 @@ $autoload['libraries'] = ['database', 'facebook', 'user/user', 'user/user_manage
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = ['url'];
+$autoload['helper'] = ['url', 'global', 'html'];
 
 
 /*

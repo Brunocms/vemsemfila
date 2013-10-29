@@ -6,18 +6,17 @@
     <meta name="description" content="Vem sem fila" />
     <meta name="keywords" content="vem sem fila, restaurante, rio de janeiro" />
     <link rel="SHORTCUT ICON" href="/assets/img/favicon.ico"/>
-    
-    <link href="/assets/css/grid.css" rel="stylesheet" type="text/css" />
-    
-    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/css/nivo-slider.css" rel="stylesheet" type="text/css" />
+    <?php
+    //loop de montagem para arquivos css
+    foreach($css as $cssFile){
+        echo link_tag('/assets/css/'.$cssFile.'.css?ttl=' . DEPLOY_TIME).PHP_EOL;
+    }
 
-    <script type="text/javascript" src="/assets/js/jquery-1.6.1.min.js"></script>
-
-    <script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="/assets/js/cadastro.js"></script>
-
-    <script type="text/javascript" src="/assets/js/jquery.nivo.slider.pack.js"></script>
+    //loop de montagem para arquivos js
+    foreach ($js as $jsFile) {
+        echo '<script type="text/javascript" src="/assets/js/' . $jsFile . '.js"></script>' . PHP_EOL;
+    }
+    ?>
     <script type="text/javascript">
     $(window).load(function() {
         // $('#slider').nivoSlider();
