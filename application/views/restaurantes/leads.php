@@ -10,8 +10,8 @@
 
           <p>
             Escolha uma opção: <br>
-            <input type="radio" value=""> Tenho um Restaurante e gostaria de me conveniar ao VemSemFila<br>
-            <input type="radio" value=""> Sou um cliente e gostaria de indicar um Restaurante para o VemSemFila 
+            <input type="radio" name="restaurante_opcao" value="restaurante" checked> Tenho um Restaurante e gostaria de me conveniar ao VemSemFila<br>
+            <input type="radio" name="restaurante_opcao" value="cliente"> Sou um cliente e gostaria de indicar um Restaurante para o VemSemFila 
           </p>
 
           <form>
@@ -73,7 +73,7 @@
               </tr>
               </table>
 
-              <a href="#" class="bt">ENVIAR</a>
+              <button type="submit">ENVIAR</button>
           </fieldset>
           </form>
 
