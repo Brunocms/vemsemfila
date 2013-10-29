@@ -6,6 +6,7 @@
     <meta name="description" content="Vem sem fila" />
     <meta name="keywords" content="vem sem fila, restaurante, rio de janeiro" />
     <link rel="SHORTCUT ICON" href="/assets/img/favicon.ico"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
     <?php
     //loop de montagem para arquivos css
     foreach($css as $cssFile){

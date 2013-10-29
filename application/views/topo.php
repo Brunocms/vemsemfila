@@ -40,18 +40,18 @@
         <div class="container_24">
             <ul class="grid_24">
                 <li class="grid_4 prefix_5 alpha"><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
-                <li class="grid_5 alpha"><a href="<?=base_url('restaurantes')?>">Enconte um restaurante</a></li>
+                <li class="grid_6 alpha"><a href="<?=base_url('restaurantes')?>">Enconte um restaurante <span class="fa fa-search"></span></a></li>
                 <?php
                     if(!$this->user->validate_session()) :
                 ?>
                     <li class="grid_6 alpha">
-                        <div id="welcome"><a href="#dialog2" name="modal">Login</a> | <a class="bt" href="<?=base_url('cadastro')?>">Cadastre-se</a></div>
+                        <div id="welcome"><a href="#dialog2" name="modal"><span class="fa fa-user"></span> Login</a> | <a class="bt" href="<?=base_url('cadastro')?>">Cadastre-se</a></div>
                     </li>
                 <?php
                     else:
                 ?>
                     <li class="grid_3 alpha"><a href="<?=base_url('cadastro')?>">Meus dados</a></li>
-                    <li class="grid_3 alpha"><a href="<?=base_url('usuario/logout')?>">Sair</a></li>
+                    <li class="grid_3 alpha"><a href="<?=base_url('usuario/logout')?>">Sair <span class="fa fa-sign-out"></span></a></li>
                 <?php
                     endif;
                 ?>
