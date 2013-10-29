@@ -859,8 +859,8 @@ border-radius: 6px;
 	width: 100px;
 }
 
-#cadastro-usuario form a.bt{
-	width: 50px;
+#cadastro-usuario form button[type="submit"]{
+	width: 90px;
 	display: block;
 	border-radius: 10px;
 	padding: 10px;
@@ -869,6 +869,8 @@ border-radius: 6px;
 	color: #fff;
 	text-align: center;
 	float: right;
+	font-size: 14px;
+	cursor: pointer;
 }
 
 #cadastro-usuario .sidebar{
@@ -891,6 +893,16 @@ border-radius: 6px;
 #cadastro-usuario .sidebar .googleplus span{
 	font-size: 24px;
 }
+
+#cadastro-usuario label[for="nome"].error,
+#cadastro-usuario label[for="sobrenome"].error,
+#cadastro-usuario label[for="senha"].error,
+#cadastro-usuario label[for="confirmasenha"].error{
+	display: block;
+	clear: both;
+	margin-left: 0px;
+}
+
 
 
 

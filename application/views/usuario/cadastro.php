@@ -72,14 +72,14 @@
                   <td><select><option>Barra da Tijuca</option></select></td>
               </tr>
               <tr>
-                  <td>Logradouro</td>
+                  <td>Endereço</td>
                   <td><input type="text" id="logradouro" name="logradouro"></td>
 
                   <td>Nº <input type="text" id="num" name="num" class="smart"></td>
                   <td>Complemento <input type="text" id="complemento" name="complemento" class="medium"></td>
               </tr>
               </table>
-                <button type='submit'>Mandasaporrae</button>
+                <button type='submit'>Enviar</button>
           </fieldset>
           </form>
 

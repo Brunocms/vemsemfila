@@ -4,6 +4,7 @@ $().ready(function() {
     $("#cadastroForm").validate({
         rules: {
             nome: "required",
+            sobrenome: "required",
             email: "required",
             senha: {
                 required: true,
@@ -21,6 +22,7 @@ $().ready(function() {
         },
         messages: {
             nome: "Preencha com o seu nome",
+            sobrenome: "Preencha com o seu sobrenome",
             email: "Entre com um email válido",
             senha: {
                 required: "Entre com uma senha",
