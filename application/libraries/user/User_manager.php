@@ -37,8 +37,9 @@ class User_manager {
 
             $emailData['template'] = 'welcome';
             $data['nome'] = (isset($data['sobrenome'])) ? $data['nome'] . ' ' . $data['sobrenome']: $data['nome'];
+            unset($data['sobrenome']);
 
-            if ($data['method'] == 'facebook')
+            if (isset($data['method']) && $data['method'] == 'facebook')
             {
                 $emailData['senha'] = $data['senha'];
                 $emailData['template'] = 'welcome_facebook';

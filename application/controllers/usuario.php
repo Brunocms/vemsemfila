@@ -51,6 +51,15 @@ class Usuario extends CI_Controller {
 
     }
 
+    public function cadastro_sucesso()
+    {
+        $this->user->on_valid_session(base_url('home'));
+        $this->meta['header'] = $this->load->view('header', $this->assets, true);
+        $this->meta['topo'] = $this->load->view('topo', '', true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->load->view('usuario/cadastro_sucesso', $this->meta);
+    }
+
     private function _cadastrar_facebook($data)
     {
         $post['nome'] = $data['name'];
@@ -65,7 +74,7 @@ class Usuario extends CI_Controller {
     private function _cadastrar()
     {
         $this->user_manager->save_user($this->input->post());
-        redirect(base_url('home/index'));
+        redirect(base_url('usuario/cadastro_sucesso'));
     }
 
     public function ativacao($hashCode = null, $user = null)
