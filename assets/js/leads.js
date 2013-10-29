@@ -8,10 +8,17 @@ $().ready(function() {
                 required: true,
                 email: true
             },
-            tel1: "required"
+            email2: {
+                email: true
+            },
+            tel1: "required",
+            pais: "required",
+            cidade: "required",
+            estado: "required",
+            bairro: "required"
         },
         messages: {
-            nome: "Preencha com o seu nome",
+            nome: "Preencha com o nome do restaurante",
             sobrenome: "Preencha com o seu sobrenome",
             email1: "Entre com um email válido",
             tel1: "Entre com um número de telefone"
