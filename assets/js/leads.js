@@ -4,36 +4,28 @@ $().ready(function() {
     $("#cadastroForm").validate({
         rules: {
             nome: "required",
-            sobrenome: "required",
-            email: "required",
-            senha: {
-                required: true,
-                minlength: 6
-            },
-            confirmasenha: {
-                required: true,
-                minlength: 6,
-                equalTo: "#senha"
-            },
-            email: {
+            email1: {
                 required: true,
                 email: true
-            }
+            },
+            tel1: "required"
         },
         messages: {
             nome: "Preencha com o seu nome",
             sobrenome: "Preencha com o seu sobrenome",
-            email: "Entre com um email válido",
-            senha: {
-                required: "Entre com uma senha",
-                minlength: "Sua senha deve conter pelo menos 6 caracteres"
-            },
-            confirmasenha: {
-                required: "Entre com uma senha",
-                minlength: "Sua senha deve conter pelo menos 6 caracteres",
-                equalTo: "As senhas devem ser iguais"
-            }
+            email1: "Entre com um email válido",
+            tel1: "Entre com um número de telefone"
         }
     });
+
+
+    $("input[name=restaurante_opcao]").change(function(){
+        if ($(this).val() == "1") {
+            $("tr.cliente input").rules( "remove", "required" );
+        } else {
+            $("tr.cliente input").rules( "add", "required" );
+        };
+    });
+
 });
 	

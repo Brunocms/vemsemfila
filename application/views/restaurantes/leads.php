@@ -10,7 +10,7 @@
 
           <p>
             Escolha uma opção: <br>
-            <input type="radio" id='type' name='restaurante_opcao' value="0"> Tenho um Restaurante e gostaria de me conveniar ao VemSemFila<br>
+            <input type="radio" id='type' name='restaurante_opcao' value="0" checked> Tenho um Restaurante e gostaria de me conveniar ao VemSemFila<br>
             <input type="radio" id='type' name='restaurante_opcao' value="1"> Sou um cliente e gostaria de indicar um Restaurante para o VemSemFila
           </p>
 
@@ -33,7 +33,7 @@
                     <input type="text" class="big" value="<?=(isset($user_profile['name'])) ? $user_profile['name'] : ''?>" name="nome"  />
                   </td>
               </tr>
-              <tr>
+              <tr class="cliente">
                   <td>*Email 1</td>
                   <td>
                       <input type="text" name="email1" id='email1' />
@@ -43,7 +43,7 @@
                       <input type="text" name="email2" id='email2' />
                   </td>
               </tr>
-              <tr>
+              <tr class="cliente">
                   <td>*Tel 1</td>
                   <td>
                       <input type="text" name="tel1" id='tel1' />
@@ -53,14 +53,14 @@
                       <input type="text" name="tel2" id='tel2' />
                   </td>
               </tr>
-              <tr>
+              <tr class="cliente">
                   <td>País</td>
                   <td><select><option>Brasil</option></select></td>
 
                   <td>Estado</td>
                   <td><select><option>RJ</option></select></td>
               </tr>
-              <tr>
+              <tr class="cliente">
                   <td>Cidade</td>
                   <td><select><option>Rio de Janeiro</option></select></td>
 
