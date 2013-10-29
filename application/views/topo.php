@@ -40,12 +40,12 @@
         <div class="container_24">
             <ul class="grid_24">
                 <li class="grid_4 prefix_5 alpha"><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
-                <li class="grid_3 alpha"><a href="<?=base_url('restaurantes')?>">Restaurantes</a></li>
+                <li class="grid_5 alpha"><a href="<?=base_url('restaurantes')?>">Enconte um restaurante</a></li>
                 <?php
                     if(!$this->user->validate_session()) :
                 ?>
                     <li class="grid_6 alpha">
-                        <div id="welcome"><a href="#dialog2" name="modal">Login</a> | <a href="<?=base_url('cadastro')?>">Cadastre-se</div>
+                        <div id="welcome"><a href="#dialog2" name="modal">Login</a> | <a class="bt" href="<?=base_url('cadastro')?>">Cadastre-se</a></div>
                     </li>
                 <?php
                     else:
