@@ -6,12 +6,7 @@
   
         <div class="grid_19 alpha">
 
-          <h1>Cadastro de usuário:</h1>
-
-          <p>
-            Preenchar o formulário abaixo para se cadastrar e ter acesso ao nosso serviço tanto no seu computador quanto no seu smartphone.<br />
-            O Número de Celular é necessário para podermos enviar notificações do seu check-in na fila por sms.
-          </p>
+            <h1 style="font-weight: initial;font-size: 15px;">Crie seu cadastro no VemSemFila</h1>
 
           <form>
           <fieldset>
@@ -24,36 +19,36 @@
               </colgroup>
               
               <tr>
-                  <td colspan="4" class="title">INFORMAÇÕES OBRIGATÓRIAS:</td>
+                  <td colspan="4" class="title">INFORMAÇÕES OBRIGATÓRIAS</td>
               </tr>
               <tr>
-                  <td>*Nome</td>
+                  <td>Nome</td>
                   <td>
                     <input type="text" value="<?=(isset($user_profile['name'])) ? $user_profile['name'] : ''?>" name="nome"  />
                   </td>
-                  <td>*Sobrenome</td>
+                  <td>Sobrenome</td>
                   <td>
                       <input type="text" name="sobrenome" />
                   </td>
               </tr>
               <tr>
-                  <td>*Email</td>
+                  <td>Email</td>
                   <td colspan="3">
                       <input type="text" name="email" id='email' />
                   </td>
               </tr>
               <tr>
-                  <td>*Senha</td>
+                  <td>Senha</td>
                   <td>
                       <input type="password" name="senha" id='senha' />
                   </td>
-                  <td>*Confirmar senha</td>
+                  <td>Confirmar senha</td>
                   <td>
                       <input type="password" name="confirmasenha" />
                   </td>
               </tr>
               <tr>
-                  <td colspan="4" class="title">INFORMAÇÕES COMPLEMENTARES:</td>
+                  <td colspan="4" class="title">INFORMAÇÕES COMPLEMENTARES</td>
               </tr>
               <tr>
                   <td>Celular</td>
@@ -94,9 +89,8 @@
         </div>
 
         <div class="grid_4 prefix_1 omega">
-            <a href="#"><img src="/assets/img/pub01.jpg" width="173" height="292" alt="pub01" /></a><br />
-            <a href="#"><img src="/assets/img/pub02.jpg" width="173" height="260" alt="pub02" vspace="5" /></a><br />
-            <a href="#"><img src="/assets/img/pub03.jpg" width="173" height="171" alt="pub03" vspace="5" /></a><br />
+           <h1 style="margin-bottom: 10px;font-weight: initial;font-size: 15px;">Cadastre-se com</h1>
+           <img src="/assets/img/bt-facebook-cadastro.png" />
         </div>
 
     </div>

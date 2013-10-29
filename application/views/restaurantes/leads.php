@@ -6,7 +6,7 @@
   
         <div class="grid_19 alpha">
 
-          <h1>Sugestão de Restaurante:</h1>
+          <h1>Sugestão de Restaurante</h1>
 
           <p>
             Escolha uma opção: <br>

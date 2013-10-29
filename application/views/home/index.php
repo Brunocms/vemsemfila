@@ -5,13 +5,11 @@
 
         <div class="grid_19 alpha">
             
-            <h1><img src="/assets/img/icon_relogio_tit.jpg" width="17" height="17" align="absmiddle" /> Tempo de espera agora:</h1>
+            <h1><img src="/assets/img/icon_relogio_tit.jpg" width="17" height="17" align="absmiddle" /> Tempo de espera agora</h1>
             
             <div id="alerta">*Tempo de espera na fila baseado em mesa para 4 pessoas</div>
             
             <div id="gestao">
-
-                <div id="busca"><strong>Escreva o nome ou o bairro do resturante aqui: </strong><input name="" type="text" class="field3" /><a href="#">VEM</a> </div>
 
                 <table cellpadding="0" cellspacing="0">
                     <colgroup>
@@ -87,7 +85,7 @@
 
             </div>
             
-            <div id="destaques"><a href="cadastro_lead.html"><img src="/assets/img/banner_home.jpg" width="737" height="200" alt="vem!" title="vem!" /></a></div>
+            <div id="destaques"><a href="<?=base_url('restaurantes/leads')?>"><img src="/assets/img/banner_home.jpg" width="737" height="200" alt="vem!" title="vem!" /></a></div>
             
             <div id="download_app"><a href="#"><img src="/assets/img/banner_app_home.png" width="737" height="77" alt="baixe aqui nosso app!" title="baixe aqui nosso app!" /></a></div>
 
@@ -95,7 +93,7 @@
     
         <div class="grid_4 prefix_1 omega">
             <a href="#"><img src="/assets/img/pub01.jpg" width="173" height="292" alt="pub01" /></a><br />
-            <a href="#"><img src="/assets/img/pub02.jpg" width="173" height="260" alt="pub02" vspace="5" /></a><br />
+            <a href="<?=base_url('restaurantes/leads')?>"><img src="/assets/img/pub02.jpg" width="173" height="260" alt="pub02" vspace="5" /></a><br />
             <a href="#"><img src="/assets/img/pub03.jpg" width="173" height="171" alt="pub03" vspace="5" /></a><br />
         </div>
 

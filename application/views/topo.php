@@ -10,7 +10,7 @@
         <form action="<?=base_url('home/login')?>" method="POST">
             <span class="login">LOGIN</span><br /><input name="email" type="text" /><br /><br />
             <span class="login">SENHA</span><br /><input name="senha" type="text" /><span class="login2"> <a href="#">(Esqueceu?)</a></span>
-            <a href="#" class="bt">Vem!</a>
+            <button type="submit" class="bt">Vem!</button>
         </form>
         <span class="cadastro2">AINDA NÃO É CADASTRADO? <a href="<?=base_url('cadastro')?>">CLIQUE AQUI</a></span>
     </div>
@@ -33,22 +33,6 @@
     <div id="header_top">
         <div class="container_24">
             <div id="logo"><a href="<?=base_url('home')?>"><img src="/assets/img/logo.png" width="154" height="136" alt="logo" /></a></div>
-            <div class="grid_8 prefix_5">
-                <?php
-                    if($this->user->validate_session()) {
-                ?>
-                <a href="">Olá <?=$this->user->user_data->nome?>, seja bem vindo</a>
-                <?php
-                    }else{
-                ?>
-                <a href="#dialog2" name="modal">Faça seu login aqui!</a>
-                <?php
-                    }
-                ?>
-            </div>
-            <div class="grid_2 push_9 omega">
-                <p><a href="https://www.facebook.com/vemsemfila" target="_blank"><img src="/assets/img/icon_facebook.png" width="65" height="20" alt="facebook" /></a></p>
-            </div>
         </div>
     </div>
     
@@ -57,15 +41,18 @@
             <ul class="grid_24">
                 <li class="grid_4 prefix_5 alpha"><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
                 <li class="grid_3 alpha"><a href="<?=base_url('restaurantes')?>">Restaurantes</a></li>
-                <li class="grid_3 alpha"><a href="<?=base_url('quem_somos')?>">Quem somos</a></li>
                 <!--
+                <li class="grid_3 alpha"><a href="< ?=base_url('quem_somos')?>">Quem somos</a></li>
                 <li class="grid_2 alpha"><a href="< ?=base_url('faq')?>">FAQ</a></li>
                 <li class="grid_3 alpha omega"><a href="< ?=base_url('fale_conosco')?>">Fale Conosco</a></li>
                 -->
                 <?php
                     if(!$this->user->validate_session()) :
                 ?>
-                        <li class="grid_3 alpha"><a href="<?=base_url('cadastro')?>">Cadastre-se</a></li>
+                        <li class="grid_3 alpha">
+                            <div id="welcome"><a href="#dialog2" name="modal">Login</a></div>
+                            <a href="<?=base_url('login')?>">Login</a>|<a href="<?=base_url('cadastro')?>">Cadastre-se</a>
+                        </li>
                 <?php
                     else:
                 ?>
