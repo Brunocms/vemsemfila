@@ -4,15 +4,19 @@
 
 <div id="boxes">
     <!-- Janela Modal com Bloco de Nota -->
-    <div id="dialog2" class="window">
-        <img src="/assets/img/logo_login.png" width="161" height="135" />
-    
+    <div id="dialog2" class="window popin-login">
+        <img src="/assets/img/logo_login.png" width="81" height="67" />
         <form action="<?=base_url('home/login')?>" method="POST">
             <span class="login">LOGIN</span><br /><input name="email" type="text" /><br /><br />
-            <span class="login">SENHA</span><br /><input name="senha" type="password" /><span class="login2"> <a href="#">(Esqueceu?)</a></span>
-            <button type="submit" class="bt">Vem!</button>
+            <span class="login">SENHA</span><br /><input name="senha" type="password" />
+            <br>
+            <a href="#">Esqueceu sua senha, clique aqui</a><br><br>
+            <button type="submit">Vem!</button>
         </form>
-        <span class="cadastro2">AINDA NÃO É CADASTRADO? <a href="<?=base_url('cadastro')?>">CLIQUE AQUI</a></span>
+        <a href="#" class="facebook"><span class="fa fa-facebook-square"></span> Facebook </a> &nbsp;&nbsp;&nbsp;
+        <a href="#" class="googleplus"><span class="fa fa-google-plus-square"></span> Google+ </a>
+        <br><br>
+        <p>AINDA NÃO É CADASTRADO? <a href="<?=base_url('cadastro')?>">CLIQUE AQUI</a></p>
     </div>
 
     <div id="popin-esqueceu-senha" class="window">
