@@ -41,23 +41,17 @@
             <ul class="grid_24">
                 <li class="grid_4 prefix_5 alpha"><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
                 <li class="grid_3 alpha"><a href="<?=base_url('restaurantes')?>">Restaurantes</a></li>
-                <!--
-                <li class="grid_3 alpha"><a href="< ?=base_url('quem_somos')?>">Quem somos</a></li>
-                <li class="grid_2 alpha"><a href="< ?=base_url('faq')?>">FAQ</a></li>
-                <li class="grid_3 alpha omega"><a href="< ?=base_url('fale_conosco')?>">Fale Conosco</a></li>
-                -->
                 <?php
                     if(!$this->user->validate_session()) :
                 ?>
-                        <li class="grid_3 alpha">
-                            <div id="welcome"><a href="#dialog2" name="modal">Login</a></div>
-                            <a href="<?=base_url('login')?>">Login</a>|<a href="<?=base_url('cadastro')?>">Cadastre-se</a>
-                        </li>
+                    <li class="grid_6 alpha">
+                        <div id="welcome"><a href="#dialog2" name="modal">Login</a> | <a href="<?=base_url('cadastro')?>">Cadastre-se</div>
+                    </li>
                 <?php
                     else:
                 ?>
-                        <li class="grid_3 alpha"><a href="<?=base_url('cadastro')?>">Meus dados</a></li>
-                        <li class="grid_3 alpha"><a href="<?=base_url('usuario/logout')?>">Sair</a></li>
+                    <li class="grid_3 alpha"><a href="<?=base_url('cadastro')?>">Meus dados</a></li>
+                    <li class="grid_3 alpha"><a href="<?=base_url('usuario/logout')?>">Sair</a></li>
                 <?php
                     endif;
                 ?>
