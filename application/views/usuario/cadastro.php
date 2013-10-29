@@ -89,7 +89,7 @@
 
         <div class="grid_4 prefix_1 omega">
            <h1 style="margin-bottom: 10px;font-weight: initial;font-size: 15px;">Cadastre-se com</h1>
-           <img src="/assets/img/bt-facebook-cadastro.png" />
+           <a href='<?=$login_fb?>'> <img src="/assets/img/bt-facebook-cadastro.png" /></a>
         </div>
 
     </div>

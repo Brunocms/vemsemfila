@@ -5,7 +5,7 @@
 	
         <div class="grid_19 alpha">
 
-			<h1>Restaurantes:</h1>
+			<h1>Restaurantes</h1>
 
 			<div id="alerta">*Tempo de espera na fila baseado em mesa para 4 pessoas</div>
 
