@@ -871,6 +871,26 @@ border-radius: 6px;
 	float: right;
 }
 
+#cadastro-usuario .sidebar{
+	font-size: 16px;
+	line-height: 2em;
+}
+
+#cadastro-usuario .sidebar .facebook{
+	color: #3b5998;
+}
+
+#cadastro-usuario .sidebar .facebook span{
+	font-size: 24px;
+}
+
+#cadastro-usuario .sidebar .googleplus{
+	color: #E54E31;
+}
+
+#cadastro-usuario .sidebar .googleplus span{
+	font-size: 24px;
+}
 
 
 
