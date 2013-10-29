@@ -52,7 +52,7 @@
               </tr>
               <tr>
                   <td>Celular</td>
-                  <td><input type="text" name="celular" id="celular" /></td>
+                  <td><input type="text" name="telefone" id="telefone" /></td>
 
                   <td>CEP</td>
                   <td> <input type="text" id="cep" name="cep" /> </td>
@@ -75,7 +75,7 @@
                   <td>Endereço</td>
                   <td><input type="text" id="logradouro" name="logradouro"></td>
 
-                  <td>Nº <input type="text" id="num" name="num" class="smart"></td>
+                  <td>Nº <input type="text" id="numero" name="numero" class="smart"></td>
                   <td>Complemento <input type="text" id="complemento" name="complemento" class="medium"></td>
               </tr>
               </table>
@@ -89,8 +89,7 @@
 
         <div class="grid_4 prefix_1 omega sidebar">
            <h1 style="margin-bottom: 10px;font-weight: initial;font-size: 15px;">Cadastre-se com</h1>
-           
-           <p><a href="#" class="facebook"><span class="fa fa-facebook-square"></span> Facebook </a></p>
+           <p><a href="<?=$login_fb?>" class="facebook"><span class="fa fa-facebook-square"></span> Facebook </a></p>
            <p><a href="#" class="googleplus"><span class="fa fa-google-plus-square"></span> Google+ </a></p>
         </div>
 

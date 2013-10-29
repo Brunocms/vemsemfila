@@ -34,12 +34,23 @@ class User_manager {
 		
 		// first we must check if is a valid insert
 		if( ! $this->email_exists($data['email']) ) {
+
+            $emailData['template'] = 'welcome';
+            $data['nome'] = (isset($data['sobrenome'])) ? $data['nome'] . ' ' . $data['sobrenome']: $data['nome'];
+            unset($data['sobrenome']);
+
+            if (isset($data['method']) && $data['method'] == 'facebook')
+            {
+                $emailData['senha'] = $data['senha'];
+                $emailData['template'] = 'welcome_facebook';
+                $data['status'] = 1;
+                unset($data['method']);
+                unset($data['hash']);
+            }
 	
 			// generate the hashed password
 			$data['senha'] = $this->CI->bcrypt->hash($data['senha']);
-            $data['sobrenome'] = 'fake';
             unset($data['confirmasenha']);
-            unset($data['obs']);
 
 			// This login is fine, proceed
 			if ( $this->CI->db->insert('tb_usuario', $data))  {
@@ -51,7 +62,6 @@ class User_manager {
                 $emailData['id_usuario'] = $new_user_id;
                 $emailData['urlAtivacao'] = md5($new_user_id);
                 $emailData['to'] = $data['email'];
-                $emailData['template'] = 'welcome';
                 $this->CI->sendemail->sendSystemEmail($emailData);
 
 				// Return the new user id

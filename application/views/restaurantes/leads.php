@@ -10,11 +10,11 @@
 
           <p>
             Escolha uma opção: <br>
-            <input type="radio" name="restaurante_opcao" value="restaurante" checked> Tenho um Restaurante e gostaria de me conveniar ao VemSemFila<br>
-            <input type="radio" name="restaurante_opcao" value="cliente"> Sou um cliente e gostaria de indicar um Restaurante para o VemSemFila 
+            <input type="radio" id='type' name='restaurante_opcao' value="0"> Tenho um Restaurante e gostaria de me conveniar ao VemSemFila<br>
+            <input type="radio" id='type' name='restaurante_opcao' value="1"> Sou um cliente e gostaria de indicar um Restaurante para o VemSemFila
           </p>
 
-          <form>
+          <form id='cadastroForm'>
           <fieldset>
               <table cellspacing="3" cellpadding="0">
               <colgroup>

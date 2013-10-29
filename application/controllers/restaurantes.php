@@ -23,6 +23,7 @@ class Restaurantes extends CI_Controller {
 
     public function leads()
     {
+        $this->assets = addJS($this->assets, 'leads');
         $this->meta['header'] = $this->load->view('header', $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , '', true);

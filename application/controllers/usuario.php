@@ -29,19 +29,7 @@ class Usuario extends CI_Controller {
         if ($this->input->post('nome') != null)
             $this->_cadastrar();
 
-        $user = $this->facebook->getUser();
-
-
-        if ($user) {
-            try {
-                $this->meta['user_profile'] = $this->facebook->api('/me');
-                $this->meta['endereco'] = explode(',' , $this->meta['user_profile']['hometown']['name']);
-            } catch (FacebookApiException $e) {
-                echo 'nem ta';
-            }
-        }
-
-        $this->meta['login_fb'] = $this->facebook->getLoginUrl();
+        $this->meta['login_fb'] = $this->facebook->getLoginUrl(['scope' => 'email,offline_access,user_birthday,user_location,user_about_me,user_hometown', 'redirect_uri' => base_url('usuario/facebook_connect')]);
 
         $this->meta['header'] = $this->load->view('header', $this->assets, true);
         $this->meta['topo'] = $this->load->view('topo', '', true);
@@ -49,10 +37,44 @@ class Usuario extends CI_Controller {
         $this->load->view('usuario/cadastro', $this->meta);
     }
 
+    public function facebook_connect()
+    {
+        $user = $this->facebook->getUser();
+
+        if ($user) {
+            try {
+                $this->_cadastrar_facebook($this->facebook->api('/me'));
+            } catch (FacebookApiException $e) {
+                //echo 'nem ta';
+            }
+        }
+
+    }
+
+    public function cadastro_sucesso()
+    {
+        $this->user->on_valid_session(base_url('home'));
+        $this->meta['header'] = $this->load->view('header', $this->assets, true);
+        $this->meta['topo'] = $this->load->view('topo', '', true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->load->view('usuario/cadastro_sucesso', $this->meta);
+    }
+
+    private function _cadastrar_facebook($data)
+    {
+        $post['nome'] = $data['name'];
+        $post['senha'] = base64_encode($data['email']);
+        $post['method'] = 'facebook';
+        $post['email'] = $data['email'];
+        $this->user_manager->save_user($post);
+        $this->user->login($post);
+        redirect(base_url('home/index'));
+    }
+
     private function _cadastrar()
     {
         $this->user_manager->save_user($this->input->post());
-        redirect(base_url('home/index'));
+        redirect(base_url('usuario/cadastro_sucesso'));
     }
 
     public function ativacao($hashCode = null, $user = null)

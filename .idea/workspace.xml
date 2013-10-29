@@ -4,16 +4,16 @@
     <list default="true" id="26e6f4c1-4366-4d04-a40b-f09ece74edec" name="Default" comment="" />
     <ignored path="vemsemfilaMVC.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383066120716" ignored="false" />
+    <file path="/a.dummy" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383087738113" ignored="false" />
     <file path="/home.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383063578657" ignored="false" />
     <file path="/header.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383063295993" ignored="false" />
     <file path="/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383000922306" ignored="false" />
     <file path="/main.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326573645" ignored="false" />
     <file path="/usuarios.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380329674725" ignored="false" />
-    <file path="/cadastro.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383065025437" ignored="false" />
+    <file path="/cadastro.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383087961847" ignored="false" />
     <file path="/routes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382208861113" ignored="false" />
     <file path="/cadastro.js" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326059504" ignored="false" />
-    <file path="/usuario.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383064853253" ignored="false" />
+    <file path="/usuario.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383087778224" ignored="false" />
     <file path="/m_usuario.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380327890010" ignored="false" />
     <file path="/sendemail.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380395528800" ignored="false" />
     <file path="/welcome.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381009355477" ignored="false" />
@@ -36,8 +36,8 @@
     <file path="/fale_conosco.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676597549" ignored="false" />
     <file path="/faq.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381197774136" ignored="false" />
     <file path="/termos_de_uso.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676718868" ignored="false" />
-    <file path="/User_manager.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381009392471" ignored="false" />
-    <file path="/User.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381004223614" ignored="false" />
+    <file path="/User_manager.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383087905590" ignored="false" />
+    <file path="/User.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383087021000" ignored="false" />
     <file path="/restaurantes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383064182033" ignored="false" />
     <file path="/cadastro_rest.html" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380995533731" ignored="false" />
     <file path="/admin.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381008265642" ignored="false" />
@@ -69,11 +69,14 @@
     <file path="/Cdn.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383070038493" ignored="false" />
     <file path="/Dummy.txt" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383074574231" ignored="false" />
     <file path="$PROJECT_DIR$/../videologMVC/application/libraries/VideologAPI.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383079974677" ignored="false" />
-    <file path="$PROJECT_DIR$/../videologMVC/application/controllers/busca.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383079974677" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/application/controllers/busca.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383083561351" ignored="false" />
     <file path="$PROJECT_DIR$/../videologMVC/application/helpers/video_helper.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383079974677" ignored="false" />
-    <file path="$PROJECT_DIR$/../videologMVC/crossdomain.xml" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383079974677" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/crossdomain.xml" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383083418841" ignored="false" />
     <file path="$PROJECT_DIR$/../videologMVC/application/config/constants.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383079974677" ignored="false" />
-    <file path="$PROJECT_DIR$/../videologMVC/assets/css/base.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383080422522" ignored="false" />
+    <file path="$PROJECT_DIR$/../videologMVC/assets/css/base.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383083418841" ignored="false" />
+    <file path="/welcome_facebook.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383085612884" ignored="false" />
+    <file path="/cadastro_sucesso.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383087763374" ignored="false" />
+    <file path="/leads.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383088296334" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,73 +96,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/restaurantes/leads.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="32" selection-start="546" selection-end="546" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="16" selection-start="2904" selection-end="2941" vertical-scroll-proportion="0.386121">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leads.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/leads.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="20" selection-start="80" selection-end="92" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="restaurantes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="33" selection-start="312" selection-end="312" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topo.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/topo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="325" selection-end="325" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastro.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="51" selection-start="2933" selection-end="2933" vertical-scroll-proportion="-18.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assets.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/assets.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="158" selection-end="158" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="558" selection-end="558" vertical-scroll-proportion="-8.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="25" column="51" selection-start="729" selection-end="729" vertical-scroll-proportion="-10.208333">
               <folding />
             </state>
           </provider>
@@ -175,22 +142,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/m_restaurantes.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin/home.php" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/application/views/home/index.php" />
-        <option value="$PROJECT_DIR$/application/views/restaurantes/leads.php" />
-        <option value="$PROJECT_DIR$/application/views/header.php" />
-        <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/constants.php" />
-        <option value="$PROJECT_DIR$/application/views/usuario/cadastro.php" />
         <option value="$PROJECT_DIR$/application/config/assets.php" />
-        <option value="$PROJECT_DIR$/application/controllers/restaurantes.php" />
         <option value="$PROJECT_DIR$/application/controllers/home.php" />
-        <option value="$PROJECT_DIR$/application/controllers/usuario.php" />
         <option value="$PROJECT_DIR$/system/core/Output.php" />
         <option value="$PROJECT_DIR$/application/views/topo.php" />
+        <option value="$PROJECT_DIR$/application/views/home/como_funciona.php" />
+        <option value="$PROJECT_DIR$/application/views/restaurantes/index.php" />
+        <option value="$PROJECT_DIR$/application/views/base/emails/welcome_facebook.php" />
+        <option value="$PROJECT_DIR$/application/libraries/email/sendemail.php" />
+        <option value="$PROJECT_DIR$/application/libraries/user/User.php" />
+        <option value="$PROJECT_DIR$/application/views/usuario/cadastro_sucesso.php" />
+        <option value="$PROJECT_DIR$/application/controllers/usuario.php" />
+        <option value="$PROJECT_DIR$/application/libraries/user/User_manager.php" />
+        <option value="$PROJECT_DIR$/application/views/usuario/cadastro.php" />
+        <option value="$PROJECT_DIR$/application/controllers/restaurantes.php" />
+        <option value="$PROJECT_DIR$/application/views/restaurantes/leads.php" />
       </list>
     </option>
   </component>
@@ -255,38 +222,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -306,24 +241,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,7 +290,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usuario" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,7 +312,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="restaurantes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,7 +407,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cyclumapi" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -417,11 +422,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/application/views/usuario" />
+      <recent name="$PROJECT_DIR$/application/views/base/emails" />
       <recent name="$PROJECT_DIR$/application/config" />
       <recent name="$PROJECT_DIR$/application/helpers" />
-      <recent name="$PROJECT_DIR$/application/models" />
-      <recent name="$PROJECT_DIR$/application/views/admin/restaurantes" />
-      <recent name="$PROJECT_DIR$/application/controllers/admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/views/admin/home" />
@@ -466,6 +471,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="256" y="105" width="317" height="625" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24626279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -477,7 +483,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -542,116 +547,125 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/admin/restaurantes/index.php">
+    <entry file="file://$PROJECT_DIR$/application/views/home/como_funciona.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="96" selection-end="96" vertical-scroll-proportion="0.034782607" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/restaurantes/leads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="175" selection-end="175" vertical-scroll-proportion="0.026690392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="56" selection-start="5095" selection-end="5095" vertical-scroll-proportion="0.6530249">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="35" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.79130435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="45" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.5043478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/helpers/global_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="179" selection-end="447" vertical-scroll-proportion="0.026086956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/assets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="158" selection-end="158" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="312" selection-end="312" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="51" selection-start="2933" selection-end="2933" vertical-scroll-proportion="-18.125">
+        <state line="6" column="33" selection-start="159" selection-end="159" vertical-scroll-proportion="0.16014235">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125">
+        <state line="52" column="67" selection-start="1741" selection-end="1741" vertical-scroll-proportion="1.3565217">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/Output.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/facebook/base_facebook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="4" selection-start="2612" selection-end="2612" vertical-scroll-proportion="0.41589648">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1913044">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/facebook/facebook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="325" selection-end="325" vertical-scroll-proportion="-7.5">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.39130434">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/header.php">
+    <entry file="file://$PROJECT_DIR$/application/views/base/emails/welcome_facebook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="558" selection-end="558" vertical-scroll-proportion="-8.75">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/base/emails/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="69" selection-start="120" selection-end="120" vertical-scroll-proportion="0.052173913">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/topo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="59" column="10" selection-start="2721" selection-end="2721" vertical-scroll-proportion="-16.25">
+          <folding>
+            <marker date="1383087647310" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383087647310" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383087647310" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383087647310" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/email/sendemail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="43" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="38" selection-start="3693" selection-end="3693" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/user/User_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="38" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-5.2916665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro_sucesso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="91" selection-start="231" selection-end="231" vertical-scroll-proportion="0.21352313">
+          <folding>
+            <element signature="e#156#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="8" selection-start="689" selection-end="738" vertical-scroll-proportion="0.24199288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/leads.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="80" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="51" selection-start="729" selection-end="729" vertical-scroll-proportion="-10.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/restaurantes/leads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="546" selection-end="546" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="16" selection-start="2904" selection-end="2941" vertical-scroll-proportion="0.386121">
           <folding />
         </state>
       </provider>
