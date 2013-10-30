@@ -98,66 +98,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="leads.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/restaurantes/leads.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="62" selection-start="2688" selection-end="2688" vertical-scroll-proportion="-20.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restaurantes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="358" selection-end="358" vertical-scroll-proportion="-8.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topo.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="topo.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/topo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="31" selection-start="649" selection-end="649" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registro_sucesso.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/usuario/registro_sucesso.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-8.75">
-              <folding>
-                <element signature="e#156#201#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m_restaurantes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/m_restaurantes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="801" selection-end="801" vertical-scroll-proportion="-19.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usuario.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="47" selection-start="4092" selection-end="4092" vertical-scroll-proportion="-15.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0036101">
+            <state line="56" column="114" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.7064057">
               <folding />
             </state>
           </provider>
@@ -182,13 +126,13 @@
         <option value="$PROJECT_DIR$/application/libraries/user/User_manager.php" />
         <option value="$PROJECT_DIR$/assets/js/leads.js" />
         <option value="$PROJECT_DIR$/application/views/usuario/cadastro.php" />
-        <option value="$PROJECT_DIR$/application/views/topo.php" />
         <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/application/models/m_restaurantes.php" />
         <option value="$PROJECT_DIR$/application/views/restaurantes/leads.php" />
         <option value="$PROJECT_DIR$/application/controllers/restaurantes.php" />
         <option value="$PROJECT_DIR$/application/views/usuario/registro_sucesso.php" />
         <option value="$PROJECT_DIR$/application/controllers/usuario.php" />
+        <option value="$PROJECT_DIR$/application/views/topo.php" />
       </list>
     </option>
   </component>
@@ -225,6 +169,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,12 +414,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cyclumapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -511,14 +455,14 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -540,7 +484,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="256" y="105" width="317" height="625" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2501967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2541306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -620,9 +564,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/views/base/emails/welcome_facebook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/base/emails/welcome.php">
@@ -632,102 +574,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/email/sendemail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="43" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
+        <state line="44" column="43" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-13.125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="38" selection-start="3693" selection-end="3693" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
+        <state line="149" column="38" selection-start="3693" selection-end="3693" vertical-scroll-proportion="-1.875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro_sucesso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="91" selection-start="231" selection-end="231" vertical-scroll-proportion="0.21352313">
-          <folding>
-            <element signature="e#156#201#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="91" selection-start="231" selection-end="231" vertical-scroll-proportion="0.21352313" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/leads.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="64" selection-start="891" selection-end="891" vertical-scroll-proportion="0.7512521">
-          <folding />
-        </state>
+        <state line="30" column="64" selection-start="891" selection-end="891" vertical-scroll-proportion="0.7512521" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="275" selection-end="275" vertical-scroll-proportion="0.24021353">
-          <folding />
-        </state>
+        <state line="9" column="36" selection-start="275" selection-end="275" vertical-scroll-proportion="0.24021353" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/user/User_manager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="33" selection-start="785" selection-end="797" vertical-scroll-proportion="0.24021353">
-          <folding />
-        </state>
+        <state line="35" column="33" selection-start="785" selection-end="797" vertical-scroll-proportion="0.24021353" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="70" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.74733096">
-          <folding />
-        </state>
+        <state line="70" column="70" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.74733096" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_restaurantes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="801" selection-end="801" vertical-scroll-proportion="-19.375">
+        <state line="31" column="20" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/restaurantes/leads.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="62" selection-start="2688" selection-end="2688" vertical-scroll-proportion="-20.0">
+        <state line="71" column="62" selection-start="2688" selection-end="2688" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/restaurantes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="358" selection-end="358" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/topo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="649" selection-end="649" vertical-scroll-proportion="-9.375">
+        <state line="13" column="45" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/usuario/registro_sucesso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-8.75">
-          <folding>
-            <element signature="e#156#201#0" expanded="true" />
-          </folding>
+        <state line="14" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="47" selection-start="4092" selection-end="4092" vertical-scroll-proportion="-15.625">
+        <state line="108" column="47" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0036101">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/topo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="114" selection-start="2735" selection-end="2735" vertical-scroll-proportion="0.7064057">
           <folding />
         </state>
       </provider>
