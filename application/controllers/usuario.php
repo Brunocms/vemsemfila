@@ -63,7 +63,7 @@ class Usuario extends CI_Controller {
             try {
                 $this->_cadastrar_facebook($this->facebook->api('/me'));
             } catch (FacebookApiException $e) {
-                //echo 'nem ta';
+                redirect(base_url('home/index'));
             }
         }
 

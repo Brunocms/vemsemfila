@@ -10,7 +10,7 @@
     <file path="/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383000922306" ignored="false" />
     <file path="/main.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326573645" ignored="false" />
     <file path="/usuarios.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380329674725" ignored="false" />
-    <file path="/cadastro.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383087961847" ignored="false" />
+    <file path="/cadastro.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383176115959" ignored="false" />
     <file path="/routes.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382208861113" ignored="false" />
     <file path="/cadastro.js" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380326059504" ignored="false" />
     <file path="/usuario.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383100370006" ignored="false" />
@@ -30,7 +30,7 @@
     <file path="/base.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1382395638656" ignored="false" />
     <file path="$PROJECT_DIR$/../cyclumapi/application/views/groups/index.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380342008627" ignored="false" />
     <file path="$PROJECT_DIR$/../cyclumapi/assets/css/app.v1.css" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380342955739" ignored="false" />
-    <file path="/topo.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383100415544" ignored="false" />
+    <file path="/topo.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1383176658857" ignored="false" />
     <file path="/quem_somos.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381003313337" ignored="false" />
     <file path="/como_funciona.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1381197746996" ignored="false" />
     <file path="/fale_conosco.php" changelist="26e6f4c1-4366-4d04-a40b-f09ece74edec" time="1380676597549" ignored="false" />
@@ -101,16 +101,36 @@
       <file leaf-file-name="topo.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/topo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="114" selection-start="2735" selection-end="2735" vertical-scroll-proportion="-35.0">
+            <state line="56" column="64" selection-start="2685" selection-end="2685" vertical-scroll-proportion="-14.375">
+              <folding>
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="116" selection-start="3607" selection-end="3607" vertical-scroll-proportion="-17.791666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="54" selection-start="533" selection-end="533" vertical-scroll-proportion="0.26086956">
+            <state line="175" column="46" selection-start="4516" selection-end="4527" vertical-scroll-proportion="-73.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="49" selection-start="2580" selection-end="2580" vertical-scroll-proportion="0.24199288">
               <folding />
             </state>
           </provider>
@@ -133,15 +153,15 @@
         <option value="$PROJECT_DIR$/application/views/usuario/cadastro_sucesso.php" />
         <option value="$PROJECT_DIR$/application/libraries/user/User_manager.php" />
         <option value="$PROJECT_DIR$/assets/js/leads.js" />
-        <option value="$PROJECT_DIR$/application/views/usuario/cadastro.php" />
         <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/application/models/m_restaurantes.php" />
         <option value="$PROJECT_DIR$/application/views/restaurantes/leads.php" />
         <option value="$PROJECT_DIR$/application/controllers/restaurantes.php" />
         <option value="$PROJECT_DIR$/application/views/usuario/registro_sucesso.php" />
-        <option value="$PROJECT_DIR$/application/controllers/usuario.php" />
-        <option value="$PROJECT_DIR$/application/views/topo.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/views/usuario/cadastro.php" />
+        <option value="$PROJECT_DIR$/application/views/topo.php" />
+        <option value="$PROJECT_DIR$/application/controllers/usuario.php" />
       </list>
     </option>
   </component>
@@ -359,28 +379,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="email" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -400,24 +398,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vemsemfilaMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -581,11 +561,6 @@
         <state line="44" column="43" selection-start="1266" selection-end="1266" vertical-scroll-proportion="-13.125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="38" selection-start="3693" selection-end="3693" vertical-scroll-proportion="-1.875" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro_sucesso.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="91" selection-start="231" selection-end="231" vertical-scroll-proportion="0.21352313" />
@@ -594,11 +569,6 @@
     <entry file="file://$PROJECT_DIR$/assets/js/leads.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="64" selection-start="891" selection-end="891" vertical-scroll-proportion="0.7512521" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="275" selection-end="275" vertical-scroll-proportion="0.24021353" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/user/User_manager.php">
@@ -639,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="47" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -653,16 +616,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/topo.php">
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="114" selection-start="2735" selection-end="2735" vertical-scroll-proportion="-35.0">
+        <state line="16" column="54" selection-start="533" selection-end="533" vertical-scroll-proportion="0.26086956">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/user/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="54" selection-start="533" selection-end="533" vertical-scroll-proportion="0.26086956">
+        <state line="175" column="46" selection-start="4516" selection-end="4527" vertical-scroll-proportion="-73.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/usuario/cadastro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="116" selection-start="3607" selection-end="3607" vertical-scroll-proportion="-17.791666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/topo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="64" selection-start="2685" selection-end="2685" vertical-scroll-proportion="-14.375">
+          <folding>
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#2;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="49" selection-start="2580" selection-end="2580" vertical-scroll-proportion="0.24199288">
           <folding />
         </state>
       </provider>

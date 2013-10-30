@@ -54,7 +54,7 @@
                 <?php
                     else:
                 ?>
-                    <li class="grid_3 alpha"><a href="<?=base_url('cadastro')?>"><span class="fa fa-user"></span> Meus dados</a></li>
+                    <li class="grid_3 alpha" style="width: 130px"><a href="<?=base_url('cadastro')?>"><span class="fa fa-user"></span> <?=$this->user->user_data->nome?></a></li>
                     <li class="grid_3 alpha"><a href="<?=base_url('usuario/logout')?>">Sair <span class="fa fa-sign-out"></span></a></li>
                 <?php
                     endif;
