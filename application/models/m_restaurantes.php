@@ -26,6 +26,12 @@ class m_restaurantes extends CI_Model{
         return $query->result();
     }
 
+    public function novo_lead($data)
+    {
+        $this->db->insert('tb_leads', $data);
+        return true;
+    }
+
     public function restaurante($id)
     {
         $this->db->select('*');

@@ -14,7 +14,7 @@
             <input type="radio" id='type' name='restaurante_opcao' value="1"> Sou um cliente e gostaria de indicar um Restaurante para o VemSemFila
           </p>
 
-          <form id='cadastroForm'>
+          <form id='cadastroForm' method="POST" action="#">
           <fieldset>
               <table cellspacing="3" cellpadding="0">
               <colgroup>
@@ -55,21 +55,21 @@
               </tr>
               <tr class="cliente">
                   <td>País</td>
-                  <td><select><option>Brasil</option></select></td>
+                  <td><select name='pais'><option>Brasil</option></select></td>
 
                   <td>Estado</td>
-                  <td><select><option>RJ</option></select></td>
+                  <td><select name='estado'><option>RJ</option></select></td>
               </tr>
               <tr class="cliente">
                   <td>Cidade</td>
-                  <td><select><option>Rio de Janeiro</option></select></td>
+                  <td><select name='cidade'><option>Rio de Janeiro</option></select></td>
 
                   <td>Bairro</td>
-                  <td><select><option>Barra da Tijuca</option></select></td>
+                  <td><select name='bairro'><option>Barra da Tijuca</option></select></td>
               </tr>
               <tr>
                   <td>Observação</td>
-                  <td colspan="3"><textarea class="big"></textarea></td>
+                  <td colspan="3"><textarea name='observacao' class="big"></textarea></td>
               </tr>
               </table>
 

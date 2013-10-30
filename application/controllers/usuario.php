@@ -102,7 +102,11 @@ class Usuario extends CI_Controller {
 
         if ($this->user_manager->activate($hashCode, $user))
         {
-            echo 'ativado!';
+            $this->user->on_valid_session(base_url('home'));
+            $this->meta['header'] = $this->load->view('header', $this->assets, true);
+            $this->meta['topo'] = $this->load->view('topo', $this->assets, true);
+            $this->meta['footer'] = $this->load->view('footer', '', true);
+            $this->load->view('usuario/registro_sucesso', $this->meta);
         }else{
             echo 'dados incorretos!';
         }
