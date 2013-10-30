@@ -28,9 +28,13 @@ $().ready(function() {
 
     $("input[name=restaurante_opcao]").change(function(){
         if ($(this).val() == "1") {
-            $("tr.cliente input").rules( "remove", "required" );
+            $.each($("tr.cliente input"), function(k,v){
+                $(v).rules( "remove", "required" );
+            })
         } else {
-            $("tr.cliente input").rules( "add", "required" );
+            $.each($("tr.cliente input"), function(k,v){
+                $(v).rules( "add", "required" );
+            })
         };
     });
 
