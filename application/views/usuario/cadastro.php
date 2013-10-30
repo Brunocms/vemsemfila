@@ -7,7 +7,7 @@
         <div class="grid_19 alpha">
 
             <h1 style="font-weight: initial;font-size: 15px;">Crie seu cadastro no VemSemFila</h1>
-
+            <?=validation_errors()?>
           <form id='cadastroForm' method="POST" action="#">
           <fieldset>
               <table cellspacing="3" cellpadding="0">

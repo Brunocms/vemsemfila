@@ -11,28 +11,46 @@ class Usuario extends CI_Controller {
         $this->load->model('m_usuario');
         $this->assets = loadAssets();
         $this->output->nocache();
+        $this->assets['login_fb'] = $this->facebook->getLoginUrl(['scope' => 'email,offline_access,user_birthday,user_location,user_about_me,user_hometown', 'redirect_uri' => base_url('usuario/facebook_connect')]);
+
+    }
+
+    public function _checkUserExist($identify) {
+        if (!$this->user_manager->email_exists($identify)) {
+            return true;
+        } else {
+            $this->form_validation->set_message("_checkUserExist", '%s já cadastrado');
+            return false;
+        }
     }
 
 	public function index()
 	{
         $this->meta['header'] = $this->load->view('header', $this->assets, true);
-        $this->meta['topo'] = $this->load->view('topo', '', true);
+        $this->meta['topo'] = $this->load->view('topo', $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->load->view('home/index', $this->meta);
 	}
 
     public function cadastro()
     {
+        $this->load->library('form_validation');
         $this->assets = addJS($this->assets, 'cadastro');
         $this->user->on_valid_session(base_url('home'));
 
-        if ($this->input->post('nome') != null)
+        $this->form_validation->set_rules('nome', 'Nome', 'required');
+        $this->form_validation->set_rules('sobrenome', 'Sobrenome', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required|callback__checkUserExist');
+        $this->form_validation->set_rules('senha', 'Senha', 'required');
+
+        if ($this->form_validation->run()) {
             $this->_cadastrar();
+        }
 
         $this->meta['login_fb'] = $this->facebook->getLoginUrl(['scope' => 'email,offline_access,user_birthday,user_location,user_about_me,user_hometown', 'redirect_uri' => base_url('usuario/facebook_connect')]);
 
         $this->meta['header'] = $this->load->view('header', $this->assets, true);
-        $this->meta['topo'] = $this->load->view('topo', '', true);
+        $this->meta['topo'] = $this->load->view('topo', $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->load->view('usuario/cadastro', $this->meta);
     }
@@ -55,7 +73,7 @@ class Usuario extends CI_Controller {
     {
         $this->user->on_valid_session(base_url('home'));
         $this->meta['header'] = $this->load->view('header', $this->assets, true);
-        $this->meta['topo'] = $this->load->view('topo', '', true);
+        $this->meta['topo'] = $this->load->view('topo', $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->load->view('usuario/cadastro_sucesso', $this->meta);
     }

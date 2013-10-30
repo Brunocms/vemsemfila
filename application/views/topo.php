@@ -13,8 +13,8 @@
             <a href="#">Esqueceu sua senha, clique aqui</a><br><br>
             <button type="submit">Vem!</button>
         </form>
-        <a href="#" class="facebook"><span class="fa fa-facebook-square"></span> Facebook </a> &nbsp;&nbsp;&nbsp;
-        <a href="#" class="googleplus"><span class="fa fa-google-plus-square"></span> Google+ </a>
+        <a href="<?=$login_fb?>" class="facebook"><span class="fa fa-facebook-square"></span> Facebook </a> &nbsp;&nbsp;&nbsp;
+   <!--     <a href="#" class="googleplus"><span class="fa fa-google-plus-square"></span> Google+ </a> -->
         <br><br>
         <p>AINDA NÃO É CADASTRADO? <a href="<?=base_url('cadastro')?>">CLIQUE AQUI</a></p>
     </div>
