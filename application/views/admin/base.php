@@ -103,16 +103,6 @@
                         <li><a href="<?=base_url('admin/restaurantes/cadastro')?>">Cadastrar</a></li>
 	    			</ul>
 	    		</li>
-	    		<li>
-	    			<a href="javascript:void(0);"><img src="/assets/admin/img/icons/packs/fugue/16x16/newspaper.png">Another Submenu</a>
-	    			<ul class="sub">
-	    				<li><a href="javascript:void(0);">Lorem ipsum</a></li>
-	    				<li><a href="javascript:void(0);">Lorem ipsum</a></li>
-	    				<li><a href="javascript:void(0);">Lorem ipsum</a></li>
-	    				<li><a href="javascript:void(0);">Lorem ipsum</a></li>
-	    				<li><a href="javascript:void(0);">Lorem ipsum</a></li>
-	    			</ul>
-	    		</li>
 	    	</ul>
     	</nav> <!--! end of #nav -->
     	
