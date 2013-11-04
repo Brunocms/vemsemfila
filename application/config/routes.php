@@ -51,6 +51,7 @@ $route['fale_conosco'] = 'home/fale_conosco';
 $route['faq'] = 'home/faq';
 $route['quem_somos'] = 'home/quem_somos';
 $route['termos'] = 'home/termos_de_uso';
+$route['fila'] = 'restaurantes/fila';
 
 
 

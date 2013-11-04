@@ -962,3 +962,54 @@ border-radius: 6px;
 	clear: both;
 	margin-left: 0px;
 }
+
+
+
+#gestao-fila{}
+
+#gestao-fila .menu{
+
+}
+
+#gestao-fila .menu li{
+	padding: 20px;
+	background-color: #FF6100;
+	list-style: none;
+}
+
+#gestao-fila .menu li.special{
+	padding: 20px;
+	background-color: #a4a4a4;
+}
+
+#gestao-fila .menu li a{
+	color: #fff;
+}
+
+#gestao-fila .content{}
+
+#gestao-fila .content .header{}
+
+#gestao-fila .content .header .nome-estabelecimento{
+
+}
+
+#gestao-fila .content .header .title{
+	text-align: center;
+}
+
+#gestao-fila .content .header .date-and-location{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
