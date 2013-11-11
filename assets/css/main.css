@@ -980,6 +980,7 @@ border-radius: 6px;
 	cursor: pointer;
 }
 
+#gestao-fila .menu li.selected,
 #gestao-fila .menu li:hover{
 	background-color: #FF6100;
 }
@@ -1012,6 +1013,8 @@ border-radius: 6px;
 #gestao-fila .content .abrir-fila{
 	text-align: center;
 	margin-top: 20px;
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 20px;
 }
 
 a.bt.medium{
@@ -1026,8 +1029,28 @@ a.bt.medium{
 	display: inline-block;
 }
 
+#gestao-fila .content .busca{
+	text-align: center;
+	margin-top: 20px;
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 20px;
+}
 
+#gestao-fila .content .busca form{
+	background-color: #fff;
+	width: 200px;
+	padding: 15px 10px;
+	margin: 0 auto;
+	border: 2px solid #e6e6e6;
+	border-radius: 10px;
+}
 
+#gestao-fila .content .busca input{
+	font-size: 14px;
+	border: none;
+	width: 150px;
+	margin-right: 10px;
+}
 
 
 
