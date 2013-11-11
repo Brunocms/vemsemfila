@@ -972,38 +972,59 @@ border-radius: 6px;
 }
 
 #gestao-fila .menu li{
-	padding: 20px;
-	background-color: #FF6100;
+	padding: 15% 0;
+	background-color: #a4a4a4;
 	list-style: none;
+	margin-bottom: 1px;
+	text-align: center;
+	cursor: pointer;
 }
 
-#gestao-fila .menu li.special{
-	padding: 20px;
-	background-color: #a4a4a4;
+#gestao-fila .menu li:hover{
+	background-color: #FF6100;
 }
 
 #gestao-fila .menu li a{
 	color: #fff;
 }
 
-#gestao-fila .content{}
-
-#gestao-fila .content .header{}
-
-#gestao-fila .content .header .nome-estabelecimento{
-
+#gestao-fila .header{
+	overflow: auto;
+	padding: 1%;
+	border-bottom: 1px solid #dfdfdf; 
 }
 
-#gestao-fila .content .header .title{
+#gestao-fila .header .title{
 	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
 }
 
-#gestao-fila .content .header .date-and-location{
+#gestao-fila .header .date-and-location{
 	text-align: right;
 }
 
+#gestao-fila .content{
+	clear: both;
+	overflow: auto;
+}
 
+#gestao-fila .content .abrir-fila{
+	text-align: center;
+	margin-top: 20px;
+}
 
+a.bt.medium{
+	background-color: #37D500;
+	color: #fff;
+	font-weight: bold;
+	width: 150px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	font-size: 20px;
+	display: inline-block;
+}
 
 
 

@@ -18,22 +18,27 @@
 
     	<div class="grid_2 menu">
     		<ul>
-    			<li class="special"><a href="#">VemSemFila</a></li>
-    			<li><a href="#">Gestão de Fila</a></li>
-    			<li><a href="#">Reservas</a></li>
-    			<li><a href="#">Clientes</a></li>
-    			<li><a href="#">Fechar Fila</a></li>
-    			<li class="special"><a href="#">Estatísticas</a></li>
+    			<li><a href="#"><img src="/assets/img/icones/hostess/ico-vemsemfila.png" width="65" height="47"><br><br>VemSemFila </a></li>
+    			<li><a href="#"><img src="/assets/img/icones/hostess/ico-gestao-fila.png" width="51" height="50"><br><br>Gestão de Fila</a></li>
+    			<li><a href="#"><img src="/assets/img/icones/hostess/ico-reservas.png" width="41" height="41"><br><br>Reservas</a></li>
+    			<li><a href="#"><img src="/assets/img/icones/hostess/ico-clientes.png" width="41" height="51"><br><br>Clientes</a></li>
+    			<li><a href="#"><img src="/assets/img/icones/hostess/ico-fechar-fila.png" width="38" height="49"><br><br>Fechar Fila</a></li>
+    			<li><a href="#"><img src="/assets/img/icones/hostess/ico-logout.png" width="43" height="41"><br><br>Logout</a></li>
     		</ul>
     	</div>
 
 
-    	<div class="grid_18 content">
+    	<div class="grid_18">
     		<div class="header">
-    			<div class="grid_3 nome-estabelecimento">Restaurante Ráscal Shopping Leblon</div>
-    			<div class="grid_14 title">GESTÃO DE FILA</div>
-    			<div class="grid_3 date-and-location">Rio de Janeiro, 30 de junho de 2013</div>
+    			<div class="grid_4 nome-estabelecimento">Restaurante Ráscal Shopping Leblon</div>
+    			<div class="grid_12 title">GESTÃO DE FILA</div>
+    			<div class="grid_4 date-and-location">Rio de Janeiro, 30 de junho de 2013</div>
     		</div>
+            <div class="content">
+                <div class="abrir-fila">
+                    <a href="#" class="bt medium">ABRIR FILA</a>
+                </div>
+            </div>
     	</div>
 
 	</div>
