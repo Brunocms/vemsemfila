@@ -10,6 +10,10 @@ body {
 	background-color:#ebebeb;
 }
 
+.clear{clear: both;}
+
+fieldset{border: none;}
+
 a:link,
 a:visited,
 a:hover,
@@ -21,13 +25,54 @@ a.facebook span{font-size: 24px; }
 a.googleplus{color: #E54E31 !important; }
 a.googleplus span{font-size: 24px; }
 
-.clear{
-	clear: both;
+a.bt.biggest{
+	color: #fff;
+	font-weight: bold;
+	width: 150px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	font-size: 20px;
+	display: inline-block;
 }
 
-fieldset{
-	border: none;
+a.bt.medium{
+	color: #fff;
+	font-weight: bold;
+	width: 150px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	font-size: 12px;
+	display: inline-block;
 }
+
+a.bt.small{
+	color: #fff;
+	width: 80px;
+	padding: 4px;
+	border-radius: 6px;
+	border: 2px solid #fff;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.green{
+	background-color: #37D500;
+}
+
+.yellow{
+	background-color: #FBD100;
+}
+
+.orange{
+	background-color: #FF6100;
+}
+
+.gray{
+	background-color: #c2c2c2;
+}
+
 
 #header.interno{
 	height: 150px;
@@ -1008,38 +1053,24 @@ border-radius: 6px;
 #gestao-fila .content{
 	clear: both;
 	overflow: auto;
+	margin-top: 20px;
 }
 
 #gestao-fila .content .abrir-fila{
 	text-align: center;
-	margin-top: 20px;
 	border-bottom: 1px solid #dfdfdf;
 	padding-bottom: 20px;
 }
 
-a.bt.medium{
-	background-color: #37D500;
-	color: #fff;
-	font-weight: bold;
-	width: 150px;
-	padding: 10px 20px;
-	border-radius: 10px;
-	border: 2px solid #fff;
-	font-size: 20px;
-	display: inline-block;
-}
-
 #gestao-fila .content .busca{
 	text-align: center;
-	margin-top: 20px;
-	border-bottom: 1px solid #dfdfdf;
 	padding-bottom: 20px;
 }
 
 #gestao-fila .content .busca form{
 	background-color: #fff;
 	width: 200px;
-	padding: 15px 10px;
+	padding: 10px;
 	margin: 0 auto;
 	border: 2px solid #e6e6e6;
 	border-radius: 10px;
@@ -1052,9 +1083,13 @@ a.bt.medium{
 	margin-right: 10px;
 }
 
+#gestao-fila .content table {
+	border-top: 2px solid #bfbfbf;
+}
+
 #gestao-fila .content table thead th{
 	background-color: #d9d9d9;
-	line-height: 2em;
+	line-height: 3em;
 	text-align: center;
 }
 
@@ -1070,5 +1105,47 @@ a.bt.medium{
 #gestao-fila .content table tbody tr:nth-child(odd) {
 	background-color: #f4f4f4;
 }
+
+#gestao-fila .content table tbody tr.special td{
+	background-color: #FCB3B1;
+}
+
+#gestao-fila .content .submenu{
+	overflow: auto;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#gestao-fila .content .submenu .tempo-mesa{
+	background-color: #FBD100;
+	text-align: center;
+	padding: 12px;
+	color: #fff;
+}
+
+#gestao-fila .content .mesas-configuradas{}
+
+#gestao-fila .content .mesas-configuradas li{
+	text-align: center;
+	font-size: 24px;
+	background-color: #d9d9d9;
+	padding: 20px 0;
+	color: #666;
+}
+
+#gestao-fila .content .mesas-configuradas li:first-child{
+	border-left: none;
+}
+
+#gestao-fila .content .mesas-configuradas li.selected{
+	background-color: #FDC700;
+	color: #fff;
+}	
+
+
+
+
+
+
+
 
 

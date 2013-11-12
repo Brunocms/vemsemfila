@@ -41,6 +41,15 @@ class Restaurantes extends CI_Controller {
         $this->load->view('restaurantes/leads', $this->meta);
     }
 
+    public function abrir_fila()
+    {
+        $this->assets = addJS($this->assets, 'leads');
+        $this->meta['header'] = $this->load->view('header', $this->assets, true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->meta['topo'] = $this->load->view('topo' , $this->assets, true);
+        $this->load->view('restaurantes/abrir_fila', $this->meta);
+    }
+
     public function fila()
     {
         $this->assets = addJS($this->assets, 'leads');
