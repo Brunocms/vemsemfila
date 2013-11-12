@@ -1052,8 +1052,23 @@ a.bt.medium{
 	margin-right: 10px;
 }
 
+#gestao-fila .content table thead th{
+	background-color: #d9d9d9;
+	line-height: 2em;
+	text-align: center;
+}
 
+#gestao-fila .content table tbody td{
+	text-align: center;
+	padding: 1em 0;
+}
 
+#gestao-fila .content table tbody tr:nth-child(even) {
+	background-color: #ebebeb;
+}
 
+#gestao-fila .content table tbody tr:nth-child(odd) {
+	background-color: #f4f4f4;
+}
 
 

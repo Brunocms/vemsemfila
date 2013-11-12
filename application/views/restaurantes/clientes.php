@@ -67,6 +67,27 @@
                             <td>21/07 - 19h30</td>
                             <td>NO-SHOW</td>
                         </tr>
+                        <tr>
+                            <td>Fulano de Tal</td>
+                            <td>fulano@hotmail.com</td>
+                            <td>(21) 91234-1234</td>
+                            <td>21/07 - 19h30</td>
+                            <td>NO-SHOW</td>
+                        </tr>
+                        <tr>
+                            <td>Fulano de Tal</td>
+                            <td>fulano@hotmail.com</td>
+                            <td>(21) 91234-1234</td>
+                            <td>21/07 - 19h30</td>
+                            <td>NO-SHOW</td>
+                        </tr>
+                        <tr>
+                            <td>Fulano de Tal</td>
+                            <td>fulano@hotmail.com</td>
+                            <td>(21) 91234-1234</td>
+                            <td>21/07 - 19h30</td>
+                            <td>NO-SHOW</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
