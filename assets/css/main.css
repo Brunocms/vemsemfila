@@ -73,6 +73,9 @@ a.bt.small{
 	background-color: #c2c2c2;
 }
 
+.red{
+	background-color: #B80C00;
+}
 
 #header.interno{
 	height: 150px;
@@ -1083,10 +1086,6 @@ border-radius: 6px;
 	margin-right: 10px;
 }
 
-#gestao-fila .content table {
-	border-top: 2px solid #bfbfbf;
-}
-
 #gestao-fila .content table thead th{
 	background-color: #d9d9d9;
 	line-height: 3em;
@@ -1107,7 +1106,7 @@ border-radius: 6px;
 }
 
 #gestao-fila .content table tbody tr.special td{
-	background-color: #FCB3B1;
+	background-color: #FCB3B1
 }
 
 #gestao-fila .content .submenu{
@@ -1124,22 +1123,22 @@ border-radius: 6px;
 
 #gestao-fila .content .mesas-configuradas{}
 
-#gestao-fila .content .mesas-configuradas li{
+#gestao-fila .content .mesas-configuradas table{
+	background-color: #fff;
+}
+
+#gestao-fila .content .mesas-configuradas .opcoes-mesas td{
 	text-align: center;
 	font-size: 24px;
 	background-color: #d9d9d9;
 	padding: 20px 0;
-	color: #666;
+	color: #a5a5a5;
 }
 
-#gestao-fila .content .mesas-configuradas li:first-child{
-	border-left: none;
-}
-
-#gestao-fila .content .mesas-configuradas li.selected{
+#gestao-fila .content .mesas-configuradas .opcoes-mesas td.selected{
 	background-color: #FDC700;
 	color: #fff;
-}	
+}
 
 
 

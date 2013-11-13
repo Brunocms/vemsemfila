@@ -54,6 +54,7 @@ $route['termos'] = 'home/termos_de_uso';
 $route['abrir_fila'] = 'restaurantes/abrir_fila';
 $route['fila'] = 'restaurantes/fila';
 $route['clientes'] = 'restaurantes/clientes';
+$route['reservas'] = 'restaurantes/reservas';
 
 
 

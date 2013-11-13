@@ -31,56 +31,34 @@
     	<div class="grid_18">
     		<div class="header">
     			<div class="grid_4 nome-estabelecimento">Restaurante Ráscal Shopping Leblon</div>
-    			<div class="grid_12 title">GESTÃO DE FILA</div>
+    			<div class="grid_12 title">RESERVAS</div>
     			<div class="grid_4 date-and-location">Rio de Janeiro, 30 de junho de 2013</div>
     		</div>
             <div class="content">
                 
                 <div class="submenu">
-                    <div class="busca grid_5">
+                    <div class="busca grid_12">
                         <form>
                             <fieldset>
                                 <input type="text" placeholder="Faça sua busca aqui..."> <span class="fa fa-search"></span>
                             </fieldset>
                         </form>
                     </div>
-                    <div class="grid_4">
-                        <a href="#" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR NA FILA </a>
-                    </div>
-                    <div class="grid_4">
-                        <a href="#" class="bt medium orange"><span class="fa fa-plus"></span> ADICIONAR PRIORIDADE </a>
-                    </div>
-                    <div class="grid_6">
-                        <div class="tempo-mesa">
-                            TEMPO QUE A ÚLTIMA MESA SENTOU: 25 MINUTOS
-                        </div>
+                    <div class="grid_8">
+                        <a href="#" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
                     </div>
                 </div>
 
-                <div class="mesas-configuradas">
-                    <table class="opcoes-mesas" cellspacing="1" cellpadding="0" width="100%">
-                        <colgroup>
-                            <col width="33%">
-                            <col width="33%">
-                            <col width="33%">
-                        </colgroup>
-                        <tbody>
-                            <tr>
-                                <td>MESA P/ 2</td>
-                                <td class="selected">MESA P/ 4</td>
-                                <td>MESA P/ 6</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
                 <table cellpadding="0" cellspacing="0" width="100%">
                     <colgroup>
                         <col width="3%">
                         <col width="20%">
                         <col width="5%">
-                        <col width="20%">
-                        <col width="20%">
-                        <col width="20%">
+                        <col width="15%">
+                        <col width="15%">
+                        <col width="10%">
+                        <col width="10%">
+                        <col width="10%">
                         <col width="11%">
                     </colgroup>
                     <thead>
@@ -89,8 +67,10 @@
                             <th>NOME</th>
                             <th>PESSOAS</th>
                             <th>TELEFONE</th>
-                            <th>TIPO DE CHECK-IN</th>
-                            <th>HORA DO CHECK-IN</th>
+                            <th>EMAIL</th>
+                            <th>HORA DA RESERVA</th>
+                            <th>MESA</th>
+                            <th></th>
                             <th></th>
                         </tr>
                     </thead>
@@ -100,72 +80,88 @@
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small green">CHAMAR</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                         <tr>
                             <td>01</td>
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small gray">CHAMAR</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                         <tr>
                             <td>01</td>
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small orange">SENTOU</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                         <tr>
                             <td>01</td>
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small green">CHAMAR</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                         <tr>
                             <td>01</td>
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small green">CHAMAR</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                         <tr class="special">
                             <td>01</td>
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small gray">CHAMAR</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                         <tr>
                             <td>01</td>
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small gray">CHAMAR</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                         <tr>
                             <td>01</td>
                             <td>Fulano de Tal</td>
                             <td>3</td>
                             <td>(21) 91234-1234</td>
-                            <td>PRIORIDADE</td>
-                            <td>22H15</td>
-                            <td><a href="#" class="bt small green">CHAMAR</a></td>
+                            <td>fulano@hotmail.com</td>
+                            <td>22h00</td>
+                            <td><img src="/assets/img/icones/hostess/ico-interrogacao.png" width="24" height="24"></td>
+                            <td><a href="#" class="bt small green">SENTOU</a></td>
+                            <td><a href="#" class="bt small red">CANCELOU</a></td>
                         </tr>
                     </tbody>
                 </table>
