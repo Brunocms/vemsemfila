@@ -18,8 +18,6 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-        $this->load->library('fila');
-        $this->fila->novoElemento();
         $this->meta['header'] = $this->load->view('header', $this->assets, true);
 		$this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , $this->assets, true);

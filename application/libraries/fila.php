@@ -15,9 +15,22 @@ class fila {
         $this->ci->load->library('Mongo_db');
     }
 
-    public function criarFila($restaturante)
+    public function criarFilas($restaturante)
     {
+        $query = $this->ci->db->get_where('tb_detalhe_restaurante', ['id_restaurante' => $restaturante]);
 
+        foreach ($query->result() as $fila)
+        {
+            $data = [
+                'id_restaurante' => $restaturante,
+                'qnt_pessoas' => $fila->tipo_mesa,
+                'turno' => 1,
+                'dt_fila' => '3',
+                'status' => 1
+            ];
+
+            $this->ci->db->insert('tb_fila', $data);
+        }
     }
 
     public function novoElemento()
