@@ -49,11 +49,15 @@
 
             <div class="_25">
                 <p>
-                    <label for="select">País</label>
+                    <label for="select">Usuário responsável</label>
                     <select>
-                        <option>Lorem Ipsum</option>
-                        <option>Consetetur Sadipscing</option>
-                        <option>Eirmod Tempor</option>
+                        <?php
+                            foreach ($usuarios_rest as $usuario) :
+                        ?>
+                        <option value="<?=$usuario->id_usuario?>"><?=$usuario->nome?></option>
+                        <?php
+                            endforeach;
+                        ?>
                     </select>
                 </p>
             </div>
