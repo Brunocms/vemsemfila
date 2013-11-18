@@ -11,10 +11,12 @@ class Hostess extends CI_Controller {
         parent::__construct();
         $this->assets = loadAssets();
         $this->output->nocache();
+        $this->load->model('m_hostess');
     }
 
     public function index()
     {
+        $this->data['filas'] = $this->m_hostess->carregar_filas(9);
         $this->meta['content'] = $this->load->view('hostess/fila', $this->data, true);
         $this->load->view('hostess/base', $this->meta);
     }
@@ -28,10 +30,16 @@ class Hostess extends CI_Controller {
         $this->load->view('hostess/base', $this->meta);
     }
 
+    public function novocara()
+    {
+        $this->load->library('controle_fila');
+        $this->controle_fila->novoElemento();
+    }
+
     private function _abrir_filas($restaurante)
     {
-        $this->load->library('fila');
-        $this->fila->criarFilas($restaurante);
+        $this->load->library('controle_fila');
+        $this->controle_fila->criarFilas($restaurante);
         redirect('hostess');
     }
 

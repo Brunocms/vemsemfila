@@ -22,15 +22,22 @@
 <div class="mesas-configuradas">
     <table class="opcoes-mesas" cellspacing="1" cellpadding="0" width="100%">
         <colgroup>
-            <col width="33%">
-            <col width="33%">
-            <col width="33%">
+            <?php
+                $width = 100 / count($filas);
+            ?>
+            <col width="<?=$width?>%">
+            <col width="<?=$width?>%">
+            <col width="<?=$width?>%">
         </colgroup>
         <tbody>
             <tr>
-                <td>MESA P/ 2</td>
-                <td class="selected">MESA P/ 4</td>
-                <td>MESA P/ 6</td>
+                <?php
+                    foreach ($filas as $key=>$fila):
+                ?>
+                <td id_fila="<?=$fila->id_fila?>" class="tab-mesas <?=($key == 0) ? 'selected' : '' ?>"><?=($fila->qnt_pessoas == 0) ? 'GRUPO' : 'MESA P/ ' . $fila->qnt_pessoas?></td>
+                <?php
+                    endforeach;
+                ?>
             </tr>
         </tbody>
     </table>
@@ -56,7 +63,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="tabela_fila">
         <tr>
             <td>01</td>
             <td>Fulano de Tal</td>

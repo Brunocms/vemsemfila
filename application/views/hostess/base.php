@@ -9,6 +9,8 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
     <link href="/assets/css/main.css" rel="stylesheet">
     <link href="/assets/css/grid_fluid.css" rel="stylesheet">
+    <script type="application/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
+    <script type="application/javascript" src="/assets/js/hostess.js"></script>
 </head>
 <body>
 
