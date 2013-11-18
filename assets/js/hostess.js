@@ -2,13 +2,20 @@ $().ready(function() {
    geraFila();
 });
 
+function mudarFila(fila)
+{
+    $(".tab-mesas.selected").removeClass('selected');
+    $("#botao_" + fila).addClass('selected');
+    geraFila();
+}
+
 function geraFila()
 {
     $("#tabela_fila").html('');
     id_fila = $(".tab-mesas.selected").attr('id_fila');
 
     $.ajax({
-        url: "http://vemsemfila.v1:81/api/fila/4",
+        url: "http://vemsemfila.v1:81/api/fila/" + id_fila,
         type: 'GET',
         dataType: 'json'
     }).done(function(data) {

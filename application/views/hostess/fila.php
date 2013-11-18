@@ -34,7 +34,7 @@
                 <?php
                     foreach ($filas as $key=>$fila):
                 ?>
-                <td id_fila="<?=$fila->id_fila?>" class="tab-mesas <?=($key == 0) ? 'selected' : '' ?>"><?=($fila->qnt_pessoas == 0) ? 'GRUPO' : 'MESA P/ ' . $fila->qnt_pessoas?></td>
+                <td onclick="mudarFila(<?=$fila->id_fila?>);" id="botao_<?=$fila->id_fila?>" id_fila="<?=$fila->id_fila?>" class="tab-mesas <?=($key == 0) ? 'selected' : '' ?>"><?=($fila->qnt_pessoas == 0) ? 'GRUPO' : 'MESA P/ ' . $fila->qnt_pessoas?></td>
                 <?php
                     endforeach;
                 ?>

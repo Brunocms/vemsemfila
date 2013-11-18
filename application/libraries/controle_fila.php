@@ -48,7 +48,7 @@ class Controle_Fila {
             return (count($result) == 0) ? ['status' => false, 'error' => 'No elements'] : $result;
     }
 
-    public function novoElemento()
+    public function novoElemento($fila)
     {
         date_default_timezone_set('America/Sao_Paulo');
         $data = [
@@ -58,7 +58,7 @@ class Controle_Fila {
             'entrada' => time()
         ];
         $this->ci->mongo_db->switch_db('restaurante_9');
-        $this->ci->mongo_db->insert('fila_4', $data);
+        $this->ci->mongo_db->insert('fila_' . $fila, $data);
     }
 
 }

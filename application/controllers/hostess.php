@@ -30,10 +30,10 @@ class Hostess extends CI_Controller {
         $this->load->view('hostess/base', $this->meta);
     }
 
-    public function novocara()
+    public function novocara($fila)
     {
         $this->load->library('controle_fila');
-        $this->controle_fila->novoElemento();
+        $this->controle_fila->novoElemento($fila);
     }
 
     private function _abrir_filas($restaurante)

@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="controle_fila.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controle_fila.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/libraries/controle_fila.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="56" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.31707317" vertical-offset="628" max-vertical-offset="1242">
+            <state line="60" column="51" selection-start="1734" selection-end="1734" vertical-scroll-proportion="-16.74074" vertical-offset="628" max-vertical-offset="1242">
               <folding />
             </state>
           </provider>
@@ -59,37 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hostess.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hostess.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/hostess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="28" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-13.407408" vertical-offset="268" max-vertical-offset="1188">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fila.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/hostess/fila.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="18" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-9.333333" vertical-offset="378" max-vertical-offset="2628">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/hostess/base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="65" selection-start="738" selection-end="738" vertical-scroll-proportion="-7.3333335" vertical-offset="18" max-vertical-offset="936">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hostess.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/hostess.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="48" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1080">
+            <state line="35" column="48" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.51342285" vertical-offset="324" max-vertical-offset="1188">
               <folding />
             </state>
           </provider>
@@ -126,10 +99,10 @@
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/controllers/api/fila.php" />
         <option value="$PROJECT_DIR$/application/views/hostess/base.php" />
+        <option value="$PROJECT_DIR$/application/libraries/controle_fila.php" />
         <option value="$PROJECT_DIR$/application/controllers/hostess.php" />
         <option value="$PROJECT_DIR$/application/views/hostess/fila.php" />
         <option value="$PROJECT_DIR$/assets/js/hostess.js" />
-        <option value="$PROJECT_DIR$/application/libraries/controle_fila.php" />
       </list>
     </option>
   </component>
@@ -457,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/hostess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="28" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-13.407408" vertical-offset="268" max-vertical-offset="1188">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/m_hostess.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="74" selection-start="450" selection-end="450" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="432">
@@ -471,30 +437,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/hostess/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="65" selection-start="738" selection-end="738" vertical-scroll-proportion="-7.3333335" vertical-offset="18" max-vertical-offset="936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/api/fila.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="33" selection-start="426" selection-end="426" vertical-scroll-proportion="-11.407408" vertical-offset="52" max-vertical-offset="648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/hostess/fila.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="18" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-9.333333" vertical-offset="378" max-vertical-offset="2628">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/hostess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="48" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
@@ -508,7 +453,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/controle_fila.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="56" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.31707317" vertical-offset="628" max-vertical-offset="1242">
+        <state line="60" column="51" selection-start="1734" selection-end="1734" vertical-scroll-proportion="-16.74074" vertical-offset="628" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/hostess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="58" selection-start="371" selection-end="371" vertical-scroll-proportion="0.5091514" vertical-offset="0" max-vertical-offset="1206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/hostess/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="65" selection-start="738" selection-end="738" vertical-scroll-proportion="0.3529412" vertical-offset="18" max-vertical-offset="936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/hostess/fila.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="58" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.55574614" vertical-offset="324" max-vertical-offset="2628">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/hostess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="48" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.51342285" vertical-offset="324" max-vertical-offset="1188">
           <folding />
         </state>
       </provider>
