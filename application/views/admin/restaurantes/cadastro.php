@@ -25,7 +25,7 @@
             </div>
 
             <div class="_50">
-                <p><label for="textfield">Email</label><input id="email2" name="email2" class="required" type="text" value="<?=(isset($restaurante->email2)) ? $restaurante->email2 : null?>" /></p>
+                <p><label for="textfield">Email</label><input id="email2" name="email2" type="text" value="<?=(isset($restaurante->email2)) ? $restaurante->email2 : null?>" /></p>
             </div>
 
             <div class="_50">
@@ -33,13 +33,13 @@
             </div>
 
             <div class="_50">
-                <p><label for="textfield">Telefone</label><input id="tel2" name="tel2" class="required" type="text" value="<?=(isset($restaurante->tel2)) ? $restaurante->tel2 : null?>" /></p>
+                <p><label for="textfield">Telefone</label><input id="tel2" name="tel2" type="text" value="<?=(isset($restaurante->tel2)) ? $restaurante->tel2 : null?>" /></p>
             </div>
 
             <div class="_25">
                 <p>
                     <label for="select">Categoria</label>
-                    <select name='categoria' id='categoria'>
+                    <select class="required" name='categoria' id='categoria'>
                         <option value="Matriz">Matriz</option>
                         <option value="Filial">Filial</option>
                         <option value="Franquia">Franquia</option>
@@ -93,11 +93,25 @@
             </div>
 
             <div class="_25">
-                <p><label for="textfield">Complemento</label><input id="complemento" name="complemento" class="required" type="text" value="<?=(isset($restaurante->complemento)) ? $restaurante->complemento : null?>"></p>
+                <p><label for="textfield">Complemento</label><input id="complemento" name="complemento" type="text" value="<?=(isset($restaurante->complemento)) ? $restaurante->complemento : null?>"></p>
             </div>
 
-            <div class="_100">
-                <p><label for="textarea">Observações</label><textarea id="observacao" name="observacao" class="required" rows="5" cols="40"><?=(isset($restaurante->observacao)) ? $restaurante->observacao : null?></textarea></p>
+            <div class="_50">
+                <p><label for="textarea">Observações</label><textarea id="observacao" name="observacao" rows="5" cols="40"><?=(isset($restaurante->observacao)) ? $restaurante->observacao : null?></textarea></p>
+            </div>
+
+            <div class="_50">
+                <p>
+                    <?php
+                        if (isset($mesas)){
+                            foreach ($mesas as $mesa){
+                                $arrayMesas[] = $mesa->tipo_mesa;
+                            }
+                        }
+                    ?>
+                    <label for="textfield">Tipos de mesa <small>(Separe com uma vírgula. Utilize 0 para grupos)</small></label>
+                    <input id="mesas" name="mesas" type="text" value="<?=(isset($mesas)) ? implode(',', $arrayMesas) : null?>">
+                </p>
             </div>
 
             <div class="clear"></div>

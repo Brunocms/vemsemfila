@@ -8,7 +8,7 @@ class Restaurantes extends CI_Controller {
     function __construct()
     {
         parent::__construct();
-        $this->load->model(['m_usuario', 'm_restaurantes']);
+        $this->load->model(['m_usuario', 'm_restaurantes', 'm_hostess']);
         $this->user->on_invalid_session(base_url('home'));
         if (!$this->user_manager->user_permission($this->user->get_id(), 3))
             redirect(base_url('home'));
@@ -35,8 +35,10 @@ class Restaurantes extends CI_Controller {
             $this->_cadastro($this->input->post());
 
         if ($restaurante != null)
+        {
             $this->meta['restaurante'] = $this->m_restaurantes->restaurante($restaurante);
-
+            $this->meta['mesas'] = $this->m_restaurantes->carregar_mesas($restaurante);
+        }
         $this->meta['usuarios_rest'] = $this->m_usuario->grupo(['nivel' => 2]);
         $this->data['content'] = $this->load->view('admin/restaurantes/cadastro', $this->meta, true);
         $this->load->view('admin/base', $this->data);

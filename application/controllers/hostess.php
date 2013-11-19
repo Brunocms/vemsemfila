@@ -14,14 +14,18 @@ class Hostess extends CI_Controller {
         $this->load->model('m_hostess');
     }
 
-    public function index()
+    public function index($restaurante)
     {
-        $this->data['filas'] = $this->m_hostess->carregar_filas(9);
+        $this->data['filas'] = $this->m_hostess->carregar_filas($restaurante);
+
+        if (!$this->data['filas'])
+            redirect('hostess/abrir_fila/' . base64_encode($restaurante));
+
         $this->meta['content'] = $this->load->view('hostess/fila', $this->data, true);
         $this->load->view('hostess/base', $this->meta);
     }
 
-    public function abrir_fila($hash_restaurante= null)
+    public function abrir_fila($hash_restaurante = null)
     {
         if ($hash_restaurante != null)
             $this->_abrir_filas(base64_decode($hash_restaurante));
