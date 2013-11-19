@@ -12,7 +12,7 @@ class m_restaurantes extends CI_Model{
     public function novo_restaurante($insert)
     {
         $this->db->insert('tb_restaurante', $insert);
-        return true;
+        return $this->db->insert_id();
     }
 
     public function lista_restaurantes($where = null, $limit = null)

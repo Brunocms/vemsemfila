@@ -9,6 +9,17 @@ class m_usuario extends CI_Model{
         parent::__construct();
     }
 
+    public function grupo($where, $limite = 5, $offset = 0)
+    {
+        $this->db->select('id_usuario, nome');
+        $this->db->from('tb_usuario');
+        $this->db->where($where);
+        $this->db->limit($limite, $offset);
+        $query = $this->db->get();
+
+        return $query->result();
+    }
+
     public function cadastro($data)
     {
         error_reporting(0);
