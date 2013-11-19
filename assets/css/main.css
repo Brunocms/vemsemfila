@@ -1033,6 +1033,12 @@ border-radius: 6px;
 	background-color: #FF6100;
 }
 
+#gestao-fila .menu li.disabled,
+#gestao-fila .menu li.disabled:hover{
+	background-color: #a4a4a4;
+	cursor: default;
+}
+
 #gestao-fila .menu li a{
 	color: #fff;
 }

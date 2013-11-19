@@ -20,7 +20,7 @@
 
     	<div class="grid_2 menu">
     		<ul>
-    			<li><a href="#"><img src="/assets/img/icones/hostess/ico-vemsemfila.png" width="65" height="47"><br><br>VemSemFila </a></li>
+    			<li class="disabled"><img src="/assets/img/icones/hostess/ico-vemsemfila.png" width="65" height="47"><br><br>VemSemFila</li>
     			<li class="selected"><a href="<?=base_url('hostess/index')?>"><img src="/assets/img/icones/hostess/ico-gestao-fila.png" width="51" height="50"><br><br>Gestão de Fila</a></li>
     			<li><a href="<?=base_url('hostess/reservas')?>"><img src="/assets/img/icones/hostess/ico-reservas.png" width="41" height="41"><br><br>Reservas</a></li>
     			<li><a href="<?=base_url('hostess/clientes')?>"><img src="/assets/img/icones/hostess/ico-clientes.png" width="41" height="51"><br><br>Clientes</a></li>
