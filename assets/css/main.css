@@ -1154,11 +1154,6 @@ border-radius: 6px;
 	display: block;
 }
 
-#gestao-fila .content .mesas-configuradas .opcoes-mesas td a:hover{
-	background-color: #FDC700;
-	color: #fff;
-}
-
 #gestao-fila .content .mesas-configuradas .opcoes-mesas td.selected{
 	background-color: #FDC700;
 	color: #fff;
