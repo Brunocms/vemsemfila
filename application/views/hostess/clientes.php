@@ -22,7 +22,7 @@
                             <th>STATUS</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="tabela_clientes">
                         <tr>
                             <td>Fulano de Tal</td>
                             <td>fulano@hotmail.com</td>

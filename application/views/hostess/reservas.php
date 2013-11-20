@@ -6,7 +6,7 @@
             </fieldset>
         </form>
     </div>
-    <div class="grid_8">
+    <div class="grid_4">
         <a href="#" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
     </div>
 </div>
@@ -36,7 +36,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="tabela_reservas">
         <tr>
             <td>01</td>
             <td>Fulano de Tal</td>
