@@ -1100,6 +1100,10 @@ border-radius: 6px;
 
 #gestao-fila .content table tbody td{
 	text-align: center;
+}
+
+#gestao-fila .content #tabela_fila td{
+	text-align: center;
 	padding: 1em 0;
 }
 
@@ -1118,6 +1122,7 @@ border-radius: 6px;
 #gestao-fila .content .submenu{
 	overflow: auto;
 	border-bottom: 1px solid #dfdfdf;
+	padding-top: 20px;
 }
 
 #gestao-fila .content .submenu .tempo-mesa{
@@ -1137,13 +1142,27 @@ border-radius: 6px;
 	text-align: center;
 	font-size: 24px;
 	background-color: #d9d9d9;
+	color: #a5a5a5;
+}
+
+#gestao-fila .content .mesas-configuradas .opcoes-mesas td a{
+	text-align: center;
+	font-size: 24px;
+	background-color: #d9d9d9;
 	padding: 20px 0;
 	color: #a5a5a5;
+	display: block;
+}
+
+#gestao-fila .content .mesas-configuradas .opcoes-mesas td a:hover{
+	background-color: #FDC700;
+	color: #fff;
 }
 
 #gestao-fila .content .mesas-configuradas .opcoes-mesas td.selected{
 	background-color: #FDC700;
 	color: #fff;
+	padding: 20px 0;
 }
 
 
