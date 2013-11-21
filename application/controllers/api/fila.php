@@ -21,11 +21,21 @@ class Fila extends REST_Controller {
         $this->output->nocache();
     }
 
-    function index_get()
+    function list_get()
     {
-       $fila = $this->get('fila');
+       $fila = $this->get('id');
        $response = $this->controle_fila->retornaFila($fila);
        $this->response($response);
+    }
+
+    function add_get()
+    {
+        $fila = $this->get('id');
+        $restaurante = $this->get('restaurante');
+
+        $response = $this->controle_fila->novoElemento($restaurante, $fila);
+
+        $this->response($response);
     }
 
 }

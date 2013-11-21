@@ -41,8 +41,6 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
-$route['api/fila/(:any)'] = 'api/fila/index/$1';
-
 // restaurantes
 $route['cadastro'] = 'usuario/cadastro';
 $route['reserva'] = 'restaurantes/reserva';

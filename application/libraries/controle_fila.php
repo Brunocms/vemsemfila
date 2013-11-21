@@ -38,7 +38,7 @@ class Controle_Fila {
         $query = $this->ci->db->get_where('tb_fila', ['id_fila' => $fila, 'status' => 1]);
 
         if ($this->ci->db->affected_rows() == 0)
-            return false;
+            return ['status' => false, 'error' => 'Fila não existe'];
 
         $data_fila = $query->result()[0];
 
@@ -48,8 +48,13 @@ class Controle_Fila {
             return (count($result) == 0) ? ['status' => false, 'error' => 'No elements'] : $result;
     }
 
-    public function novoElemento($fila)
+    public function novoElemento($restaurante, $fila)
     {
+        $query = $this->ci->db->get_where('tb_fila', ['id_fila' => $fila, 'status' => 1]);
+
+        if ($this->ci->db->affected_rows() == 0)
+            return ['status' => false, 'error' => 'Fila não existe'];
+
         date_default_timezone_set('America/Sao_Paulo');
         $data = [
             'name' => 'Caio_' . rand(0, 40),
@@ -57,8 +62,10 @@ class Controle_Fila {
             'qtd_pessoas' => rand(2,8),
             'entrada' => time()
         ];
-        $this->ci->mongo_db->switch_db('restaurante_9');
+        $this->ci->mongo_db->switch_db('restaurante_' . $restaurante);
         $this->ci->mongo_db->insert('fila_' . $fila, $data);
+
+            return ['status' => true, 'error' => 'Elemento adicionado'];
     }
 
 }
