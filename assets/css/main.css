@@ -1178,6 +1178,10 @@ border-radius: 6px;
 	padding: 20px 0;
 }
 
+#gestao-fila .content .mesas-configuradas .opcoes-mesas td.selected a{
+	background-color: #FDC700;
+	color: #fff;
+}
 
 
 
