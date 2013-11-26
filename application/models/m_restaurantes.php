@@ -11,8 +11,16 @@ class m_restaurantes extends CI_Model{
 
     public function novo_restaurante($insert)
     {
+        $mesas = explode("," , $insert['mesas']);
+        unset($insert['mesas']);
+
         $this->db->insert('tb_restaurante', $insert);
-        return true;
+        $id_restaurante = $this->db->insert_id();
+
+        foreach ($mesas as $value){
+            $this->db->insert('tb_detalhe_restaurante', ['id_restaurante' => $id_restaurante, 'tipo_mesa' => $value]);
+        }
+        return $this->db->insert_id();
     }
 
     public function lista_restaurantes($where = null, $limit = null)
@@ -32,10 +40,17 @@ class m_restaurantes extends CI_Model{
         return true;
     }
 
+    public function carregar_mesas($restaurante)
+    {
+        $query = $this->db->get_where('tb_detalhe_restaurante', ['id_restaurante' => $restaurante]);
+
+        return ($this->db->affected_rows() == 0) ? false : $query->result();
+    }
+
     public function restaurante($id)
     {
         $this->db->select('*');
-        $this->db->from('tb_restaurante');
+        $this->db->from('tb_restaurante as r');
         $this->db->where(['id_restaurante' => $id]);
         $query = $this->db->get();
 

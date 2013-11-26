@@ -54,18 +54,18 @@
                   </td>
               </tr>
               <tr class="cliente">
-                  <td>País</td>
-                  <td><select name='pais'><option>Brasil</option></select></td>
-
                   <td>Estado</td>
-                  <td><select name='estado'><option>RJ</option></select></td>
+                  <td><select name='estado'><option>RJ</option></select>
+                  </td>
+
+                  <td>Cidade</td>
+                  <td><select name='cidade'><option>Rio de Janeiro</option></select>
+                  </td>
               </tr>
               <tr class="cliente">
-                  <td>Cidade</td>
-                  <td><select name='cidade'><option>Rio de Janeiro</option></select></td>
-
                   <td>Bairro</td>
-                  <td><select name='bairro'><option>Barra da Tijuca</option></select></td>
+                  <td><select name='bairro'><option>Barra da Tijuca</option></select>
+                  </td>
               </tr>
               <tr>
                   <td>Observação</td>

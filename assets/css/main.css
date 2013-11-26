@@ -39,8 +39,8 @@ a.bt.biggest{
 a.bt.medium{
 	color: #fff;
 	font-weight: bold;
-	width: 150px;
-	padding: 10px 20px;
+	width: 70%;
+	padding: 10px 12px;
 	border-radius: 10px;
 	border: 2px solid #fff;
 	font-size: 12px;
@@ -62,11 +62,27 @@ a.bt.small{
 }
 
 .yellow{
-	background-color: #FBD100;
+	background: #fbeb77;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiZWI3NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2ZkYzEwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #fbeb77 0%, #fdc100 51%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbeb77), color-stop(51%,#fdc100));
+	background: -webkit-linear-gradient(top,  #fbeb77 0%,#fdc100 51%);
+	background: -o-linear-gradient(top,  #fbeb77 0%,#fdc100 51%);
+	background: -ms-linear-gradient(top,  #fbeb77 0%,#fdc100 51%);
+	background: linear-gradient(to bottom,  #fbeb77 0%,#fdc100 51%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbeb77', endColorstr='#fdc100',GradientType=0 );
 }
 
 .orange{
-	background-color: #FF6100;
+	background: #fcde84;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZGU4NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI2Y5NjAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #fcde84 0%, #f96000 75%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcde84), color-stop(75%,#f96000));
+	background: -webkit-linear-gradient(top,  #fcde84 0%,#f96000 75%);
+	background: -o-linear-gradient(top,  #fcde84 0%,#f96000 75%);
+	background: -ms-linear-gradient(top,  #fcde84 0%,#f96000 75%);
+	background: linear-gradient(to bottom,  #fcde84 0%,#f96000 75%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcde84', endColorstr='#f96000',GradientType=0 );
 }
 
 .gray{
@@ -1033,6 +1049,12 @@ border-radius: 6px;
 	background-color: #FF6100;
 }
 
+#gestao-fila .menu li.disabled,
+#gestao-fila .menu li.disabled:hover{
+	background-color: #a4a4a4;
+	cursor: default;
+}
+
 #gestao-fila .menu li a{
 	color: #fff;
 }
@@ -1094,6 +1116,12 @@ border-radius: 6px;
 
 #gestao-fila .content table tbody td{
 	text-align: center;
+}
+
+#gestao-fila .content #tabela_fila td,
+#gestao-fila .content #tabela_clientes td,
+#gestao-fila .content #tabela_reservas td{
+	text-align: center;
 	padding: 1em 0;
 }
 
@@ -1112,6 +1140,7 @@ border-radius: 6px;
 #gestao-fila .content .submenu{
 	overflow: auto;
 	border-bottom: 1px solid #dfdfdf;
+	padding-top: 20px;
 }
 
 #gestao-fila .content .submenu .tempo-mesa{
@@ -1131,15 +1160,28 @@ border-radius: 6px;
 	text-align: center;
 	font-size: 24px;
 	background-color: #d9d9d9;
+	color: #a5a5a5;
+}
+
+#gestao-fila .content .mesas-configuradas .opcoes-mesas td a{
+	text-align: center;
+	font-size: 24px;
+	background-color: #d9d9d9;
 	padding: 20px 0;
 	color: #a5a5a5;
+	display: block;
 }
 
 #gestao-fila .content .mesas-configuradas .opcoes-mesas td.selected{
 	background-color: #FDC700;
 	color: #fff;
+	padding: 20px 0;
 }
 
+#gestao-fila .content .mesas-configuradas .opcoes-mesas td.selected a{
+	background-color: #FDC700;
+	color: #fff;
+}
 
 
 
