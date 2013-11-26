@@ -92,8 +92,8 @@
         </div>
     
         <div class="grid_4 prefix_1 omega">
-            <a href="#"><img src="/assets/img/pub01.jpg" width="173" height="292" alt="pub01" /></a><br />
-            <a href="<?=base_url('restaurantes/leads')?>"><img src="/assets/img/pub02.jpg" width="173" height="260" alt="pub02" vspace="5" /></a><br />
+            <a href="#"><img src="/assets/img/pub01.jpg" width="173" height="292" alt="pub01" /></a><br /><br />
+            <a href="<?=base_url('restaurantes/leads')?>"><img src="/assets/img/pub02.jpg" width="173" height="260" alt="pub02" vspace="5" /></a><br /><br />
             <a href="#"><img src="/assets/img/pub03.jpg" width="173" height="171" alt="pub03" vspace="5" /></a><br />
         </div>
 
