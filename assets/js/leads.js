@@ -1,5 +1,7 @@
 $().ready(function() {
 
+
+
     // validate signup form on keyup and submit
     $("#cadastroForm").validate({
         rules: {
@@ -30,10 +32,12 @@ $().ready(function() {
         if ($(this).val() == "1") {
             $.each($("tr.cliente input"), function(k,v){
                 $(v).rules( "remove", "required" );
+                $(v).attr("disabled", "disabled");
             })
         } else {
             $.each($("tr.cliente input"), function(k,v){
                 $(v).rules( "add", "required" );
+                $(v).removeAttr("disabled");
             })
         };
     });

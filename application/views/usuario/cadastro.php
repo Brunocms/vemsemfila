@@ -58,16 +58,13 @@
                   <td> <input type="text" id="cep" name="cep" /> </td>
               </tr>
               <tr>
-                  <td>País</td>
-                  <td><select><option>Brasil</option></select></td>
-
                   <td>Estado</td>
                   <td><select><option>RJ</option></select></td>
-              </tr>
-              <tr>
+
                   <td>Cidade</td>
                   <td><select><option>Rio de Janeiro</option></select></td>
-
+              </tr>
+              <tr>
                   <td>Bairro</td>
                   <td><select><option>Barra da Tijuca</option></select></td>
               </tr>
