@@ -755,8 +755,6 @@ class Mongo_vsf {
      */
 
     private function connection_string() {
-        $this->CI->config->load($this->config_file);
-
 
         $this->host = $this->mongo_host;
         $this->port = $this->mongo_port;
