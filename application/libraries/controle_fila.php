@@ -101,6 +101,15 @@ class Mongo_vsf {
     private $limit = 999999;
     private $offset = 0;
 
+
+    private $mongo_host = 'localhost';
+    private $mongo_port = 27017;
+    private $mongo_db = 'mydb';
+    private $mongo_user = '';
+    private $mongo_pass = '';
+    private $mongo_persist = TRUE;
+    private $mongo_persist_key = 'ci_mongo_persist';
+
     /**
      *	--------------------------------------------------------------------------------
      *	CONSTRUCTOR
@@ -748,13 +757,14 @@ class Mongo_vsf {
     private function connection_string() {
         $this->CI->config->load($this->config_file);
 
-        $this->host = trim($this->CI->config->item('mongo_host'));
-        $this->port = trim($this->CI->config->item('mongo_port'));
-        $this->user = trim($this->CI->config->item('mongo_user'));
-        $this->pass = trim($this->CI->config->item('mongo_pass'));
-        $this->dbname = trim($this->CI->config->item('mongo_db'));
-        $this->persist = trim($this->CI->config->item('mongo_persist'));
-        $this->persist_key = trim($this->CI->config->item('mongo_persist_key'));
+
+        $this->host = $this->mongo_host;
+        $this->port = $this->mongo_port;
+        $this->user = $this->mongo_user;
+        $this->pass = $this->mongo_pass;
+        $this->dbname = $this->mongo_db;
+        $this->persist = $this->mongo_persist;
+        $this->persist_key = $this->mongo_persist_key;
 
         $connection_string = "mongodb://";
 
