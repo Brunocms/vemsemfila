@@ -8,13 +8,11 @@
 class Controle_Fila {
 
     public $ci;
-    public $mongo;
 
     function __construct()
     {
         $this->ci = & get_instance();
-        require('Mongo_db.php');
-        $this->mongo = new Mongo_db();
+        $this->ci->load->library('mongo_vsf');
     }
 
     public function criarFilas($restaturante)
@@ -44,9 +42,9 @@ class Controle_Fila {
 
         $data_fila = $query->result()[0];
 
-        $this->mongo->switch_db('restaurante_' . $data_fila->id_restaurante);
-        $this->mongo->order_by(['entrada' => 'asc']);
-        $result = $this->mongo->get('fila_' . $fila);
+        $this->ci->mongo_vsf->switch_db('restaurante_' . $data_fila->id_restaurante);
+        $this->ci->mongo_vsf->order_by(['entrada' => 'asc']);
+        $result = $this->ci->mongo_vsf->get('fila_' . $fila);
             return (count($result) == 0) ? ['status' => false, 'error' => 'No elements'] : $result;
     }
 
@@ -64,8 +62,8 @@ class Controle_Fila {
             'qtd_pessoas' => rand(2,8),
             'entrada' => time()
         ];
-        $this->mongo->switch_db('restaurante_' . $restaurante);
-        $this->mongo->insert('fila_' . $fila, $data);
+        $this->ci->mongo_vsf->switch_db('restaurante_' . $restaurante);
+        $this->ci->mongo_vsf->insert('fila_' . $fila, $data);
 
             return ['status' => true, 'error' => 'Elemento adicionado'];
     }
