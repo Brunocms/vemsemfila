@@ -35,7 +35,7 @@
       <file leaf-file-name="controle_fila.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/libraries/controle_fila.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="756" column="42" selection-start="26744" selection-end="26744" vertical-scroll-proportion="0.30107528" vertical-offset="13440" max-vertical-offset="14868">
+            <state line="737" column="11" selection-start="25931" selection-end="25931" vertical-scroll-proportion="0.43010753" vertical-offset="13026" max-vertical-offset="14868">
               <folding />
             </state>
           </provider>
@@ -328,6 +328,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vemsemfilaMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -476,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/mongo_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.12080537" vertical-offset="0" max-vertical-offset="596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/usuarios.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="23.925926" vertical-offset="646" max-vertical-offset="1242">
@@ -490,9 +501,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/mongo_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="388" selection-end="405" vertical-scroll-proportion="0.30201343" vertical-offset="0" max-vertical-offset="596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/controle_fila.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="756" column="42" selection-start="26744" selection-end="26744" vertical-scroll-proportion="0.30107528" vertical-offset="13440" max-vertical-offset="14868">
+        <state line="737" column="11" selection-start="25931" selection-end="25931" vertical-scroll-proportion="0.43010753" vertical-offset="13026" max-vertical-offset="14868">
           <folding />
         </state>
       </provider>

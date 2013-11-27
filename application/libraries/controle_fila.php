@@ -108,7 +108,7 @@ class Mongo_vsf {
     private $mongo_user = '';
     private $mongo_pass = '';
     private $mongo_persist = TRUE;
-    private $mongo_persist_key = 'ci_mongo_persist';
+    private $mongo_persist_key;
 
     /**
      *	--------------------------------------------------------------------------------
@@ -735,7 +735,7 @@ class Mongo_vsf {
     private function connect() {
         $options = array();
         if($this->persist === TRUE):
-            $options['persist'] = isset($this->persist_key) && !empty($this->persist_key) ? $this->persist_key : 'ci_mongo_persist';
+         //   $options['persist'] = isset($this->persist_key) && !empty($this->persist_key) ? $this->persist_key : 'ci_mongo_persist';
         endif;
         try {
             $this->connection = new Mongo($this->connection_string, $options);
