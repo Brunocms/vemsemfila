@@ -20,7 +20,7 @@ class m_restaurantes extends CI_Model{
         foreach ($mesas as $value){
             $this->db->insert('tb_detalhe_restaurante', ['id_restaurante' => $id_restaurante, 'tipo_mesa' => $value]);
         }
-        return $this->db->insert_id();
+        return $id_restaurante;
     }
 
     public function lista_restaurantes($where = null, $limit = null)
