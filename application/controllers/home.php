@@ -29,7 +29,7 @@ class Home extends CI_Controller {
         $post = $this->input->post();
         if ($this->user->login($post))
             redirect(base_url('home'));
-        echo 'nofoe';
+        echo 'Usuário não existe ou senha incorreta';
     }
 
     public function fale_conosco()
