@@ -1,4 +1,16 @@
 <div id="boxes">
+    <div id="popin-mesa" class="window">
+        <h2>MESA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <input name="nome" type="text" /><br /><br />
+
+            <a href="#" class="bt green">CONFIRMAR</a>
+            
+        </form>
+    </div>
+
     <div id="popin-adicionar-reserva" class="window">
         <h2>ADICIONAR RESERVA</h2>
     
@@ -153,6 +165,7 @@
 </div>
 
 <a href="#popin-gestao" name="modal" class="bt biggest red">teste de gestao</a>
+<a href="#popin-mesa" name="modal" class="bt biggest red">mesa</a>
 
 <table cellpadding="0" cellspacing="0" width="100%">
     <colgroup>

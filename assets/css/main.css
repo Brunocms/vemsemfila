@@ -1052,6 +1052,44 @@ border-radius: 6px;
 	font-size: 14px;
 }
 
+
+#popin-mesa{
+	width: 200px;
+}
+
+#popin-mesa h2{
+	color: #E6C500;
+	font-size: 22px;
+}
+
+#popin-mesa form{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+#popin-mesa form input[type="text"] {
+   	width:60px;
+	height:37px;
+	padding-left:8px;
+	padding-top:1px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#333;
+	border: 1px solid #CCC;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+#popin-mesa form a.bt{
+	padding: 10px 30px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 14px;
+}
+
 .close{display:block; text-align:right;}
 
 #cadastroForm label.error {
