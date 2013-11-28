@@ -1,3 +1,43 @@
+<div id="boxes">
+    <div id="popin-adicionar-na-fila" class="window">
+        <h2>ADICIONAR NA FILA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <div class="left">
+                <label>NOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>TELEFONE:</label><br />
+                <input name="telefone" type="text" /><br /><br />
+
+                <label>NÚMERO DE PESSOAS:</label><br />
+                <input name="npessoas" type="text" class="mini" />
+            </div>
+
+            <div class="right">
+                <label>SOBRENOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>EMAIL:</label><br />
+                <input name="email" type="text" /><br /><br />
+
+                <label>EMAIL PARA CADASTRO WEB:</label><br /><br />
+                <input name="email" type="radio" /> Sim &nbsp;
+                <input name="email" type="radio" /> Não
+
+                <br /><br /><br /><br />
+                <a href="#" class="bt green">CONFIRMAR</a>
+
+            </div>            
+            
+        </form>
+    </div>
+    <div id="mask"></div>
+</div>
+
+
+
 <div class="submenu">
     <div class="busca grid_12">
         <form>
@@ -7,7 +47,7 @@
         </form>
     </div>
     <div class="grid_4">
-        <a href="#" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
+        <a href="#popin-adicionar-na-fila" name="modal" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
     </div>
 </div>
 
