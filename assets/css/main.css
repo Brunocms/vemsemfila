@@ -27,6 +27,7 @@ a.googleplus span{font-size: 24px; }
 
 a.bt{
 	text-align: center;
+	display: inline-block;
 }
 
 a.bt.biggest{
@@ -37,7 +38,6 @@ a.bt.biggest{
 	border-radius: 10px;
 	border: 2px solid #fff;
 	font-size: 20px;
-	display: inline-block;
 }
 
 a.bt.medium{
@@ -48,7 +48,6 @@ a.bt.medium{
 	border-radius: 10px;
 	border: 2px solid #fff;
 	font-size: 12px;
-	display: inline-block;
 }
 
 a.bt.small{
@@ -58,7 +57,6 @@ a.bt.small{
 	border-radius: 6px;
 	border: 2px solid #fff;
 	font-size: 12px;
-	display: inline-block;
 }
 
 input[type="text"].mini{
@@ -968,6 +966,40 @@ border-radius: 6px;
 }
 
 #popin-adicionar-prioridade form a.bt{
+	margin-top: 30px;
+	padding: 10px 30px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+#popin-gestao{
+	width: 400px;
+}
+
+#popin-gestao ul{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	text-align: left;
+	overflow: auto;
+	list-style: none;
+}
+
+#popin-gestao ul li{
+	line-height: 2em;
+	font-size: 14px;
+	color: #666;
+}
+
+#popin-gestao ul li:first-child{
+	line-height: 2em;
+	font-size: 18px;
+	color: #666;
+}
+
+#popin-gestao ul a.bt{
 	margin-top: 30px;
 	padding: 10px 30px;
 	border-radius: 4px;

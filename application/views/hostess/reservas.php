@@ -68,6 +68,22 @@
             
         </form>
     </div>
+
+    <div id="popin-gestao" class="window">
+
+        <ul>
+            <li><span><strong>NOME:</strong> Bruno Santos</span></li>
+            <li><strong>PESSOAS:</strong> 4</li>
+            <li><strong>EMAIL:</strong> fulano@hotmail.com</li>
+            <li><strong>CHECK-IN:</strong> 22h15</li>
+            <li><strong>TIPO:</strong> PRESENCIAL</li>
+        </ul>
+
+        <a href="#" class="bt green left biggest"><span class="fa fa-check"></span> SENTOU</a>
+        <a href="#" class="bt red right biggest"><span class="fa fa-times"></span> NO-SHOW</a>
+
+    </div>
+
     <div id="mask"></div>
 </div>
 
@@ -85,6 +101,8 @@
         <a href="#popin-adicionar-na-fila" name="modal" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
     </div>
 </div>
+
+<a href="#popin-gestao" name="modal" class="bt biggest red">teste de gestao</a>
 
 <table cellpadding="0" cellspacing="0" width="100%">
     <colgroup>
