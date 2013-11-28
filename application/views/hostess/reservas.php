@@ -39,6 +39,13 @@
             <a href="#" class="bt green right">RESERVAR</a>
             
         </form>
+
+
+        <!-- basta deixar oculto a mensagem e mandar exibir quando form for submetido -->
+<!--         <div class="reserva-sucesso">
+            SUA RESERVA FOI ADICIONADA COM SUCESSO!
+        </div>
+ -->
     </div>
 
     <div id="popin-adicionar-na-fila" class="window">
