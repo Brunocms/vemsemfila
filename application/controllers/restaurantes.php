@@ -88,7 +88,6 @@ class Restaurantes extends CI_Controller {
             'email2' => $post['email2'],
             'tel1' => $post['tel1'],
             'tel2' => $post['tel2'],
-            'pais' => $post['pais'],
             'estado' => $post['estado'],
             'cidade' => $post['cidade'],
             'bairro' => $post['bairro'],
@@ -96,9 +95,17 @@ class Restaurantes extends CI_Controller {
         ];
         $this->m_restaurantes->novo_lead($data);
 
-        redirect(base_url('home'));
+        redirect(base_url('leads/cadastrado'));
 
         return;
+    }
+
+    public function lead_cadastrado()
+    {
+        $this->meta['header'] = $this->load->view('header', $this->assets, true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->meta['topo'] = $this->load->view('topo', $this->assets, true);
+        $this->load->view('restaurantes/lead_cadastrado', $this->meta);
     }
 
     public function reserva()

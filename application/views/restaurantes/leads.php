@@ -56,7 +56,7 @@
               <tr class="cliente">
                   <td>Estado</td>
     <td>
-        <select name='estado'>
+        <select id='estados' name='estado'>
                   <?php
                     foreach ($estados as $estado):
                   ?>
@@ -68,12 +68,12 @@
                   </td>
 
                   <td>Cidade</td>
-                  <td><select name='cidade'><option></option></select>
+                  <td><select id="cidades" name='cidade'><option></option></select>
                   </td>
               </tr>
               <tr class="cliente">
                   <td>Bairro</td>
-                  <td><select name='bairro'><option></option></select>
+                  <td><select id='bairros' name='bairro'><option></option></select>
                   </td>
               </tr>
               <tr>

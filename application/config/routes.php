@@ -42,6 +42,7 @@ $route['default_controller'] = "home";
 $route['404_override'] = '';
 
 $route['hostess/(:num)'] = 'hostess/index/$1';
+$route['leads/cadastrado'] = 'restaurantes/lead_cadastrado';
 
 // restaurantes
 $route['cadastro'] = 'usuario/cadastro';

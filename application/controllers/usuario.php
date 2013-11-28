@@ -43,6 +43,9 @@ class Usuario extends CI_Controller {
         $this->form_validation->set_rules('email', 'Email', 'required|callback__checkUserExist');
         $this->form_validation->set_rules('senha', 'Senha', 'required');
 
+        $this->load->library('cep');
+        $this->meta['estados'] = $this->cep->estados();
+
         if ($this->form_validation->run()) {
             $this->_cadastrar();
         }

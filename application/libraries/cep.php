@@ -31,4 +31,13 @@ class CEP {
         return $result->result();
     }
 
+    public function bairros($cidade){
+        $this->ci->db->select('*');
+        $this->ci->db->from('bairros');
+        $this->ci->db->where(['cd_cidade' => $cidade]);
+        $result = $this->ci->db->get();
+
+        return $result->result();
+    }
+
 }

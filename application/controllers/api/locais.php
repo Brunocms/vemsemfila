@@ -38,8 +38,8 @@ class locais extends REST_Controller {
 
     function bairros_get()
     {
-        $fila = $this->get('bairro');
-        $response = $this->controle_fila->retornaFila($fila);
+        $cidade = $this->get('bairros');
+        $response = $this->cep->bairros($cidade);
         $this->response($response);
     }
 
