@@ -890,6 +890,51 @@ border-radius: 6px;
 
 
 
+#popin-adicionar-reserva{
+	width: 400px;
+}
+
+#popin-adicionar-reserva h2{
+	color: #E6C500;
+	font-size: 22px;
+}
+
+#popin-adicionar-reserva form{
+	border-top: 2px dotted #ccc;
+	/*border-bottom: 2px dotted #ccc;*/
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	margin-top: 20px;
+	text-align: left;
+	overflow: auto;
+}
+
+#popin-adicionar-reserva form input[type="text"] {
+   	width:160px;
+	height:37px;
+	padding-left:8px;
+	padding-top:1px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#333;
+	border: 1px solid #CCC;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+#popin-adicionar-reserva form a.bt{
+	margin-top: 30px;
+	padding: 10px 30px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 14px;
+}
+
+#popin-adicionar-reserva .space-right{
+	margin-right: 50px;
+}
+
 #popin-adicionar-na-fila{
 	width: 400px;
 }

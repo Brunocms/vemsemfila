@@ -1,4 +1,46 @@
 <div id="boxes">
+    <div id="popin-adicionar-reserva" class="window">
+        <h2>ADICIONAR RESERVA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <div class="left">
+                <label>NOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>TELEFONE:</label><br />
+                <input name="telefone" type="text" /><br /><br />
+            </div>
+
+            <div class="right">
+                <label>SOBRENOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>EMAIL:</label><br />
+                <input name="email" type="text" /><br /><br />
+            </div>
+
+            <div class="left space-right">
+                <label>NÚMERO DE PESSOAS:</label><br />
+                <input name="npessoas" type="text" class="mini" />
+            </div>
+
+            <div class="left space-right">
+                <label>DIA:</label><br />
+                <input name="dia" type="text" class="mini" />
+            </div>
+
+            <div class="left space-right">
+                <label>HORA:</label><br />
+                <input name="hora" type="text" class="mini" />
+            </div>
+
+            <br /><br /><br /><br />
+            <a href="#" class="bt green right">RESERVAR</a>
+            
+        </form>
+    </div>
+
     <div id="popin-adicionar-na-fila" class="window">
         <h2>ADICIONAR NA FILA</h2>
     
@@ -98,7 +140,8 @@
         </form>
     </div>
     <div class="grid_4">
-        <a href="#popin-adicionar-na-fila" name="modal" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
+        <a href="#popin-adicionar-reserva" name="modal" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
+        <a href="#popin-adicionar-na-fila" name="modal" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR NA FILA </a>
     </div>
 </div>
 
