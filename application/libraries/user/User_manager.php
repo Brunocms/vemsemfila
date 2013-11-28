@@ -63,6 +63,7 @@ class User_manager {
                 $emailData['urlAtivacao'] = md5($new_user_id);
                 $emailData['to'] = $data['email'];
                 $this->CI->sendemail->sendSystemEmail($emailData);
+                
 
 				// Return the new user id
 				return $new_user_id;
