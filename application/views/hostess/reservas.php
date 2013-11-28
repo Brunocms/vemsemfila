@@ -1,3 +1,155 @@
+<div id="boxes">
+    <div id="popin-mesa" class="window">
+        <h2>MESA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <input name="nome" type="text" /><br /><br />
+
+            <a href="#" class="bt green">CONFIRMAR</a>
+            
+        </form>
+    </div>
+
+    <div id="popin-adicionar-reserva" class="window">
+        <h2>ADICIONAR RESERVA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <div class="left">
+                <label>NOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>TELEFONE:</label><br />
+                <input name="telefone" type="text" /><br /><br />
+            </div>
+
+            <div class="right">
+                <label>SOBRENOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>EMAIL:</label><br />
+                <input name="email" type="text" /><br /><br />
+            </div>
+
+            <div class="left space-right">
+                <label>NÚMERO DE PESSOAS:</label><br />
+                <input name="npessoas" type="text" class="mini" />
+            </div>
+
+            <div class="left space-right">
+                <label>DIA:</label><br />
+                <input name="dia" type="text" class="mini" />
+            </div>
+
+            <div class="left space-right">
+                <label>HORA:</label><br />
+                <input name="hora" type="text" class="mini" />
+            </div>
+
+            <br /><br /><br /><br />
+            <a href="#" class="bt green right">RESERVAR</a>
+            
+        </form>
+
+
+        <!-- basta deixar oculto a mensagem e mandar exibir quando form for submetido -->
+<!--         <div class="reserva-sucesso">
+            SUA RESERVA FOI ADICIONADA COM SUCESSO!
+        </div>
+ -->
+    </div>
+
+    <div id="popin-adicionar-na-fila" class="window">
+        <h2>ADICIONAR NA FILA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <div class="left">
+                <label>NOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>TELEFONE:</label><br />
+                <input name="telefone" type="text" /><br /><br />
+
+                <label>NÚMERO DE PESSOAS:</label><br />
+                <input name="npessoas" type="text" class="mini" />
+            </div>
+
+            <div class="right">
+                <label>SOBRENOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>EMAIL:</label><br />
+                <input name="email" type="text" /><br /><br />
+
+                <label>EMAIL PARA CADASTRO WEB:</label><br /><br />
+                <input name="email" type="radio" /> Sim &nbsp;
+                <input name="email" type="radio" /> Não
+
+                <br /><br /><br /><br />
+                <a href="#" class="bt green">CONFIRMAR</a>
+
+            </div>            
+            
+        </form>
+    </div>
+
+    <div id="popin-adicionar-prioridade" class="window">
+        <h2>ADICIONAR PRIORIDADE NA FILA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <div class="left">
+                <label>NOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>TELEFONE:</label><br />
+                <input name="telefone" type="text" /><br /><br />
+
+                <label>NÚMERO DE PESSOAS:</label><br />
+                <input name="npessoas" type="text" class="mini" />
+            </div>
+
+            <div class="right">
+                <label>SOBRENOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>EMAIL:</label><br />
+                <input name="email" type="text" /><br /><br />
+
+                <label>EMAIL PARA CADASTRO WEB:</label><br /><br />
+                <input name="email" type="radio" /> Sim &nbsp;
+                <input name="email" type="radio" /> Não
+
+                <br /><br /><br /><br />
+                <a href="#" class="bt green">CONFIRMAR</a>
+
+            </div>            
+            
+        </form>
+    </div>
+
+    <div id="popin-gestao" class="window">
+
+        <ul>
+            <li><span><strong>NOME:</strong> Bruno Santos</span></li>
+            <li><strong>PESSOAS:</strong> 4</li>
+            <li><strong>EMAIL:</strong> fulano@hotmail.com</li>
+            <li><strong>CHECK-IN:</strong> 22h15</li>
+            <li><strong>TIPO:</strong> PRESENCIAL</li>
+        </ul>
+
+        <a href="#" class="bt green left biggest"><span class="fa fa-check"></span> SENTOU</a>
+        <a href="#" class="bt red right biggest"><span class="fa fa-times"></span> NO-SHOW</a>
+
+    </div>
+
+    <div id="mask"></div>
+</div>
+
+
+
 <div class="submenu">
     <div class="busca grid_12">
         <form>
@@ -7,9 +159,13 @@
         </form>
     </div>
     <div class="grid_4">
-        <a href="#" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
+        <a href="#popin-adicionar-reserva" name="modal" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR RESERVA </a>
+        <a href="#popin-adicionar-na-fila" name="modal" class="bt medium yellow"><span class="fa fa-plus"></span> ADICIONAR NA FILA </a>
     </div>
 </div>
+
+<a href="#popin-gestao" name="modal" class="bt biggest red">teste de gestao</a>
+<a href="#popin-mesa" name="modal" class="bt biggest red">mesa</a>
 
 <table cellpadding="0" cellspacing="0" width="100%">
     <colgroup>
