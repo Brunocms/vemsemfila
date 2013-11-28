@@ -35,6 +35,8 @@ class Restaurantes extends CI_Controller {
         }
 
         $this->assets = addJS($this->assets, 'leads');
+        $this->load->library('cep');
+        $this->meta['estados'] = $this->cep->estados();
         $this->meta['header'] = $this->load->view('header', $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , $this->assets, true);

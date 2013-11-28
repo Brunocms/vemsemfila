@@ -49,21 +49,6 @@
 
             <div class="_25">
                 <p>
-                    <label for="select">Usuário responsável</label>
-                    <select>
-                        <?php
-                            foreach ($usuarios_rest as $usuario) :
-                        ?>
-                        <option value="<?=$usuario->id_usuario?>"><?=$usuario->nome?></option>
-                        <?php
-                            endforeach;
-                        ?>
-                    </select>
-                </p>
-            </div>
-
-            <div class="_25">
-                <p>
                     <label for="select">Estado</label>
                     <select>
                         <option>Lorem Ipsum</option>
@@ -120,7 +105,7 @@
                     <li><a class="button red" id="reset-validate-form" href="javascript:void(0);">Reset</a></li>
                 </ul>
                 <ul class="actions-right">
-                    <li><input type="submit" class="button" value="Click here to validate the form!"></li>
+                    <li><input type="submit" class="button" value="Enviar!"></li>
                 </ul>
             </div>
         </form>

@@ -7,6 +7,7 @@
 <table id="table-example" class="table">
 <thead>
 <tr>
+    <th>ID</th>
     <th>Nome</th>
     <th>Categoria</th>
     <th>Cidade</th>
@@ -19,6 +20,7 @@
     foreach ($restaurantes as $restaurante):
 ?>
 <tr class="gradeA">
+    <td><?=$restaurante->id_restaurante?></td>
     <td><?=$restaurante->nome?></td>
     <td><?=$restaurante->categoria?></td>
     <td><?=$restaurante->cidade?></td>

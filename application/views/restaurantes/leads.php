@@ -55,16 +55,25 @@
               </tr>
               <tr class="cliente">
                   <td>Estado</td>
-                  <td><select name='estado'><option>RJ</option></select>
+    <td>
+        <select name='estado'>
+                  <?php
+                    foreach ($estados as $estado):
+                  ?>
+                        <option value="<?=$estado->cd_uf?>"><?=$estado->ds_uf_sigla?></option>
+                    <?php
+                endforeach;
+                    ?>
+        </select>
                   </td>
 
                   <td>Cidade</td>
-                  <td><select name='cidade'><option>Rio de Janeiro</option></select>
+                  <td><select name='cidade'><option></option></select>
                   </td>
               </tr>
               <tr class="cliente">
                   <td>Bairro</td>
-                  <td><select name='bairro'><option>Barra da Tijuca</option></select>
+                  <td><select name='bairro'><option></option></select>
                   </td>
               </tr>
               <tr>

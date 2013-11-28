@@ -40,26 +40,14 @@
     <div id="header-surround">
         <header id="header">
     	
-    	<!-- Place your logo here -->
-		<img src="/assets/admin/img/logo.png" alt="Grape" class="logo">
-		
+
 		<!-- Divider between info-button and the toolbar-icons -->
 		<div class="divider-header divider-vertical"></div>
-		
-		<!-- Info-Button -->
-		<a href="javascript:void(0);" onclick="$('#info-dialog').dialog({ modal: true });"><span class="btn-info"></span></a>
-		
-			<!-- Modal Box Content -->
-			<div id="info-dialog" title="About" style="display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div> <!--! end of #info-dialog -->
 
 		<!-- Begin of #user-info -->
 		<div id="user-info">
 			<p>
-				<span class="messages">Hello <a href="javascript:void(0);">Administrator</a> ( <a href="javascript:void(0);"><img src="/assets/admin/img/icons/packs/fugue/16x16/mail.png" alt="Messages"> 3 new messages</a> )</span>
-				<a href="javascript:void(0)" class="toolbox-action button">Settings</a> <a href="javascript:void(0);" class="button red">Logout</a>
+                <a href="<?=base_url('usuario/logout')?>" class="button red">Logout</a>
 			</p>
 		</div> <!--! end of #user-info -->
 		
@@ -77,21 +65,7 @@
 				<input type="text" id="query" name="query" value="" autocomplete="off" placeholder="Search">
 			</form>
 		</div> <!--! end of #search-bar -->
-		
-		<!-- Begin of #login-details -->
-		<section id="login-details">
-    		<img class="img-left framed" src="/assets/admin/img/misc/avatar_small.png" alt="Hello Admin">
-    		<h3>Logged in as</h3>
-    		<h2><a class="user-button" href="javascript:void(0);">Administrator&nbsp;<span class="arrow-link-down"></span></a></h2>
-    		<ul class="dropdown-username-menu">
-    			<li><a href="#">Profile</a></li>
-    			<li><a href="#">Settings</a></li>
-    			<li><a href="#">Messages</a></li>
-    			<li><a href="#">Logout</a></li>
-    		</ul>
-    		
-    		<div class="clearfix"></div>
-  		</section> <!--! end of #login-details -->
+
     	
     	<!-- Begin of Navigation -->
     	<nav id="nav">

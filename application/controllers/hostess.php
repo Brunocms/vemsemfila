@@ -27,18 +27,16 @@ class Hostess extends CI_Controller {
 
     public function abrir_fila($hash_restaurante = null)
     {
-        if ($hash_restaurante != null)
-            $this->_abrir_filas(base64_decode($hash_restaurante));
-
+        $this->data['hash'] = base64_decode($hash_restaurante);
         $this->meta['content'] = $this->load->view('hostess/abrir_fila', $this->data, true);
         $this->load->view('hostess/base', $this->meta);
     }
 
-    private function _abrir_filas($restaurante)
+    public function processar_filas($restaurante)
     {
         $this->load->library('controle_fila');
         $this->controle_fila->criarFilas($restaurante);
-        redirect('hostess');
+        redirect('hostess/' . $restaurante);
     }
 
     public function clientes()

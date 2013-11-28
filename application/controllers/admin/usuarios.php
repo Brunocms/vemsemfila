@@ -46,15 +46,14 @@ class Restaurantes extends CI_Controller {
 
     private function _cadastro($data)
     {
-        $this->load->library('controle_fila');
-        $mongo = new Mongo_vsf();
+        $this->load->library('mongo_db');
         $novo_restaurante = $this->m_restaurantes->novo_restaurante($this->input->post());
         $mongo_data = [
             'id_restaurante' => $novo_restaurante,
             'nome' => $this->input->post('nome')
         ];
-        $mongo->switch_db('restaurante_' . $novo_restaurante);
-        $mongo->insert('data_restaurante', $mongo_data);
+        $this->mongo_db->switch_db('restaurante_' . $novo_restaurante);
+        $this->mongo_db->insert('data_restaurante', $mongo_data);
 
         return true;
     }
