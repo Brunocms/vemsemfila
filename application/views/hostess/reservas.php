@@ -33,6 +33,41 @@
             
         </form>
     </div>
+
+    <div id="popin-adicionar-prioridade" class="window">
+        <h2>ADICIONAR PRIORIDADE NA FILA</h2>
+    
+        <form action="<?=base_url('home/login')?>" method="POST">
+
+            <div class="left">
+                <label>NOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>TELEFONE:</label><br />
+                <input name="telefone" type="text" /><br /><br />
+
+                <label>NÚMERO DE PESSOAS:</label><br />
+                <input name="npessoas" type="text" class="mini" />
+            </div>
+
+            <div class="right">
+                <label>SOBRENOME:</label><br />
+                <input name="nome" type="text" /><br /><br />
+
+                <label>EMAIL:</label><br />
+                <input name="email" type="text" /><br /><br />
+
+                <label>EMAIL PARA CADASTRO WEB:</label><br /><br />
+                <input name="email" type="radio" /> Sim &nbsp;
+                <input name="email" type="radio" /> Não
+
+                <br /><br /><br /><br />
+                <a href="#" class="bt green">CONFIRMAR</a>
+
+            </div>            
+            
+        </form>
+    </div>
     <div id="mask"></div>
 </div>
 
