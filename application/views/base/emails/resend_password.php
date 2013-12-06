@@ -1,1 +1,1 @@
-Sua nova senha é <?=$password?> !
+Sua nova senha é <?=$password?>

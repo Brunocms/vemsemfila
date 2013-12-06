@@ -61,7 +61,13 @@
                 <li class="grid_3"><a href="<?=base_url('como_funciona')?>">Como funciona</a></li>
                 <li class="grid_4"><a href="<?=base_url('restaurantes')?>">Restaurantes</a></li>
                 <li class="grid_1"><a href="<?=base_url('faq')?>">FAQ</a></li>
+                <?php
+                if(!$this->user->validate_session()) :
+                ?>
                 <li class="grid_3"><a href="<?=base_url('cadastro')?>">Cadastre-se</a></li>
+                <?php
+                endif;
+                ?>
                 <li class="grid_3 omega" style="text-align: right;"><a href="<?=base_url('fale_conosco')?>">Fale Conosco</a></li>
             </ul>
         </div>
