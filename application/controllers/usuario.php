@@ -108,6 +108,7 @@ class Usuario extends CI_Controller {
         redirect(base_url('home/index'));
     }
 
+
     private function _cadastrar()
     {
         $this->user_manager->save_user($this->input->post());

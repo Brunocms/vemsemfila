@@ -43,6 +43,10 @@ class sendemail {
             'welcome_facebook' => [
                 'subject' => 'Bem Vindo!',
                 'body' => 'welcome_facebook'
+            ],
+            'fale_conosco' => [
+                'subject' => 'Fale conosco!',
+                'body' => 'fale_conosco'
             ]
         ];
 

@@ -13,71 +13,41 @@
 
                     Se preferir, preencha o formulário abaixo para nos enviar dúvidas, críticas ou sugestões.
                 </p>
-                <form id='cadastroForm' method="POST" action="#">
-                    <fieldset>
-                        <table cellspacing="3" cellpadding="0">
-                            <colgroup>
-                                <col width="20%">
-                                <col width="40%">
-                                <col width="10%">
-                                <col width="30%">
-                            </colgroup>
+                <?=validation_errors()?>
+                <?=$this->session->flashdata('info')?>
+                <form action="" method="post" name="form">
+                    <table width="609" border="0" cellspacing="3" cellpadding="8">
+                        <tbody><tr>
+                            <td height="24" colspan="4" bgcolor="#CECECE" class="table"><strong>Preencha o formulário abaixo:</strong></td>
+                        </tr>
+                        <tr>
+                            <td width="58" bgcolor="#DFDFDF" class="table">*Nome</td>
+                            <td width="224" bgcolor="#DFDFDF" class="table"><label for="nome"></label>
+                                <input type="text" name="nome" class="field" value=""></td>
+                            <td width="48" bgcolor="#DFDFDF" class="table">*E-mail</td>
+                            <td width="215" bgcolor="#DFDFDF" class="table"><input type="text" name="email" value="" class="field"></td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#DFDFDF" class="table">*Assunto</td>
+                            <td bgcolor="#DFDFDF" class="table"><input type="text" name="assunto" value="" class="field"></td>
+                            <td bgcolor="#DFDFDF" class="table">Empresa</td>
+                            <td bgcolor="#DFDFDF" class="table"><input type="text" name="empresa" value="" class="field"></td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#DFDFDF" class="table">Telefone</td>
+                            <td bgcolor="#DFDFDF" class="table"><input type="text" name="telefone" value="" class="field"></td>
+                            <td bgcolor="#DFDFDF" class="table">Celular</td>
+                            <td bgcolor="#DFDFDF" class="table"><input type="text" name="celular" value="" class="field"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" bgcolor="#DFDFDF" class="table">Mensagem<br>
+                                <label for="textarea"></label>
+                                <textarea name="mensagem" class="field2"></textarea></td>
+                        </tr>
+                        </tbody>
 
-                            <tr>
-                                <td colspan="4" class="title">PREENCHA O FORMULÁRIO ABAIXO</td>
-                            </tr>
-                            <tr>
-                                <td>Nome</td>
-                                <td colspan="3">
-                                    <input type="text" class="big" value="" name="nome"  />
-                                </td>
-                                <td>Email</td>
-                                <td>
-                                    <input type="text" name="email1" id='email1' />
-                                </td>
-                            </tr>
-                            <tr class="cliente">
-                                <td>*Email 1</td>
-                                <td>
-                                    <input type="text" name="email1" id='email1' />
-                                </td>
-                                <td>Email 2</td>
-                                <td>
-                                    <input type="text" name="email2" id='email2' />
-                                </td>
-                            </tr>
-                            <tr class="cliente">
-                                <td>*Tel 1</td>
-                                <td>
-                                    <input type="text" name="tel1" id='tel1' />
-                                </td>
-                                <td>Tel 2</td>
-                                <td>
-                                    <input type="text" name="tel2" id='tel2' />
-                                </td>
-                            </tr>
-                            <tr class="cliente">
-                                <td>Estado</td>
-                                <td><select name='estado'><option>RJ</option></select>
-                                </td>
-
-                                <td>Cidade</td>
-                                <td><select name='cidade'><option>Rio de Janeiro</option></select>
-                                </td>
-                            </tr>
-                            <tr class="cliente">
-                                <td>Bairro</td>
-                                <td><select name='bairro'><option>Barra da Tijuca</option></select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Observação</td>
-                                <td colspan="3"><textarea name='observacao' class="big"></textarea></td>
-                            </tr>
-                        </table>
-
-                        <button type="submit">ENVIAR</button>
-                    </fieldset>
+                    </table>
+                    <input style="float: right" type="submit" name="enviar" id="enviar" value="Enviar" class="send">
                 </form>
 
                 <div id="download_app"><a href="#"><img src="/assets/img/banner_app_home.png" width="737" height="77" alt="baixe aqui nosso app!" title="baixe aqui nosso app!" /></a></div>

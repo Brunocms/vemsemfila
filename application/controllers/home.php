@@ -62,10 +62,41 @@ class Home extends CI_Controller {
 
     public function fale_conosco()
     {
+        $this->load->library('email/sendemail');
+        $this->load->library('form_validation');
+
+        $this->form_validation->set_rules('nome', 'Nome', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required');
+        $this->form_validation->set_rules('assunto', 'Assunto', 'required');
+
+
+        if ($this->form_validation->run()) {
+            $this->_fale_conosco();
+            $this->session->set_flashdata('info', 'Obrigado pelo contato!');
+            redirect('fale_conosco');
+        }
+
+
         $this->meta['header'] = $this->load->view('header',  $this->assets, true);
         $this->meta['footer'] = $this->load->view('footer', '', true);
         $this->meta['topo'] = $this->load->view('topo' , $this->assets, true);
         $this->load->view('home/fale_conosco', $this->meta);
+    }
+
+    private function _fale_conosco() {
+
+        $emailData['nome'] = $this->input->post('nome');
+        $emailData['email'] = $this->input->post('email');
+        $emailData['assunto'] = $this->input->post('assunto');
+        $emailData['telefone'] = $this->input->post('telefone');
+        $emailData['celular'] = $this->input->post('celular');
+        $emailData['mensagem'] = $this->input->post('mensagem');
+        $emailData['empresa'] = $this->input->post('empresa');
+        $emailData['template'] = 'fale_conosco';
+        $emailData['to'] = 'caio@videolog.tv';
+        $this->sendemail->sendSystemEmail($emailData);
+
+
     }
 
     public function faq()
