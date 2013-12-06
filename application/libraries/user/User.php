@@ -25,6 +25,8 @@ class User {
 	* @var array
 	*/
 	public $user_data = array();
+    public $user_database = 'tb_usuario';
+    public $user_database_password = 'senha';
 	private $CI;
 
 	/**
@@ -261,10 +263,10 @@ class User {
 	function update_pw($new_pw){
 		// updates the session
 		$this->CI->session->set_userdata(array('pw'=>$new_pw));
-		$this->user_data->$this->user_database_password = $new_pw;
-		
+
+        $pass = $this->CI->bcrypt->hash($new_pw);
 		// update the database
-		$sts = $this->CI->db->update($this->user_database, array($this->user_database_password=>$new_pw));
+		$sts = $this->CI->db->update($this->user_database, array($this->user_database_password=>$pass));
 		
 		return $sts;
 	}

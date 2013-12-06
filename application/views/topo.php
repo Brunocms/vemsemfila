@@ -35,7 +35,17 @@
             <div class="grid_24">
                 <div id="logo"><a href="<?=base_url('home')?>"><img src="/assets/img/logo.png" width="154" height="136" alt="logo" /></a></div>
                 <div class="grid_8 prefix_5 alpha">
-                    <a href="#dialog2" name="modal">Faça seu Login aqui!</a>
+                    <?php
+                    if(!$this->user->validate_session()) :
+                        ?>
+                        <a href="<?=base_url('usuario/login')?>"">Faça seu Login aqui!</a>
+                    <?php
+                    else:
+                        ?>
+                        <a href="#dialog2" name="modal">Olá <?=$this->user->user_data->nome?></a> <a href="<?=base_url('usuario/logout')?>">[Logout]</a>
+                    <?php
+                    endif;
+                    ?>
                 </div>
                 <div class="grid_11 omega">
                     <p><a href="https://www.facebook.com/vemsemfila" target="_blank"><img src="/assets/img/icon_facebook.png" width="65" height="20" alt="facebook" /></a></p>

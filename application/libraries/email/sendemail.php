@@ -38,7 +38,7 @@ class sendemail {
             ],
             'forgotPass' => [
                 'subject' => 'Senha temporaria',
-                'body' => 'usuario/resend_password'
+                'body' => 'resend_password'
             ],
             'welcome_facebook' => [
                 'subject' => 'Bem Vindo!',

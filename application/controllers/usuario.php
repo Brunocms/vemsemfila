@@ -32,6 +32,22 @@ class Usuario extends CI_Controller {
         $this->load->view('home/index', $this->meta);
 	}
 
+    public function login()
+    {
+        $this->meta['header'] = $this->load->view('header', $this->assets, true);
+        $this->meta['topo'] = $this->load->view('topo', $this->assets, true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->load->view('usuario/login', $this->meta);
+    }
+
+    public function recuperar()
+    {
+        $this->meta['header'] = $this->load->view('header', $this->assets, true);
+        $this->meta['topo'] = $this->load->view('topo', $this->assets, true);
+        $this->meta['footer'] = $this->load->view('footer', '', true);
+        $this->load->view('usuario/esqueceu', $this->meta);
+    }
+
     public function cadastro()
     {
         $this->load->library('form_validation');

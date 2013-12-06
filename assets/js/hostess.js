@@ -53,7 +53,7 @@ function geraFila()
     id_fila = $(".tab-mesas.selected").attr('id_fila');
 
     $.ajax({
-        url: "http://vemsemfila.v1:81/api/fila/list/id/" + id_fila,
+        url: "http://vemsemfila.v1:82/api/fila/list/id/" + id_fila,
         type: 'GET',
         dataType: 'json'
     }).done(function(data) {

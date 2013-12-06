@@ -29,7 +29,35 @@ class Home extends CI_Controller {
         $post = $this->input->post();
         if ($this->user->login($post))
             redirect(base_url('home'));
-        echo 'Usuário não existe ou senha incorreta';
+        $this->session->set_flashdata('info', 'Usuário ou senha incorretos');
+        redirect('usuario/login');
+    }
+
+    public function recuperar()
+    {
+
+        if (!$this->input->post('email')){
+            $this->session->set_flashdata('info', 'Você precisa entrar com um email');
+            redirect(base_url('usuario/recuperar'));
+        }
+
+        $password = base64_encode(rand(0, 500));
+
+        $this->load->library('user/bcrypt');
+
+        $hash = $this->bcrypt->hash($password);
+
+        $this->db->where(['email' => $this->input->post('email')]);
+        $this->db->update('tb_usuario', ['senha' => $hash]);
+
+        $this->load->library('email/sendemail');
+        $emailData['password'] = $password;
+        $emailData['template'] = 'forgotPass';
+        $emailData['to'] = $this->input->post('email');
+        $this->sendemail->sendSystemEmail($emailData);
+
+        $this->session->set_flashdata('info', 'Um email foi enviado a você com uma nova senha');
+        redirect('usuario/login');
     }
 
     public function fale_conosco()
