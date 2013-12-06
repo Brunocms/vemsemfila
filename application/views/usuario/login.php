@@ -34,7 +34,7 @@
                                 <button type='submit' style="float:left">Enviar</button></td>
 
                             <td width="45%" align="right" valign="top"><h2>Não tem uma conta?</h2><br>
-                                <a href="#"><font color="#FF9900">Cadastre-se aqui</font></a></td>
+                                <a href="<?=base_url('cadastro')?>"><font color="#FF9900">Cadastre-se aqui</font></a></td>
 
                         </tr>
 
