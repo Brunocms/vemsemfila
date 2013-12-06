@@ -93,7 +93,7 @@ class Home extends CI_Controller {
         $emailData['mensagem'] = $this->input->post('mensagem');
         $emailData['empresa'] = $this->input->post('empresa');
         $emailData['template'] = 'fale_conosco';
-        $emailData['to'] = 'caio@videolog.tv';
+        $emailData['to'] = 'contato@vemsemfila.com.br';
         $this->sendemail->sendSystemEmail($emailData);
 
 
